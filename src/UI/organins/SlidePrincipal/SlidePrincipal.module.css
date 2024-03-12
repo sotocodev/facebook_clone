@@ -1,0 +1,36 @@
+.ContainerSlide{
+    align-items: center;
+    gap: 1em;
+    display: grid;
+    width: 100%;
+    margin: auto;
+    position: relative;
+}
+.SlideControls{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1.5em;
+    position: absolute;
+    z-index: 80;
+    box-sizing: border-box;
+}
+.SlideControls button {
+    font-size: 50px;
+    border: none;
+    background: transparent;
+    color: #fff
+}
+.Slide{
+    z-index: 40;
+    overflow-wrap: unset;
+    overflow: hidden;
+    display: flex;
+    position: relative;
+    gap: .50em;
+    height: 280px;
+    width: 100%;
+    transition: all .5s ease;
+}
