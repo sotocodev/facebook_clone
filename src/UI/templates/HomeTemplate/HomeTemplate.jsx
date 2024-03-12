@@ -8,6 +8,7 @@ const HomeTemplate = () => {
       <Heading text="HomeTemplate" customClass={styles.HomeTemplate__Red} />
       <Heading text="HomeTemplate" />
 
+      
       <SlidePrincipal />
     </div>
   )

@@ -6,8 +6,6 @@ import { BsArrowLeftCircle, BsArrowRightCircle } from 'react-icons/bs';
 const perfil = 'https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png';
 const wallpaper = 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDRbZbkhT3GNPpYYrzDk36V-dhPcmB6MdccFbx9wDhig&s';
 
-// <CardHistory history={wallpaper} photo={perfil} name={'Nombre Apellido'} />
-
 const SlidePrincipal = () => {
     const RefSlide = useRef(null);
     const [push, setPush] = useState(0);

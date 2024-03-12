@@ -2,7 +2,6 @@ import Photo from '../../../atoms/Photo/Photo';
 import styles from './CardHistory.module.css';
 
 const CardHistory = ({ history, name, photo, customClass }) => {
-
     return (
         <div className={`${styles.CardHistory} ${customClass ? customClass : ''}`}>
             <img src={history} className={`${styles.ImageHistory}`} />
