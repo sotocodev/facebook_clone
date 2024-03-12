@@ -1,0 +1,71 @@
+.ButtonTo {
+position: relative;
+align-items: center;
+box-sizing: border-box;
+display: flex;
+flex-direction: row;
+flex-grow: 1;
+height: 40px;
+justify-content: flex-start;
+margin-bottom: 0px;
+margin-left: 0px;
+margin-right: 0px;
+margin-top: 0px;
+min-height: 40px;
+padding-bottom: 8px;
+padding-left: 12px;
+padding-right: 12px;
+padding-top: 8px;
+width: 510.035px;
+border: none;
+color: rgb(28, 30, 33);
+background-color: rgb(240, 242, 245);
+border-bottom-style: none;
+border-bottom-width: 0px;
+border-left-style: none;
+border-left-width: 0px;
+border-right-style: none;
+border-right-width: 0px;
+border-top-style: none;
+border-top-width: 0px;
+cursor: pointer;
+outline-color: rgb(28, 30, 33);
+outline-style: none;
+outline-width: 0px;
+border-radius: 50px;
+
+}
+
+.ButtonTo:hover {
+    background-color: rgb(228, 230, 233);
+
+}
+
+.Span {
+    position: relative;
+    display: flex;
+    height: 22.7604px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    width: 486.042px;
+    direction: ltr;
+    font-family: "Segoe UI Historic", "Segoe UI", Helvetica, Arial, sans-serif;
+    font-size: 17px;
+    line-height: 22.78px;
+    text-align: start;
+    word-break: break-word;
+    color: rgb(101, 103, 107);
+    cursor: pointer;
+    -webkit-font-smoothing: antialiased;
+    hyphens: auto;
+    list-style-image: none;
+    list-style-position: outside;
+    list-style-type: none;
+    overflow-wrap: break-word;
+    user-select: none;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    align-items: center;
+    padding: 1px;
+}
