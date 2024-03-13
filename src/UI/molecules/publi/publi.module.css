@@ -1,0 +1,33 @@
+.Publi{
+    display: flex;
+    width: 89%;
+    height: 90px;
+    margin:10px 0px 0px 0px ;
+    gap: 1em;
+    } 
+
+    .imagen{
+    border-radius: 20%;
+    width: 5em;
+    height: 5em;
+    }
+
+.Titulo_p{
+        font-weight: bold;
+        margin-block-start: 0;
+        margin-block-end: 0;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+    }
+
+.contenedor_Pu{
+    display: flex;
+justify-content: center;
+flex-direction: column;
+}
+.titulos_s{
+margin-block-start: 0;
+margin-block-end: 0;
+font-size: .8em;
+opacity: .6;
+}
