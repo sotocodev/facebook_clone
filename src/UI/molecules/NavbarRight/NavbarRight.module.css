@@ -1,0 +1,27 @@
+.navbarRight {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+}
+
+.navbarRight a {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: pointer;
+
+    overflow: hidden;
+}
+
+.navbarRight a.button {
+    border-radius: 50%;
+    background-color: rgb(231, 231, 231);
+}
+
+.navbarRight a.button:hover {
+    background-color: rgb(211, 211, 211);
+}
