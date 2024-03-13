@@ -1,12 +1,12 @@
-import Photo from '../../../atoms/Photo/Photo';
+import Img from '../../../atoms/Img/Img';
 import styles from './CardHistory.module.css';
 
-const CardHistory = ({ history, name, photo, customClass }) => {
+const CardHistory = ({ pathHistory, name, pathProfile, customClass }) => {
     return (
         <div className={`${styles.CardHistory} ${customClass ? customClass : ''}`}>
-            <img src={history} className={`${styles.ImageHistory}`} />
+            <img src={pathHistory} className={`${styles.ImageHistory}`} />
             <div className={`${styles.Content}`}>
-                <Photo img={photo} w={'40'} />
+                <Img path={pathProfile} customClass={`${styles.ImgProfile}`} />
                 <p>{name}</p>
             </div>
         </div>

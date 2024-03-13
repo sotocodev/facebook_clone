@@ -34,3 +34,13 @@
     width: 100%;
     transition: all .5s ease;
 }
+.Arrow {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%; 
+    transition: background .3s ease;
+    padding: .50em
+}
+.Arrow:hover {
+    background: #ffffff85 
+}
