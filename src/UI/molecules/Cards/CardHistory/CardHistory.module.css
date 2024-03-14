@@ -1,0 +1,37 @@
+.CardHistory {
+    height: 100%;
+    min-width: 200px;
+    display: inline-block;
+    flex: 5;
+    overflow: hidden;
+    position: relative
+}
+.CardHistory__Image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 9px;
+}
+.CardHistory__Content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: .50em ;
+    position: absolute;
+    top: 0;
+    height: 280px;
+    padding: .75em;
+}
+.CardHistory_Name {
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    text-shadow: 0 0 .25em #575757;
+}
+.CardHistory_Profile {
+    border-radius: 50%;
+    border: 4px solid #1745db;
+    width: 40px;
+    height: 40px;
+}

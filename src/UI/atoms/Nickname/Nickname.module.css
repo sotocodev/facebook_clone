@@ -1,0 +1,41 @@
+.Nickname {
+box-sizing: border-box;
+display: block;
+flex-direction: column;
+font-family:  "Segoe UI Historic", "Segoe UI", Helvetica, Arial, sans-serif;
+line-height: 24px;
+text-size-adjust: 100%;
+width: 440px ;
+margin-left: 10px;
+margin-right: 10px ;
+}
+
+.Paragraph {
+box-sizing: border-box;
+display: flex;
+margin: 0;
+font-family:  "Segoe UI Historic", "Segoe UI", Helvetica, Arial, sans-serif;
+font-size: 14px;
+font-weight: 600;
+line-height: 20px;
+tab-size: 4;
+text-size-adjust: 100%;
+color: rgb(55, 65, 81);
+border-bottom: none;
+border-left: none;
+border-right: none;
+border-top: none;
+}
+
+.Span {
+    box-sizing: border-box;
+display: flex;
+font-family:  "Segoe UI Historic", "Segoe UI", Helvetica, Arial, sans-serif;
+font-size: 12px;
+font-weight: 100;
+line-height: 16px;
+tab-size: 4;
+text-size-adjust: 100%;
+color: #9ca3af;
+border: none;
+}
