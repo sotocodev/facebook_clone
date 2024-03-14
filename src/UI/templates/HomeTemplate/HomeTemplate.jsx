@@ -1,12 +1,10 @@
-import Heading from '../../atoms/Heading/Heading';
 import styles from './HomeTemplate.module.css';
+import PublicateZone from '../../Organims/Publicate/PublicateZone';
 
 const HomeTemplate = () => {
   return (
     <div className={styles.HomeTemplate}>
-      <Heading text="HomeTemplate" customClass={styles.HomeTemplate__Red} />
-      <Heading text="HomeTemplate" />
-
+     <PublicateZone/>
     </div>
   )
 }
