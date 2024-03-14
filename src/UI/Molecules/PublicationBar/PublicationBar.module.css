@@ -22,7 +22,7 @@ display: flex;
 flex-grow: 1;
 flex-shrink: 1;
 height: 40px;
-width: 558.021px;
+width: 548.021px;
 direction: ltr;
 font-family: "Segoe UI Historic", "Segoe UI", Helvetica, Arial, sans-serif;
 font-size: 12px;
@@ -47,6 +47,7 @@ gap: 5px
     color: rgb(28, 30, 33);
     -webkit-font-smoothing: antialiased;
     box-shadow: rgba(0, 0, 0, 0.2)0px 1px 2px;
+    background-color: rgb(255, 255, 255);
 }
 
 .ImgIcon {
