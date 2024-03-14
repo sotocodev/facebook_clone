@@ -1,6 +1,6 @@
 import styles from './Img.module.css';
 
-const Img = ({text, customClass, path}) => {
+const Img = ({customClass, path}) => {
   return <img className={`${styles.Img} ${customClass}`} src={path} />
 }
 
