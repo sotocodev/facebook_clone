@@ -3,7 +3,7 @@ import styles from './CardHistory.module.css';
 
 const CardHistory = ({ pathHistory, name, pathProfile, customClass }) => {
     return (
-        <div className={`${styles.CardHistory} ${customClass ? customClass : ''}`}>
+        <div className={`${styles.CardHistory} ${customClass}`}>
             <img src={pathHistory} className={`${styles.ImageHistory}`} />
             <div className={`${styles.Content}`}>
                 <Img path={pathProfile} customClass={`${styles.ImgProfile}`} />

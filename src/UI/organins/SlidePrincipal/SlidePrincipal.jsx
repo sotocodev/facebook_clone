@@ -3,12 +3,12 @@ import CardHistory from '../../molecules/Cards/CardHistory/CardHistory';
 import styles from './SlidePrincipal.module.css';
 import { useRef, useEffect, useState } from 'react';
 
-const perfil = '/profile.jpg';
-const wallpaper = '/history.jpg';
-
 const SlidePrincipal = () => {
     const RefSlide = useRef(null);
     const [push, setPush] = useState(0);
+
+    const perfil = '/profile.jpg';
+    const wallpaper = '/history.jpg';
 
     useEffect(() => { if (RefSlide) RefSlide.current.scrollLeft = push }, [push]);
 
@@ -17,7 +17,7 @@ const SlidePrincipal = () => {
             <div className={`${styles.ContainerSlide}`}>
                 <div className={`${styles.SlideControls}`}>
                     { push > 200 ? <button onClick={()=>setPush(push-350)}><Img path={'/ArrowToLeft.svg'} customClass={`${styles.Arrow}`} /></button> : <span></span> }
-                    <button onClick={()=>setPush(push+350)}><Img path={'/ArrowToRight.svg'} customClass={`${styles.Arrow}`} /></button>
+                    <button className={`${styles.SlideControls__Btn}`} onClick={()=>setPush(push+350)}><Img path={'/ArrowToRight.svg'} customClass={`${styles.Arrow}`} /></button>
                 </div>
                 <div ref={RefSlide} className={`${styles.Slide}`}>
                     <CardHistory pathHistory={wallpaper} pathProfile={perfil} name={'Nombre1 Apellido'} />

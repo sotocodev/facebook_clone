@@ -17,7 +17,7 @@
     z-index: 80;
     box-sizing: border-box;
 }
-.SlideControls button {
+.SlideControls .SlideControls__Btn {
     font-size: 50px;
     border: none;
     background: transparent;
