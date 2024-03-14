@@ -1,4 +1,3 @@
-import React from 'react'
 import styles from "./Nickname.module.css"
 
 function Nickname({Nickname, Time, customClass }) {

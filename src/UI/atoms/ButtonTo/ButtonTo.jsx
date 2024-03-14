@@ -1,12 +1,16 @@
-import React from 'react'
 import styles from "./ButtonTo.module.css"
 
-function ButtonTo({Value, customClass}) {
+function ActiveButtons({Value, path, customClass }) {
   return (
-    <button className={`${styles.ButtonTo} ${customClass}`}>
-        <span className={styles.Span}>{Value}</span>
+    <button className={`${styles.ActiveButtons} ${customClass}`}>
+        <div className={styles.ActiveButtonsDiv}>
+        <span className={styles.ActiveButtonsSpan}>
+        <img  className={styles.ActiveButtonsImg} src={path}/>
+            {Value}
+        </span>
+        </div>
     </button>
   )
 }
 
-export default ButtonTo
+export default ActiveButtons

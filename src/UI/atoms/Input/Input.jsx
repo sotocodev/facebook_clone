@@ -1,6 +1,6 @@
 import styles from './Input.module.css';
 
-const Input = ({ type, placeholder, value, name, id, customClass, onChange, onClick }) => {
+const Input = ({ type, placeholder, value, name, id, customClass, onChange, onClick,mode }) => {
   return <input
     type={type}
     name={name}
@@ -10,7 +10,7 @@ const Input = ({ type, placeholder, value, name, id, customClass, onChange, onCl
     className={`${styles.Input} ${customClass}`}
     onChange={onChange}
     onClick={onClick}
-
+    disabled={mode}
   />
 }
 

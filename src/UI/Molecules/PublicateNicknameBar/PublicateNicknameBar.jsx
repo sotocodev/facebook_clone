@@ -1,16 +1,15 @@
-import React from 'react'
-import styles from "./PublicateNicknameBar.module.css"
 import Img from '../../atoms/IconProfile/IconProfile'
 import Nickname from '../../atoms/Nickname/Nickname'
 import PublicateButton from '../../atoms/PublicateButton/PublicateButton'
+import styles from "./PublicateNicknameBar.module.css"
 
 function PublicateNicknameBar({customClass}) {
   return (
     <div className={`${styles.PublicateNicknameBar} ${customClass}`} >
-        <Img customClass={styles.PublicateNicknameBar__Img} href="../../src/assets/Icons/Gokupelon.Jpeg"/>
+        <Img customClass={styles.PublicateNicknameBar__Img} path="../../src/assets/Icons/Gokupelon.Jpeg"/>
         <Nickname/>
-        <PublicateButton Path="Points.svg"/>
-        <PublicateButton Path="Close.svg"/>
+        <PublicateButton path="Points.svg"/>
+        <PublicateButton path="Close.svg"/>
     </div>
   )
 }

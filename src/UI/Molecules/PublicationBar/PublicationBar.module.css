@@ -29,7 +29,8 @@ font-size: 12px;
 line-height: 16.08px;
 color: rgb(28, 30, 33);
 -webkit-font-smoothing: antialiased;
-gap: 5px
+gap: 5px;
+align-items: center;
 
 }
 
@@ -58,4 +59,41 @@ gap: 5px
         width: 40px;
         border-radius: 50px;
         cursor: pointer;
+}
+
+.PublicationbarInputDisable {
+    gap: 5px;
+    background-color: transparent;
+    border-color: rgba(0, 0, 0, 0.4);
+    border-style: solid;
+    border-width: 0;
+    cursor: pointer;
+    outline-color: rgb(28, 30, 33);
+    outline-style: none;
+    outline-width: 0;
+    position: relative;
+    align-items: center;
+    box-sizing: border-box;
+    display: flex;
+    flex-basis: 0;
+    flex-direction: row;
+    flex-grow: 1;
+    flex-shrink: 1;
+    height: 40px;
+    justify-content: center;
+    min-height: 0;
+    min-width: fit-content;
+    border-radius: 50px;
+    padding: 8px;
+    background-color: rgb(240, 242, 245);
+    font-family: "Segoe UI Historic", "Segoe UI", Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    line-height: 19.9995px;
+    text-align: start;
+    white-space: nowrap;
+    color: rgb(101, 103, 107);
+}
+
+.PublicationbarInputDisable:hover {
+    background-color:  rgb(218, 219, 221);
 }
