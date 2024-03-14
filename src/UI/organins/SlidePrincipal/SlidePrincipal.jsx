@@ -14,11 +14,11 @@ const SlidePrincipal = () => {
 
     return (
         <div className={`${styles.SlidePrincipal}`}>
-            <div className={`${styles.SlideControls}`}>
+            <div className={`${styles.SlidePrincipal__Controls}`}>
                 { push > 200 ? <button onClick={()=>setPush(push-350)}><Img path={'/ArrowToLeft.svg'} customClass={`${styles.Arrow}`} /></button> : <span></span> }
-                <button className={`${styles.SlideControls__Btn}`} onClick={()=>setPush(push+350)}><Img path={'/ArrowToRight.svg'} customClass={`${styles.Arrow}`} /></button>
+                <button className={`${styles.SlidePrincipal__Controls_Btn}`} onClick={()=>setPush(push+350)}><Img path={'/ArrowToRight.svg'} customClass={`${styles.Arrow}`} /></button>
             </div>
-            <div ref={RefSlide} className={`${styles.Slide}`}>
+            <div ref={RefSlide} className={`${styles.SlidePrincipal__Slide}`}>
                 <CardHistory pathHistory={wallpaper} pathProfile={perfil} name={'Nombre1 Apellido'} />
                 <CardHistory pathHistory={wallpaper} pathProfile={perfil} name={'Nombre2 Apellido'} />
                 <CardHistory pathHistory={wallpaper} pathProfile={perfil} name={'Nombre3 Apellido'} />
