@@ -1,4 +1,3 @@
-import React from 'react';
 import Home from './pages/Home';
 
 const App = () => {
@@ -9,4 +8,4 @@ const App = () => {
   )
 }
 
-export default App
+export default App;
