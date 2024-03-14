@@ -1,6 +1,6 @@
 import Button from '../../atoms/Button/Button';
 import Img from '../../atoms/Img/Img';
-import CardHistory from '../../molecules/Cards/CardHistory/CardHistory';
+import CardHistory from '../../Molecules/Cards/CardHistory/CardHistory';
 import styles from './SlidePrincipal.module.css';
 import { useRef, useEffect, useState } from 'react';
 
