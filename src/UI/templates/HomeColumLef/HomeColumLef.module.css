@@ -3,14 +3,14 @@
     justify-content: end;
 
 }
-.Aside{
+.Contenedor_Aside{
     width: 18.8em;
     height: 39.1em;
     position: fixed;
     overflow: hidden;
     transition:  .5s ease;
 }
-.Aside:hover{
+.Contenedor_Aside:hover{
     overflow-y: scroll;
     transition:  .5s ease;
 }

@@ -1,10 +1,10 @@
 import HomeTemplate from "../UI/templates/HomeTemplate/HomeTemplate";
-import ColumLef from "../UI/templates/left _side/left_side"
+import HomeColumLef from "../UI/templates/HomeColumLef/HomeColumLef"
 const Home = () => {
   return (
     <>
       <HomeTemplate />
-      <ColumLef/>
+      <HomeColumLef/>
     </>
   )
 }
