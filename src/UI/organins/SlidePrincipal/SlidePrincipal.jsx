@@ -13,28 +13,26 @@ const SlidePrincipal = () => {
     useEffect(() => { if (RefSlide) RefSlide.current.scrollLeft = push }, [push]);
 
     return (
-        <>
-            <div className={`${styles.ContainerSlide}`}>
-                <div className={`${styles.SlideControls}`}>
-                    { push > 200 ? <button onClick={()=>setPush(push-350)}><Img path={'/ArrowToLeft.svg'} customClass={`${styles.Arrow}`} /></button> : <span></span> }
-                    <button className={`${styles.SlideControls__Btn}`} onClick={()=>setPush(push+350)}><Img path={'/ArrowToRight.svg'} customClass={`${styles.Arrow}`} /></button>
-                </div>
-                <div ref={RefSlide} className={`${styles.Slide}`}>
-                    <CardHistory pathHistory={wallpaper} pathProfile={perfil} name={'Nombre1 Apellido'} />
-                    <CardHistory pathHistory={wallpaper} pathProfile={perfil} name={'Nombre2 Apellido'} />
-                    <CardHistory pathHistory={wallpaper} pathProfile={perfil} name={'Nombre3 Apellido'} />
-                    <CardHistory pathHistory={wallpaper} pathProfile={perfil} name={'Nombre4 Apellido'} />
-                    <CardHistory pathHistory={wallpaper} pathProfile={perfil} name={'Nombre5 Apellido'} />
-                    <CardHistory pathHistory={wallpaper} pathProfile={perfil} name={'Nombre6 Apellido'} />
-                    <CardHistory pathHistory={wallpaper} pathProfile={perfil} name={'Nombre7 Apellido'} />
-                    <CardHistory pathHistory={wallpaper} pathProfile={perfil} name={'Nombre8 Apellido'} />
-                    <CardHistory pathHistory={wallpaper} pathProfile={perfil} name={'Nombre9 Apellido'} />
-                    <CardHistory pathHistory={wallpaper} pathProfile={perfil} name={'Nombre10 Apellido'} />
-                    <CardHistory pathHistory={wallpaper} pathProfile={perfil} name={'Nombre11 Apellido'} />
-                    <CardHistory pathHistory={wallpaper} pathProfile={perfil} name={'Nombre12 Apellido'} />
-                </div>
+        <div className={`${styles.SlidePrincipal}`}>
+            <div className={`${styles.SlideControls}`}>
+                { push > 200 ? <button onClick={()=>setPush(push-350)}><Img path={'/ArrowToLeft.svg'} customClass={`${styles.Arrow}`} /></button> : <span></span> }
+                <button className={`${styles.SlideControls__Btn}`} onClick={()=>setPush(push+350)}><Img path={'/ArrowToRight.svg'} customClass={`${styles.Arrow}`} /></button>
             </div>
-        </>
+            <div ref={RefSlide} className={`${styles.Slide}`}>
+                <CardHistory pathHistory={wallpaper} pathProfile={perfil} name={'Nombre1 Apellido'} />
+                <CardHistory pathHistory={wallpaper} pathProfile={perfil} name={'Nombre2 Apellido'} />
+                <CardHistory pathHistory={wallpaper} pathProfile={perfil} name={'Nombre3 Apellido'} />
+                <CardHistory pathHistory={wallpaper} pathProfile={perfil} name={'Nombre4 Apellido'} />
+                <CardHistory pathHistory={wallpaper} pathProfile={perfil} name={'Nombre5 Apellido'} />
+                <CardHistory pathHistory={wallpaper} pathProfile={perfil} name={'Nombre6 Apellido'} />
+                <CardHistory pathHistory={wallpaper} pathProfile={perfil} name={'Nombre7 Apellido'} />
+                <CardHistory pathHistory={wallpaper} pathProfile={perfil} name={'Nombre8 Apellido'} />
+                <CardHistory pathHistory={wallpaper} pathProfile={perfil} name={'Nombre9 Apellido'} />
+                <CardHistory pathHistory={wallpaper} pathProfile={perfil} name={'Nombre10 Apellido'} />
+                <CardHistory pathHistory={wallpaper} pathProfile={perfil} name={'Nombre11 Apellido'} />
+                <CardHistory pathHistory={wallpaper} pathProfile={perfil} name={'Nombre12 Apellido'} />
+            </div>
+        </div>
     )
 }
 
