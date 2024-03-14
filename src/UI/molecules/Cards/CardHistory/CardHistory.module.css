@@ -23,13 +23,13 @@
     height: 280px;
     padding: .75em;
 }
-.CardHistory__Content_Name {
+.CardHistory_Name {
     font-size: 16px;
     font-weight: bold;
     color: #ffffff;
     text-shadow: 0 0 .25em #575757;
 }
-.CardHistory__Content_Profile {
+.CardHistory_Profile {
     border-radius: 50%;
     border: 4px solid #1745db;
     width: 40px;

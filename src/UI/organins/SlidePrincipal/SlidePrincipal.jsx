@@ -1,3 +1,4 @@
+import Button from '../../atoms/Button/Button';
 import Img from '../../atoms/Img/Img';
 import CardHistory from '../../molecules/Cards/CardHistory/CardHistory';
 import styles from './SlidePrincipal.module.css';
@@ -14,10 +15,17 @@ const SlidePrincipal = () => {
 
     return (
         <div className={`${styles.SlidePrincipal}`}>
+
             <div className={`${styles.SlidePrincipal__Controls}`}>
                 { push > 200 ? <button onClick={()=>setPush(push-350)}><Img path={'/ArrowToLeft.svg'} customClass={`${styles.Arrow}`} /></button> : <span></span> }
-                <button className={`${styles.SlidePrincipal__Controls_Btn}`} onClick={()=>setPush(push+350)}><Img path={'/ArrowToRight.svg'} customClass={`${styles.Arrow}`} /></button>
+                <Button 
+                    type='button'
+                    customClass={`${styles.SlidePrincipal_Btn}`} 
+                    click={()=>setPush(push+350)}
+                    content={<Img path={'/ArrowToRight.svg'} customClass={`${styles.SlidePrincipal_Arrow}`} />}
+                />
             </div>
+
             <div ref={RefSlide} className={`${styles.SlidePrincipal__Slide}`}>
                 <CardHistory pathHistory={wallpaper} pathProfile={perfil} name={'Nombre1 Apellido'} />
                 <CardHistory pathHistory={wallpaper} pathProfile={perfil} name={'Nombre2 Apellido'} />
@@ -35,6 +43,5 @@ const SlidePrincipal = () => {
         </div>
     )
 }
-
 
 export default SlidePrincipal;

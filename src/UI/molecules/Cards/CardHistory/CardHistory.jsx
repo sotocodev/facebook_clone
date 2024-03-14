@@ -5,10 +5,10 @@ import styles from './CardHistory.module.css';
 const CardHistory = ({ pathHistory, name, pathProfile, customClass }) => {
     return (
         <div className={`${styles.CardHistory} ${customClass}`}>
-            <img src={pathHistory} className={`${styles.CardHistory__Image}`} />
+            <Img path={pathHistory} customClass={`${styles.CardHistory_Image}`} />
             <div className={`${styles.CardHistory__Content}`}>
-                <Img path={pathProfile} customClass={`${styles.CardHistory__Content_Profile}`} />
-                <Paragraph customClass={`${styles.CardHistory__Content_Name}`} text={name} />
+                <Img path={pathProfile} customClass={`${styles.CardHistory_Profile}`} />
+                <Paragraph customClass={`${styles.CardHistory_Name}`} text={name} />
             </div>
         </div>
     )
