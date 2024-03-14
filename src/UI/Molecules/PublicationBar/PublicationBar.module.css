@@ -51,7 +51,7 @@ align-items: center;
     background-color: rgb(255, 255, 255);
 }
 
-.Publicationbar__Publicate_ImgIcon {
+.Publicationbar__PublicateImgIcon {
         display: inline;
         height: 40px;
         overflow-x: hidden;
@@ -61,7 +61,7 @@ align-items: center;
         cursor: pointer;
 }
 
-.Publicationbar__Publicate_InputDisable{
+.Publicationbar__PublicateInputDisable{
     gap: 5px;
     background-color: transparent;
     border-color: rgba(0, 0, 0, 0.4);
