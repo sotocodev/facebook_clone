@@ -1,9 +1,18 @@
-import Img from "../Img/Img"
-import styles from "./Button.module.css"
+import Img from '../Img/Img';
+import styles from './Button.module.css';
 
-const Button=({customClass,path,customClass_img})=>{
+const Button = ({ text, path, toImageClass, customClass, type, click }) => {
 
-    return<button className={`${styles.Button} ${customClass}`}><Img customClass={customClass_img} path={path}/></button>
-
+    return (
+        <button onClick={click} type={type} className={`${styles.Button} ${customClass}`}>
+            {
+                path && <Img path={path} customClass={toImageClass} />
+            }
+            {
+                text && text
+            }
+        </button>
+    )
 }
-export default Button
+
+export default Button;

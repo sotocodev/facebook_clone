@@ -1,7 +1,7 @@
-import PubliTitulo from "../../organisms/PubliTitulo/PubliTitulo";
-import PerfilesPaginas from "../../organisms/PerfilesPaginas/PerfilesPaginas";
-import Cumple from "../../organisms/Cumple/Cumple";
-import Contacto from "../../organisms/Contactos/Contactos"
+import PubliTitulo from "../../Organisms/PubliTitulo/PubliTitulo";
+import PerfilesPaginas from "../../Organisms/PerfilesPaginas/PerfilesPaginas";
+import Cumple from "../../Organisms/Cumple/Cumple";
+import Contacto from "../../Organisms/Contactos/Contactos"
 import Style from "./HomeColumLef.module.css"
 
 const Left =()=>{
