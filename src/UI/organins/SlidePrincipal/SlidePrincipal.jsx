@@ -17,12 +17,21 @@ const SlidePrincipal = () => {
         <div className={`${styles.SlidePrincipal}`}>
 
             <div className={`${styles.SlidePrincipal__Controls}`}>
-                { push > 200 ? <button onClick={()=>setPush(push-350)}><Img path={'/ArrowToLeft.svg'} customClass={`${styles.Arrow}`} /></button> : <span></span> }
+                { push > 200
+                    ? <Button 
+                            type='button'
+                            customClass={`${styles.SlidePrincipal_Btn}`} 
+                            click={()=>setPush(push-350)}
+                            path={'/ArrowToLeft.svg'}
+                            toImageClass={`${styles.SlidePrincipal_Arrow}`}
+                        /> 
+                    : <span></span> }
                 <Button 
                     type='button'
                     customClass={`${styles.SlidePrincipal_Btn}`} 
                     click={()=>setPush(push+350)}
-                    content={<Img path={'/ArrowToRight.svg'} customClass={`${styles.SlidePrincipal_Arrow}`} />}
+                    path={'/ArrowToRight.svg'}
+                    toImageClass={`${styles.SlidePrincipal_Arrow}`}
                 />
             </div>
 
