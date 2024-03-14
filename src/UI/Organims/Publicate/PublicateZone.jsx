@@ -13,7 +13,7 @@ function PublicateZone({customClass}) {
         </div>
         <div className={styles.PublicateZone__Div_PublicZone}>
             <PublicateNicknameBar/>
-            <ImgPublicate path="https://www.mundodeportivo.com/alfabeta/hero/2024/03/akira-toriyama-1.jpg?width=768&aspect_ratio=16:9&format=nowebp"/>
+            <ImgPublicate path="/ImgTribute.jpg"/>
             <PublicateOptionsBar/>
         </div>
     </section>

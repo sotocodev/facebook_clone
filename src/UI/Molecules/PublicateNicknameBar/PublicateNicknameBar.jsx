@@ -6,10 +6,10 @@ import styles from "./PublicateNicknameBar.module.css"
 function PublicateNicknameBar({customClass}) {
   return (
     <div className={`${styles.PublicateNicknameBar} ${customClass}`} >
-        <Img customClass={styles.PublicateNicknameBar__Img} path="../../Public/assets/Icons/Gokupelon.Jpeg"/>
+        <Img customClass={styles.PublicateNicknameBar__Img} path="/Gokupelon.jpeg"/>
         <Nickname/>
-        <PublicateButton path="../../Public/assets/Icons/Points.svg"/>
-        <PublicateButton path="../../Public/assets/Icons/Close.svg"/>
+        <PublicateButton path="/Points.svg"/>
+        <PublicateButton path="/Close.svg"/>
     </div>
   )
 }
