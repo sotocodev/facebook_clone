@@ -1,11 +1,11 @@
 import styles from "./ButtonTo.module.css"
 
-function ActiveButtons({Value, path, customClass }) {
+function ButtonTo({Value, path, customClass }) {
   return (
-    <button className={`${styles.ActiveButtons} ${customClass}`}>
-        <div className={styles.ActiveButtonsDiv}>
-        <span className={styles.ActiveButtonsSpan}>
-        <img  className={styles.ActiveButtonsImg} src={path}/>
+    <button className={`${styles.ButtonTo} ${customClass}`}>
+        <div className={styles.ButtonTo__Div}>
+        <span className={styles.ButtonTo__Div_span}>
+        <img  className={styles.ButtonTo__Div_Img} src={path}/>
             {Value}
         </span>
         </div>
@@ -13,4 +13,4 @@ function ActiveButtons({Value, path, customClass }) {
   )
 }
 
-export default ActiveButtons
+export default ButtonTo

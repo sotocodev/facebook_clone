@@ -1,4 +1,4 @@
-.PublicationBarDivButtons{
+.PublicationBar__DivButtons{
 display: flex;
 flex-wrap: wrap;
 height: 40px;
@@ -16,7 +16,7 @@ border-top: 1.11111px solid rgb(228, 230, 235);
 gap:10px;
 }
 
-.PublicationBarPublicate {
+.PublicationBar__Publicate {
     align-items: flex-start;
 display: flex;
 flex-grow: 1;
@@ -51,7 +51,7 @@ align-items: center;
     background-color: rgb(255, 255, 255);
 }
 
-.ImgIcon {
+.Publicationbar__Publicate_ImgIcon {
         display: inline;
         height: 40px;
         overflow-x: hidden;
@@ -61,7 +61,7 @@ align-items: center;
         cursor: pointer;
 }
 
-.PublicationbarInputDisable {
+.Publicationbar__Publicate_InputDisable{
     gap: 5px;
     background-color: transparent;
     border-color: rgba(0, 0, 0, 0.4);
@@ -94,6 +94,6 @@ align-items: center;
     color: rgb(101, 103, 107);
 }
 
-.PublicationbarInputDisable:hover {
+.Publicationbar__Publicate_InputDisable:hover {
     background-color:  rgb(218, 219, 221);
 }

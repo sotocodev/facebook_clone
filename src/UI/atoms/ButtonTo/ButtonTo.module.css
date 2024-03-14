@@ -1,4 +1,4 @@
-.ActiveButtons {
+.ButtonTo {
     gap: 5px;
     background-color: transparent;
     border-color: rgba(0, 0, 0, 0.4);
@@ -25,7 +25,7 @@
     
 }
 
-.ActiveButtonsDiv {
+.ButtonTo__Div {
     gap: 5px;
     align-items: center;
 display: flex;
@@ -45,7 +45,7 @@ user-select: none;
 -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
-.ActiveButtonsSpan {
+.ButtonTo__Div_span {
     position: relative;
     display: flex;
     height: 19.9826px;
@@ -69,12 +69,12 @@ user-select: none;
     margin: 2px;
 }
 
-.ActiveButtons:hover {
+.ButtonTo:hover {
     background-color: rgb(240, 242, 245);
 
 }
 
-.ActiveButtonsImg {
+.ButtonTo__Div_Img {
     height: 22.9931px;
     width: 22.9931px;
     border-color: rgb(28, 30, 33);
