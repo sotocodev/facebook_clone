@@ -1,0 +1,18 @@
+.Contenedor_Lenguajes {
+  height: 40px;
+  width: 100%;
+  display: flex;
+  background: white;
+  font-size: 14px;
+  color: #333;
+  margin-top: 650px;
+  position: absolute;
+  border-bottom: 1px solid #dddfe2;
+}
+
+.Contenedor_Extras {
+  position: absolute;
+  display: flex;
+  background: white;
+  margin-top: 691px;
+}

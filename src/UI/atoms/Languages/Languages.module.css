@@ -1,0 +1,8 @@
+.Estilo_Idiomas{
+  margin-left: 120px;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 12px;
+  list-style-type: none; 
+  gap: 12px;
+}

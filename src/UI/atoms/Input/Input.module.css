@@ -1,0 +1,8 @@
+.Input{
+  color: rgb(141, 148, 158, 1.0);
+  font-size: 15px;
+  width: 180px;
+  height: 33px;
+  border: 1px solid rgb(204, 208, 213, 1.0);;
+  border-radius: 6px;
+}

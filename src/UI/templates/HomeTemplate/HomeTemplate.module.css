@@ -1,6 +1,7 @@
-.HomeTemplate{
-  
+body{
+  background: rgb(240, 242, 245, 0.9);
+  font-family: SFProText-Medium, Helvetica, Arial, sans-serif;
 }
-.HomeTemplate__Red{
-  color: red;
+.form{
+  position: absolute;
 }

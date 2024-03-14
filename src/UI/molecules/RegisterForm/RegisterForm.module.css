@@ -1,0 +1,158 @@
+.Container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.Container_Formulario {
+  display: flex;
+  text-align: center;
+  background: #fff;
+  width: 409px;
+  height: 30px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  border-bottom: 1px solid silver;
+  padding: 30px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  margin-left: 0;
+}
+
+.Cuenta_Titulo {
+  margin-left: 100px;
+  margin-top: -15px;
+  font-size: 29px;
+  line-height: 30px;
+}
+
+.Cuenta_Titulo_Subtitulo {
+  color: #606770;
+  position: absolute;
+  margin-top: 15px;
+  margin-left: 150px;
+}
+
+.Card {
+  justify-content: space-around;
+  width: 409px;
+  height: 490px;
+  padding: 30px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+.Card_Nombre{
+  display: flex;
+  justify-content: space-around;
+}
+
+.Container_Correo {
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.Container_Correo_Email,
+.Container_Correo_Contraseña {
+  display: flex;
+  justify-content: center;
+  font-size: 14px;
+  width: 387px;
+  height: 33px;
+  border: 1px solid rgb(204, 208, 213, 1.0);
+  color: rgb(141, 148, 158, 1.0);
+  border-radius: 6px;
+}
+
+.Container_Correo_Contraseña {
+  margin-left: 7px;
+}
+
+.Signo_Informacion_Fecha {
+  position: absolute;
+  margin-left: 160px;
+  margin-top: -25.6px;
+}
+
+.Container_Fecha{
+	margin: 10px;
+	display: flex;
+	justify-content: space-around;
+	border-radius: 4px;
+    color: #1c1e21;
+    font-family: SFProText-Medium, Helvetica, Arial, sans-serif;
+}
+.Signo_Informacion_Sexo{
+	position: absolute;
+	margin-left: 50px;
+}
+
+.sex{
+	display: flex;
+	position: relative;
+	justify-content: space-around;
+}
+.Contenedor_Genero{
+	background-color: #fff;
+    box-sizing: border-box;
+    display: inline-block;
+    height: 36px;
+    margin: 8px 6px 6px;
+    padding: 0;
+    position: relative;
+    width: auto;
+}
+.Contenedor_Genero_Entrada{
+    position: absolute;
+    right: 1px;
+    margin-top: 13px;
+}
+.Contenedor_Genero_Inclusion_Forzada{
+	box-sizing: border-box;
+    display: inline-block;
+    color: #1c1e21;
+    font-family: SFProText-Medium, Helvetica, Arial, sans-serif;
+    line-height: 36px;
+    padding: 0px 28px 0px 10px;
+    width: 195px;
+    border: 1px solid rgb(204, 208, 213, 1.0);
+    border-radius: 4px;
+}
+.Contenedor_Aviso{
+	display: inline-block;
+	font-family: Helvetica, Arial, sans-serif;
+}
+.Contenedor_Aviso_Aparicion{
+	margin-left: 36px;
+	color: #777;
+    font-size: 11px;
+    width: 316px;
+}
+.Contenedor_Registrarse{
+	display: flex;
+	justify-content: center;
+}
+.Contenedor_Registrarse_Boton{
+	margin-left: 20px;
+	background: #00a400;
+	color: #fff;
+	height: 36px;
+	width: 200px;
+	font-size: 20px;
+	border: none;
+	border-radius: 6px;
+	cursor: pointer;
+}
+.Contenedor_TnCuenta{
+	margin-top: 16px;
+	margin-left: 20px;
+	display: flex;
+	justify-content: center;
+}
+.Contenedor_TnCuenta_Text{
+	color: #1877f2;
+	font-size: 17.4px;
+	cursor: pointer;
+}

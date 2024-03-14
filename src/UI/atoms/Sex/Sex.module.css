@@ -1,0 +1,11 @@
+.Estilos_Sexo{
+  box-sizing: border-box;
+  display: inline-block;
+  color: #1c1e21;
+  font-family: SFProText-Medium, Helvetica, Arial, sans-serif;
+  line-height: 36px;
+  padding: 0px 28px 0px 10px;
+  width: 100%;
+  border: 1px solid rgb(204, 208, 213, 1.0);
+  border-radius: 4px;
+}
