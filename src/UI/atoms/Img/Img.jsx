@@ -1,6 +1,7 @@
-import styles from "./Img.module.css"
+import styles from './Img.module.css';
+
 const Img = ({customClass, path}) => {
-  return <img className={`${styles.Img} ${customClass}`} src={`../../src/assets/Icons/${path}`} />
+  return <img className={`${styles.Img} ${customClass}`} src={path} />
 }
 
 export default Img;
