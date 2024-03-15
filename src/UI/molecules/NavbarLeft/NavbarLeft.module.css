@@ -1,77 +1,111 @@
-.navbarLeft {
+.NavbarLeft {
     width: auto;
+    max-width: 320px;
     display: flex;
+    justify-content: left;
     align-items: center;
     gap: 8px;
 }
 
-.navbarLeft .logo {
+.NavbarLeft__logo {
     display: flex;
     justify-content: center;
     align-items: center;
+
+    position: relative;
 }
 
-.searchBox {
-    width: 100%;
+.NavbarLeft__logo-icon {
+    width: 40px;
+    height: 40px;
+
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+
+    z-index: 50;
+}
+
+.NavbarLeft__logo-link {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    z-index: 100;
+}
+
+.SearchBox {
+    z-index: 150;
+    width: auto;
+    height: 40px;
+    border-radius: 20px;
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: rgb(244, 244, 244);
+    transition: .2s;
 }
 
-.searchInput {
+.SearchBox__input {
     width: 240px;
-    height: 40px;
-    border-radius: 20px;
-
+    height: inherit;
     border: none;
     outline: none;
-
     font-size: 16px;
-    padding-left: 40px !important;
-    padding-right: 15px !important;
-    background-color: rgb(244, 244, 244);
+    padding-left: 40px;
+    padding-right: 15px;
+    background-color: transparent;
+    z-index: 200;
 }
 
-.searchIcon {
+.SearchBox__icon {
+    width: 16px;
+    height: 16px;
+
     position: absolute;
     left: 16px;
     filter: invert(37%) sepia(0%) saturate(1445%) hue-rotate(161deg) brightness(100%) contrast(76%);
     cursor: pointer;
+    z-index: 175;
 }
 
 @media screen and (max-width: 768px) {
-    .searchInput {
+    .SearchBox {
+        width: 40px;
+        height: 40px;
+    }
+
+    .SearchBox__input {
         transition: .2s;
         position: absolute;
         left: 10%;
-        height: 40px;
-        width: 40px;
-        padding: 0 !important;
+        padding-left: 20px;
+    }
 
+    .SearchBox__input::placeholder {
         color: transparent;
     }
 
-    .searchInput:focus {
+    .SearchBox__input:focus::placeholder {
         color: #222;
+    }
+
+    .SearchBox__icon {
+        left: 12px;
+    }
+
+    .SearchBox:hover,
+    .SearchBox:hover .SearchBox__input,
+    .SearchBox:focus-within {
         width: 240px;
-        padding-left: 20px !important;
-    }
-
-    .searchInput::placeholder {
-        color: transparent;
-    }
-
-    .searchInput:focus::placeholder {
         color: #222;
+        padding-left: 20px;
     }
 
-    .searchBox {
-        width: 40px;
-    }
-
-    .searchIcon {
-        left: 50%;
-        transform: translateX(-50%);
+    .SearchBox__input:not(:focus) {
+        color: transparent;
     }
 }

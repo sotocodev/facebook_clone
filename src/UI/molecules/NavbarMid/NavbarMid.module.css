@@ -1,61 +1,68 @@
-.navbarMid {
+.NavbarMid {
     width: 100%;
-    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 6px;
 }
 
-.navbarMid li {
+.NavbarMid__item {
+    position: relative;
     list-style: none;
-    width: 14%;
+    width: 15.6%;
     min-width: 40px;
     max-width: 130px;
-    height: inherit;
+    height: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
     transition: .2s;
 }
 
-.navbarMid li a {
+.NavbarMid__item-link {
     width: 100%;
-    height: 90%;
-
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     cursor: pointer;
     transition: .2s;
+    z-index: 100;
 }
 
-.navbarMid li a img {
+.NavbarMid__item-icon {
+    width: 24px;
+    height: 24px;
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 50;
+
     filter: invert(37%) sepia(0%) saturate(1445%) hue-rotate(161deg) brightness(100%) contrast(76%);
 }
 
-.navbarMid li a:hover {
+.NavbarMid__item:hover {
     border-radius: 7px;
     background-color: rgb(231, 231, 231);
 }
 
-li.selected {
-    /* outline bottom */
-    box-shadow: inset 0 -4px 0 0 #1877f2;
+.NavbarMid__item--selected .NavbarMid__item-link {
+    box-shadow: 0 4px 0 0 #1877f2;
 }
 
-li.selected a:hover {
+.NavbarMid__item--selected:hover {
     border-radius: 0;
     background-color: transparent;
 }
 
-li.selected a img {
-    /* svg icon blue */
+.NavbarMid__item--selected .NavbarMid__item-icon {
     filter: invert(35%) sepia(76%) saturate(2469%) hue-rotate(202deg) brightness(95%) contrast(101%);
 }
 
 @media screen and (max-width: 480px) {
-    .navbarMid {
+    .NavbarMid {
         display: none;
     }
 }

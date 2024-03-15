@@ -1,5 +1,5 @@
-.nav {
-    margin: -8px 0;
+.Navbar {
+    margin: -8px;
     box-sizing: border-box;
     
     width: 100vw;
@@ -12,10 +12,4 @@
     padding: 0 10px;
 
     border-bottom: 1px solid rgb(235, 235, 235);
-}
-
-.nav * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
 }

@@ -1,11 +1,9 @@
 import styles from './Icon.module.css';
 
-const Icon = ({ width, height, path, alt, customClass }) => {
+const Icon = ({ path, alt, customClass }) => {
   return <img 
-    className={`${styles.icon} ${customClass}`}
+    className={`${styles.Icon} ${customClass}`}
     src={path}
-    width={width}
-    height={height}
     alt={alt}
     
   />

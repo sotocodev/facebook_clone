@@ -5,7 +5,7 @@ import styles from './Navbar.module.css';
 
 const Navbar = () => {
   return (
-    <nav className={styles.nav}>
+    <nav className={styles.Navbar}>
       <NavbarLeft /> 
       <NavbarMid />
       <NavbarRight />

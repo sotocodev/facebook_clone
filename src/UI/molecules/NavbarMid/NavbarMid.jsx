@@ -11,76 +11,72 @@ const NavbarMid = () => {
   }
 
   return (
-    <ul className={styles.navbarMid}>
+    <ul className={styles.NavbarMid}>
       <li 
-        className={selected === 0 ? styles.selected : ''}
+        className={`${selected === 0 ? styles['NavbarMid__item--selected'] : ''} ${styles.NavbarMid__item}`}
         title='Inicio'
       >
+        <Icon 
+          path={`/icons/${selected === 0 ? 'fill' : 'outline'}/home.svg`}
+          customClass={styles['NavbarMid__item-icon']}
+          alt={'Home'}
+        />
+
         <LinkTo
           path={'/'}
-          text={
-            <Icon 
-              width={24}
-              height={24}
-              path={`/icons/${selected === 0 ? 'fill' : 'outline'}/home.svg`}
-              alt={'Home'}
-            />
-          }
           callback={() => handleSelect(0)}
+          customClass={styles['NavbarMid__item-link']}
         />
       </li>
 
       <li 
-        className={selected === 1 ? styles.selected : ''}
+        className={`${selected === 1 ? styles['NavbarMid__item--selected'] : ''} ${styles.NavbarMid__item}`}
         title='Video'
       >
+        <Icon 
+          path={`/icons/${selected === 1 ? 'fill' : 'outline'}/video.svg`}
+          customClass={styles['NavbarMid__item-icon']}
+          alt={'Video'}
+        />
+
         <LinkTo
           path={'/'}
-          text={
-            <Icon 
-              width={24}
-              height={24}
-              path={`/icons/${selected === 1 ? 'fill' : 'outline'}/video.svg`}
-              alt={'Video'}
-            />
-          }
           callback={() => handleSelect(1)}
+          customClass={styles['NavbarMid__item-link']}
         />
       </li>
 
       <li 
-        className={selected === 2 ? styles.selected : ''}
+        className={`${selected === 2 ? styles['NavbarMid__item--selected'] : ''} ${styles.NavbarMid__item}`}
         title='Marketplace'
       >
+        <Icon
+          path={`/icons/${selected === 2 ? 'fill' : 'outline'}/market.svg`}
+          customClass={styles['NavbarMid__item-icon']}
+          alt={'Marketplace'}
+        />
+
         <LinkTo
           path={'/'}
-          text={
-            <Icon
-              width={24}
-              height={24}
-              path={`/icons/${selected === 2 ? 'fill' : 'outline'}/market.svg`}
-              alt={'Marketplace'}
-            />
-          }
           callback={() => handleSelect(2)}
+          customClass={styles['NavbarMid__item-link']}
         />
       </li>
 
       <li 
-        className={selected === 3 ? styles.selected : ''}
+        className={`${selected === 3 ? styles['NavbarMid__item--selected'] : ''} ${styles.NavbarMid__item}`}
         title='Videojuegos'
       >
+        <Icon 
+          path={`/icons/${selected === 3 ? 'fill' : 'outline'}/gamepad.svg`}
+          customClass={styles['NavbarMid__item-icon']}
+          alt={'Videojuegos'}
+        />
+
         <LinkTo
           path={'/'}
-          text={
-            <Icon 
-              width={24}
-              height={24}
-              path={`/icons/${selected === 3 ? 'fill' : 'outline'}/gamepad.svg`}
-              alt={'Videojuegos'}
-            />
-          }
           callback={() => handleSelect(3)}
+          customClass={styles['NavbarMid__item-link']}
         />
       </li>
     </ul>

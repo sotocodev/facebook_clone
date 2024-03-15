@@ -4,54 +4,50 @@ import styles from './NavbarRight.module.css';
 
 const NavbarRight = () => {
   return (
-    <div className={styles.navbarRight}>
-      <LinkTo
-        text={
-          <Icon
-            width={20}
-            height={20}
-            path={'/icons/fill/menu-dots.svg'}
-            alt={'Menu'}
-          />
-        }
-        customClass={styles.button}
-      />
+    <div className={styles.NavbarRight}>
+      <div className={styles.NavbarRight__button}>
+        <LinkTo
+          customClass={styles['NavbarRight__button-link']}
+        />
+        <Icon
+          path={'/icons/fill/menu-dots.svg'}
+          customClass={styles['NavbarRight__button-icon']}
+          alt={'Menu'}
+        />
+      </div>
 
-      <LinkTo
-        text={
-          <Icon
-            width={20}
-            height={20}
-            path={'/icons/fill/messenger.svg'}
-            alt={'Messenger'}
-          />
-        }
-        customClass={styles.button}
-      />
+      <div className={styles.NavbarRight__button}>
+        <LinkTo
+          customClass={styles['NavbarRight__button-link']}
+        />
+        <Icon
+          path={'/icons/fill/messenger.svg'}
+          customClass={styles['NavbarRight__button-icon']}
+          alt={'Messenger'}
+        />
+      </div>
 
-      <LinkTo
-        text={
-          <Icon
-            width={20}
-            height={20}
-            path={'/icons/fill/bell.svg'}
-            alt={'Notifications'}
-          />
-        }
-        customClass={styles.button}
-      />
+      <div className={styles.NavbarRight__button}>
+        <LinkTo
+          customClass={styles['NavbarRight__button-link']}
+        />
+        <Icon
+          path={'/icons/fill/bell.svg'}
+          customClass={styles['NavbarRight__button-icon']}
+          alt={'Notifications'}
+        />
+      </div>
 
-      <LinkTo
-        text={
-          <Icon
-            width={20}
-            height={20}
-            path={'/icons/fill/user.svg'}
-            alt={'User'}
-          />
-        }
-        customClass={`${styles.button} ${styles.userImage}`}
-      />
+      <div className={styles.NavbarRight__button}>
+        <LinkTo
+          customClass={styles['NavbarRight__button-link']}
+        />
+        <Icon
+          path={'/icons/fill/user.svg'}
+          customClass={styles['NavbarRight__button-icon']}
+          alt={'User'}
+        />
+      </div>      
     </div>
   )
 }
