@@ -13,8 +13,3 @@ const IconText = ()=>{
 
 
 export default IconText;
-
-
-
-
-
