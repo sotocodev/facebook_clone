@@ -1,5 +1,5 @@
 import Heading from '../../atoms/Heading/Heading';
-import SlidePrincipal from '../../organins/SlidePrincipal/SlidePrincipal';
+import SlidePrincipal from '../../Organims/SlidePrincipal/SlidePrincipal';
 import PublicateZone from '../../Organims/Publicate/PublicateZone';
 import styles from './HomeTemplate.module.css';
 
