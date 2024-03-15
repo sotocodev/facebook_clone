@@ -6,7 +6,7 @@ const IconText = ()=>{
 
     return (<div className={styles.IconText}>
         <Icon path="" customClass={styles.IconText__Icon} />  
-        <Paragraph text= 'Yenifer Marrero' customClass={styles.IconText__Text} />
+        <Paragraph text= 'Text' customClass={styles.IconText__Text} />
     </div>)
 
 }
