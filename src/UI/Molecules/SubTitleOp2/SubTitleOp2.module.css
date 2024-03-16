@@ -1,0 +1,36 @@
+.Contenedor{
+        display: flex;
+        gap:9em;
+}
+
+.Contenedor_SubTitle{
+    color: #444343;
+    font-weight: 600;
+    font-size: .9em;
+    font-family:Segoe UI Historic, Segoe UI, Helvetica, Arial, sans-serif ;
+    margin-top: .5em;
+
+}
+
+
+.Contenedor_Button{
+    width: 2em;
+    height: 2em;
+    background-color: #fff;
+    border: none;
+    color: #000;
+    font-weight:900;
+    margin-right: .9em;
+    text-align: center;
+    border-radius: 50%;
+    position: relative;
+}
+.Contenedor_Button:hover{
+    background-color: rgb(148, 148, 148);
+}
+
+.Contenedor_Img{
+    width: 1em;
+    height: 1em;
+}
+
