@@ -1,7 +1,7 @@
-import PublicationBar from '../../Molecules/PublicationBar/PublicationBar'
-import PublicateNicknameBar from '../../Molecules/PublicateNicknameBar/PublicateNicknameBar'
-import ImgPublicate from '../../Molecules/ImgPublicate/ImgPublicate'
-import PublicateOptionsBar from '../../Molecules/PublicateOptionsBar/PublicateOptionsBar'
+import PublicationBar from '../../molecules/PublicationBar/PublicationBar'
+import PublicateNicknameBar from '../../molecules/PublicateNicknameBar/PublicateNicknameBar'
+import ImgPublicate from '../../molecules/ImgPublicate/ImgPublicate'
+import PublicateOptionsBar from '../../molecules/PublicateOptionsBar/PublicateOptionsBar'
 import styles from "./PublicateZone.module.css"
 
 
