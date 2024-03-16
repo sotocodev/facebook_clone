@@ -5,7 +5,7 @@
     width: 578.667px;
     margin: auto;
     position: relative;
-    height: 282px;
+    height: 247px;
 }
 .SlidePrincipal__Controls{
     width: 100%;
@@ -31,7 +31,7 @@
     display: flex;
     position: relative;
     gap: .50em;
-    height: 280px;
+    height: 100%;
     width: 100%;
     transition: all .5s ease;
 }
