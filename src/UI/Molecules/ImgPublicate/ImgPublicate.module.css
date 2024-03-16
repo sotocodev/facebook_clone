@@ -38,4 +38,5 @@ text-overflow: ellipsis;
 text-size-adjust: 100%;
 text-wrap: nowrap;
 white-space-collapse: collapse;
+margin-bottom: 5px;
 }

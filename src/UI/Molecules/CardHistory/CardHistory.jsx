@@ -1,5 +1,5 @@
-import Img from '../../../atoms/Img/Img';
-import Paragraph from '../../../atoms/Paragraph/Paragraph';
+import Img from '../../atoms/Img/Img';
+import Paragraph from '../../atoms/Paragraph/Paragraph';
 import styles from './CardHistory.module.css';
 
 const CardHistory = ({ pathHistory, name, pathProfile, customClass }) => {
