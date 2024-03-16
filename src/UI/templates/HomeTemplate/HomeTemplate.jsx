@@ -1,6 +1,5 @@
-import Heading from '../../atoms/Heading/Heading';
-import SlidePrincipal from '../../Organims/SlidePrincipal/SlidePrincipal';
-import PublicateZone from '../../Organims/Publicate/PublicateZone';
+import SlidePrincipal from '../../organisms/SlidePrincipal/SlidePrincipal';
+import PublicateZone from '../../organisms/Publicate/PublicateZone';
 import styles from './HomeTemplate.module.css';
 
 const HomeTemplate = () => {
