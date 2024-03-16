@@ -1,18 +1,15 @@
 .PublicateZone {
-    box-sizing: border-box;
+box-sizing: border-box;
 display: flex;
-flex-direction: column;
 gap: 20px;
-justify-content: center;
 align-items: center;
 width: fit-content;
 height: fit-content;
-position: relative;
-top: 282px;
-left: 25%;
-right: 25%;
-
-
+margin: auto;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+margin-top: 20px;
 }
 
 .PublicateZone__Div_PublicZone {
