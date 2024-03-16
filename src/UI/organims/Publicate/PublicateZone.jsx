@@ -12,7 +12,7 @@ function PublicateZone({ customClass }) {
       </div>
       <div className={styles.PublicateZone__Div_PublicZone}>
         <PublicateNicknameBar />
-        <ImgPublicate />
+        <ImgPublicate path="/ImgTribite.jpg" />
         <PublicateOptionsBar />
       </div>
     </section>

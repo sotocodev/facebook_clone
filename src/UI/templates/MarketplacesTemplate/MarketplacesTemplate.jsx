@@ -1,4 +1,4 @@
-import SidebarMarletplaces from '../../organisms/SidebarMarletplaces/SidebarMarletplaces';
+import SidebarMarletplaces from '../../organims/SidebarMarletplaces/SidebarMarletplaces';
 import styles from './MarketplacesTemplate.module.css';
 
 const MarketplacesTemplate = () => {

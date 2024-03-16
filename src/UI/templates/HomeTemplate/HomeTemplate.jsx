@@ -1,5 +1,5 @@
-import SlidePrincipal from '../../organisms/SlidePrincipal/SlidePrincipal';
-import PublicateZone from '../../organisms/Publicate/PublicateZone';
+import SlidePrincipal from '../../organims/SlidePrincipal/SlidePrincipal';
+import PublicateZone from '../../organims/Publicate/PublicateZone';
 import styles from './HomeTemplate.module.css';
 
 const HomeTemplate = () => {
