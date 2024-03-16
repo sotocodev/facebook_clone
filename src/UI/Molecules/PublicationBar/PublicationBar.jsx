@@ -1,5 +1,5 @@
 import ButtonTo from '../../atoms/ButtonTo/ButtonTo'
-import Img from '../../atoms/IconProfile/IconProfile'
+import Img from '../../atoms/Img/Img'
 import Input from '../../atoms/Input/Input'
 import styles from "./PublicationBar.module.css"
 
