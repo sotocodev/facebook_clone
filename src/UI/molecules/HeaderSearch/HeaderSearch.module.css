@@ -1,4 +1,4 @@
-.NavbarLeft {
+.HeaderSearch {
     width: auto;
     max-width: 320px;
     display: flex;
@@ -6,16 +6,14 @@
     align-items: center;
     gap: 8px;
 }
-
-.NavbarLeft__logo {
+.HeaderSearch__Logo {
     display: flex;
     justify-content: center;
     align-items: center;
 
     position: relative;
 }
-
-.NavbarLeft__logo-icon {
+.HeaderSearch__LogoIcon {
     width: 40px;
     height: 40px;
 
@@ -25,8 +23,7 @@
 
     z-index: 50;
 }
-
-.NavbarLeft__logo-link {
+.HeaderSearch__LogoLink {
     width: 40px;
     height: 40px;
     display: flex;
@@ -35,77 +32,68 @@
 
     z-index: 100;
 }
-
-.SearchBox {
+.HeaderSearch__SearchBox {
     z-index: 150;
-    width: auto;
+    width: 240px;
     height: 40px;
     border-radius: 20px;
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(244, 244, 244);
+    background-color: #f0f2f5;
     transition: .2s;
 }
-
-.SearchBox__input {
-    width: 240px;
+.HeaderSearch__SearchBoxInput {
+    max-width: 212px;
     height: inherit;
     border: none;
     outline: none;
     font-size: 16px;
-    padding-left: 40px;
-    padding-right: 15px;
+    font-weight: 300;
+    padding-left: 45px;
+    padding-right: 10px;
     background-color: transparent;
     z-index: 200;
 }
-
-.SearchBox__icon {
-    width: 16px;
-    height: 16px;
+.HeaderSearch__SearchBoxIcon {
+    width: 14px;
+    height: 14px;
 
     position: absolute;
-    left: 16px;
+    left: 12px;
     filter: invert(37%) sepia(0%) saturate(1445%) hue-rotate(161deg) brightness(100%) contrast(76%);
     cursor: pointer;
     z-index: 175;
 }
-
 @media screen and (max-width: 768px) {
-    .SearchBox {
+    .HeaderSearch__SearchBox {
         width: 40px;
         height: 40px;
     }
-
-    .SearchBox__input {
+    .HeaderSearch__SearchBoxInput {
         transition: .2s;
         position: absolute;
         left: 10%;
         padding-left: 20px;
     }
-
-    .SearchBox__input::placeholder {
+    .HeaderSearch__SearchBoxInput::placeholder {
         color: transparent;
     }
-
-    .SearchBox__input:focus::placeholder {
+    .HeaderSearch__SearchBoxInput:focus::placeholder {
         color: #222;
     }
-
-    .SearchBox__icon {
+    .HeaderSearch__SearchBoxIcon {
         left: 12px;
     }
-
-    .SearchBox:hover,
-    .SearchBox:hover .SearchBox__input,
-    .SearchBox:focus-within {
-        width: 240px;
+    .HeaderSearch__SearchBox:hover,
+    .HeaderSearch__SearchBox:hover .HeaderSearch__SearchBoxInput,
+    .HeaderSearch__SearchBox:focus-within {
+        width: 212px;
         color: #222;
         padding-left: 20px;
     }
-
-    .SearchBox__input:not(:focus) {
+    .HeaderSearch__SearchBoxInput:not(:focus) {
         color: transparent;
     }
 }

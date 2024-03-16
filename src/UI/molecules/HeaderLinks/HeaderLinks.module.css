@@ -1,12 +1,18 @@
-.NavbarMid {
+.HeaderLinks {
     width: 100%;
+    height: inherit;
+    max-width: 1260px;
     display: flex;
     justify-content: center;
     align-items: center;
+
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+
     gap: 6px;
 }
-
-.NavbarMid__item {
+.HeaderLinks__Item {
     position: relative;
     list-style: none;
     width: 15.6%;
@@ -18,8 +24,7 @@
     align-items: center;
     transition: .2s;
 }
-
-.NavbarMid__item-link {
+.HeaderLinks__ItemLink {
     width: 100%;
     height: 100%;
     display: flex;
@@ -29,8 +34,7 @@
     transition: .2s;
     z-index: 100;
 }
-
-.NavbarMid__item-icon {
+.HeaderLinks__ItemIcon {
     width: 24px;
     height: 24px;
     
@@ -40,29 +44,24 @@
     transform: translate(-50%, -50%);
     z-index: 50;
 
-    filter: invert(37%) sepia(0%) saturate(1445%) hue-rotate(161deg) brightness(100%) contrast(76%);
+    filter: invert(40%) sepia(4%) saturate(471%) hue-rotate(182deg) brightness(95%) contrast(82%);
 }
-
-.NavbarMid__item:hover {
+.HeaderLinks__Item:hover {
     border-radius: 7px;
     background-color: rgb(231, 231, 231);
 }
-
-.NavbarMid__item--selected .NavbarMid__item-link {
+.HeaderLinks__ItemSelected .HeaderLinks__ItemLink {
     box-shadow: 0 4px 0 0 #1877f2;
 }
-
-.NavbarMid__item--selected:hover {
+.HeaderLinks__ItemSelected:hover {
     border-radius: 0;
     background-color: transparent;
 }
-
-.NavbarMid__item--selected .NavbarMid__item-icon {
+.HeaderLinks__ItemSelected .HeaderLinks__ItemIcon {
     filter: invert(35%) sepia(76%) saturate(2469%) hue-rotate(202deg) brightness(95%) contrast(101%);
 }
-
 @media screen and (max-width: 480px) {
-    .NavbarMid {
+    .HeaderLinks {
         display: none;
     }
 }
