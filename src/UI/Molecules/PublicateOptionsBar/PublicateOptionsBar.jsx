@@ -6,7 +6,7 @@ function PublicateOptionsBar({customClass}) {
     <div className={`${styles.PublicateOptionsBar} ${customClass}`}>
         <ButtonTo path="/Like.svg" text="Me Gusta" />
         <ButtonTo path="/Comment.svg" text="Comentar" />
-        <ButtonTo  path="/share.svg" text="Compartir" />
+        <ButtonTo  path="/Share.svg" text="Compartir" />
     </div>
   )
 }

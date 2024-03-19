@@ -1,9 +1,9 @@
-import Home from './pages/Home';
+import RoutesProvider from './routes/RoutesProvider';
 
 const App = () => {
   return (
     <>
-      <Home />
+      <RoutesProvider/>
     </>
   )
 }

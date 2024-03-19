@@ -1,4 +1,4 @@
-import Img from '../../atoms/IconProfile/IconProfile'
+import Img from '../../atoms/Img/Img'
 import Nickname from '../../atoms/Nickname/Nickname'
 import PublicateButton from '../../atoms/PublicateButton/PublicateButton'
 import styles from "./PublicateNicknameBar.module.css"
