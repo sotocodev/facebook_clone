@@ -2,9 +2,10 @@
     align-items: center;
     gap: 1em;
     display: grid;
-    width: 100%;
+    width: 578.667px;
     margin: auto;
     position: relative;
+    height: 282px;
 }
 .SlidePrincipal__Controls{
     width: 100%;

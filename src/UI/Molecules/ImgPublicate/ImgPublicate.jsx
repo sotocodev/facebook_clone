@@ -1,5 +1,5 @@
 import Paragraph from '../../atoms/Paragraph/Paragraph'
-import Img from '../../atoms/IconProfile/IconProfile'
+import Img from '../../atoms/Img/Img'
 import styles from "./ImgPublicate.module.css"
 
 function ImgPublicate({customClass, path}) {
