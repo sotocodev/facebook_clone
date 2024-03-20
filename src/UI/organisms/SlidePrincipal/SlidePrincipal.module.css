@@ -2,10 +2,10 @@
     align-items: center;
     gap: 1em;
     display: grid;
-    width: 578.667px;
+    width: 730px;
     margin: auto;
     position: relative;
-    height: 247px;
+    height: 298px;
 }
 .SlidePrincipal__Controls{
     width: 100%;
@@ -19,10 +19,10 @@
     box-sizing: border-box;
 }
 .SlidePrincipal_Btn {
-    font-size: 50px;
+    font-size: 35px;
     border: none;
     background: transparent;
-    color: #fff
+    color: #fff;
 }
 .SlidePrincipal__Slide{
     z-index: 40;
@@ -39,9 +39,7 @@
     width: 40px;
     height: 40px;
     border-radius: 50%; 
-    transition: background .3s ease;
-    padding: .50em
-}
-.SlidePrincipal_Arrow:hover {
-    background: #ffffff85 
+    background: #fff;
+    box-shadow: 0 0 .75em #0007, 0 0 .50em #0007;
+    padding: .50em;
 }
