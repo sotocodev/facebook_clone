@@ -1,5 +1,5 @@
-import SubTitleOp2 from "../../Molecules/SubTitleOp2/SubTitleOp2"
-import ImgTitle from "../../Molecules/ImgTitle/ImgTitle"
+import SubTitleOp2 from "../../molecules/SubTitleOp2/SubTitleOp2"
+import ImgTitle from "../../molecules/ImgTitle/ImgTitle"
 import styles from "../Contactos/Contactos.module.css"
 
 const Contactos=()=>{

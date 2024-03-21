@@ -1,7 +1,4 @@
-
 const Line =()=>{
-
-    return <hr/>
-
+  return <hr/>
 }
 export default Line;

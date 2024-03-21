@@ -1,34 +1,32 @@
-.Contenedor{
+.Publi{
     display: flex;
     width: 89%;
     height: 90px;
     margin:10px 0px 0px 0px ;
     gap: 1em;
     } 
-
-    .Contenedor_Img{
+.PubliImg{
     border-radius: 20%;
     width: 5em;
     height: 5em;
     }
-
-.Contenedor2{
+.Publi2{
 display: flex;
 justify-content: center;
 flex-direction: column;
 }
 
-.Contenedor2_SubTitle{
-        font-weight: bold;
-        font-size: 1.1em;
-        margin-block-start: 0;
-        margin-block-end: 0;
-        margin-inline-start: 0px;
-        margin-inline-end: 0px;
-    }
+.Publi2SubTitle{
+    font-weight: bold;
+    font-size: 1.1em;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
 
 
-.Contenedor2_Paragraph{
+.Publi2Paragraph{
 margin-block-start: 0;
 margin-block-end: 0;
 font-size: .8em;

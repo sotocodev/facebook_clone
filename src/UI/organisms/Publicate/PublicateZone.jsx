@@ -1,7 +1,7 @@
-import ImgPublicate from "../../Molecules/ImgPublicate/ImgPublicate";
-import PublicateNicknameBar from "../../Molecules/PublicateNicknameBar/PublicateNicknameBar";
-import PublicateOptionsBar from "../../Molecules/PublicateOptionsBar/PublicateOptionsBar";
-import PublicationBar from "../../Molecules/PublicationBar/PublicationBar";
+import ImgPublicate from "../../molecules/ImgPublicate/ImgPublicate";
+import PublicateNicknameBar from "../../molecules/PublicateNicknameBar/PublicateNicknameBar";
+import PublicateOptionsBar from "../../molecules/PublicateOptionsBar/PublicateOptionsBar";
+import PublicationBar from "../../molecules/PublicationBar/PublicationBar";
 import styles from "./PublicateZone.module.css";
 
 function PublicateZone({ customClass }) {

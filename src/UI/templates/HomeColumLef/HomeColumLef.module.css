@@ -1,18 +1,18 @@
-.Contenedor{
+.HomeColumLef{
     display: flex;
     justify-content: end;
     position: absolute;
     width: 300px;
     height: 800px;
 }
-.Contenedor_Aside{
+.HomeColumLefAside{
     width: 18.8em;
     height: 39.1em;
     position: fixed;
     overflow: hidden;
     transition:  .5s ease;
 }
-.Contenedor_Aside:hover{
+.HomeColumLefAside:hover{
     overflow-y: scroll;
     transition:  .5s ease;
 }
