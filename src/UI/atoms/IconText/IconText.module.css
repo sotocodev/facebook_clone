@@ -1,0 +1,30 @@
+
+
+.IconText {
+    display: flex;
+    align-items: center;
+    gap: 5px; 
+    
+}
+
+.IconText__Icon {
+    border-radius: 100%;
+    height: 22px;
+
+    
+}
+
+.IconText__Text {
+
+   font-family: "Segoe UI Historic", "Segoe UI", Helvetica, Arial, sans-serif;
+   font-size: 12px;
+   color: rgb(28, 30, 33);;
+  
+}
+
+.IconText__IconShortcut {
+
+    border-radius: 5px;
+    height: 28px;
+    
+}

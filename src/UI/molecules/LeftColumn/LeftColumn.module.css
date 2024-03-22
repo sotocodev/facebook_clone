@@ -1,0 +1,10 @@
+.LeftColumn{
+
+    position: absolute;
+    width: 150px;
+    align-items: flex-start;
+    font-family: "Segoe UI Historic", "Segoe UI", Helvetica, Arial, sans-serif;
+    font-size: 13px;
+  
+}
+
