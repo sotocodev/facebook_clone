@@ -17,7 +17,7 @@ function PublicationBar({customClass}) {
         <ButtonTo text="Foto" path="/photo.png"/>
         <ButtonTo text="Sentimientos/actividad" path="/Smile.png"/>
         </div>
-      
+    
     </div>
   )
 }
