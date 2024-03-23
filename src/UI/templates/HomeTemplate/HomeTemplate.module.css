@@ -1,6 +1,9 @@
 .HomeTemplate{
-  
+  display: flex;
+  justify-content: center;
+  gap: 100px;
 }
+
 .HomeTemplate__Red{
   color: red;
 }
