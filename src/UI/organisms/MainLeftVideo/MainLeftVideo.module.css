@@ -1,0 +1,67 @@
+.MainLeft__Header{
+    height: 50px;
+    width: 100%;
+    background-color: grey;
+}
+
+.MainLeft{
+    height: 100vh;
+    width: 25%;
+    background-color: white;
+    position: fixed;
+    border-right: 1px solid outset;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.MainLeft__Title_Video{
+    margin-left: 10px;
+    color: black;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 24px;
+}
+
+.MainLeft__Primerafila_Container{
+    margin-top: 8px;
+    margin-bottom: 5px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.MainLeft__ConfigImg{
+    margin-top: 4px;
+    margin-left: 10px;
+    border-radius: 100px;
+    height: 100px;
+    width: 100px;
+    
+}
+
+
+.MainLeft__Input{
+    background-color: #f3ecec;
+    margin-left: 10px;
+    outline-style: none;
+    width: 100%;
+    height: 30px;
+    border: none;
+    border-radius: 50px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+}
+
+.MainLeft__Paragraph_Container{
+    margin-top: 15px;
+}
+.MainLeft__Paragraph{
+    color: black;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    margin-left: 12px;
+    
+}
+

@@ -1,0 +1,19 @@
+.Input__Div{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    height: 40px;
+    width: 90%;
+    margin-left: 10px;
+    border-radius: 50px;
+    background-color: #f3ecec;
+}
+
+.Input__Img{
+    color: #dfd8d8;
+    margin-left: 3px;
+    border-radius: 50px;
+    max-width: 70%;
+    max-height: 70%;
+}
