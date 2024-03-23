@@ -3,7 +3,7 @@ import Paragraph from '../../atoms/Paragraph/Paragraph';
 import styles from './CardHistory.module.css';
 
 const CardHistory = ({ pathHistory, name, pathProfile, customClass }) => {
-    return (
+    return ( 
         <div className={`${styles.CardHistory} ${customClass}`}>
             <Img path={pathHistory} customClass={`${styles.CardHistory__Image}`} />
             <div className={`${styles.CardHistory__Content}`}>
