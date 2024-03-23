@@ -1,5 +1,5 @@
 import SubTitle from "../../atoms/SubTitle/SubTitle";
-import ImgTitle from "../../molecules/ImgTitle/ImgTitle"
+import ImgTitle from "../../molecules/ImgSubTitle/ImgSubTitle"
 import Line from "../../atoms/Line/Line";
 import styles from "./Cumple.module.css"
 

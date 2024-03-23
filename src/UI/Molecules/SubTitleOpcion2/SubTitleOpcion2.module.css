@@ -1,0 +1,34 @@
+.SubTitleOpcion2{
+    display: flex;
+    gap:9em;
+}
+
+.SubTitleOpcion2__SubTitle{
+    color: #444343;
+    font-weight: 600;
+    font-size: .9em;
+    font-family:Segoe UI Historic, Segoe UI, Helvetica, Arial, sans-serif ;
+    margin-top: .5em;
+}
+
+.SubTitleOpcion2__Button{
+    width: 2em;
+    height: 2em;
+    background-color: #fff;
+    border: none;
+    color: #000;
+    font-weight:900;
+    margin-right: .9em;
+    text-align: center;
+    border-radius: 50%;
+    position: relative;
+}
+.SubTitleOpcion2__Button:hover{
+    background-color: rgb(148, 148, 148);
+}
+
+.SubTitleOpcion2__Img{
+    width: 1em;
+    height: 1em;
+}
+
