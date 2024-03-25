@@ -1,7 +1,7 @@
 import IconText from "../../atoms/IconText/IconText";
-import styles from './LeftColumn.module.css'
 import Paragraph from "../../atoms/Paragraph/Paragraph";
 import Divider from "../../atoms/Divider/Divider";
+import styles from './LeftColumn.module.css'
 
 const LeftColumn = () => {
     return (
