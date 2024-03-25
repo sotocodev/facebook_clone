@@ -6,8 +6,8 @@ import styles from "./Cumple.module.css"
 const Cumple=()=>{
 return(
     <div>
-    <SubTitle Text="Cumpleaños" customClass__SubTitle={styles.SubTitle}/>
-    <ImgSubTitle customClass__Img={styles.ImgSubTitle} Text="Hoy es el cumpleaños de Edward  Gonzalez" path="https://www.svgrepo.com/show/507313/gift.svg"/>
+    <SubTitle Text="Cumpleaños" customClassSubTitle={styles.SubTitle}/>
+    <ImgSubTitle customClassImg={styles.ImgSubTitle} Text="Hoy es el cumpleaños de Edward  Gonzalez" path="https://www.svgrepo.com/show/507313/gift.svg"/>
     <Line/>
     </div>
 )

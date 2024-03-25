@@ -7,9 +7,9 @@ const Publicat =({path,Text,textP})=>{
 return(
     <div className={styles.Publicat}>
     <Img customClass={styles.Publicat__Img} path={path} />
-    <div className={styles.Publicat2}>
-    <SubTitle Text={Text} customClass__SubTitle={styles.Publicat2__SubTitle}/>
-    <Paragraph text={textP} customClass={styles.Publicat2__Paragraph} />
+    <div className={styles.Publicat__Text}>
+    <SubTitle Text={Text} customClassSubTitle={styles.Publicat__Text__SubTitle}/>
+    <Paragraph text={textP} customClass={styles.Publicat__Text__Paragraph} />
     </div>
     </div>
 )

@@ -1,6 +1,6 @@
 import Style from "./SubTitle.module.css"
 
-const SubTitle=({Text,customClass__SubTitle})=>{
-    return <h3 className={`${customClass__SubTitle} ${Style.SubTitle} `}>{Text}</h3>
+const SubTitle=({Text,customClassSubTitle})=>{
+    return <h3 className={`${Style.SubTitle} ${customClassSubTitle} `}>{Text}</h3>
 }
 export default SubTitle

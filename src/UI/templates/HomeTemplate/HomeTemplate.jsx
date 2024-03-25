@@ -1,6 +1,6 @@
 import SlidePrincipal from '../../organisms/SlidePrincipal/SlidePrincipal';
 import PublicateZone from '../../organisms/Publicate/PublicateZone';
-import HomeColunmLef from "../HomeColumLef/HomeColumLef"
+import HomeColunmLef from "../../organisms/HomeColumLef/HomeColumLef"
 import styles from './HomeTemplate.module.css';
 
 const HomeTemplate = () => {

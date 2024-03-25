@@ -2,11 +2,11 @@ import SubTitle from "../../atoms/SubTitle/SubTitle"
 import Img from "../../atoms/Img/Img"
 import styles from "./ImgSubTitle.module.css"
 
-const ImgSubTitle=({path,Text,customClass,customClass__Img})=>{
+const ImgSubTitle=({path,Text,customClass,customClassImg})=>{
     return(
     <div className={`${styles.ImgSubTitle} ${customClass} `}> 
-    <Img  customClass={customClass__Img} path={path}/>
-    <SubTitle customClass__SubTitle={`${styles.ImgSubTitle__SubTitle}`} Text={Text} />
+    <Img  customClass={customClassImg} path={path}/>
+    <SubTitle customClassSubTitle={`${styles.ImgSubTitle__SubTitle}`} Text={Text} />
     </div>
     )
 }

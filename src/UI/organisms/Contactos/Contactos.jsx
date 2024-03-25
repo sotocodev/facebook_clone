@@ -6,12 +6,12 @@ const Contactos=()=>{
 return(
 <>
     <SubTitleOpcion2/>
-    <ImgSubTitle customClass__Img={styles.ImgSubTitle} Text="Luis Silva" path="https://www.svgrepo.com/show/374762/people.svg" />
-    <ImgSubTitle customClass__Img={styles.ImgSubTitle} Text="Yusibeth Soto" path="https://www.svgrepo.com/show/374762/people.svg"/>
-    <ImgSubTitle customClass__Img={styles.ImgSubTitle} Text="Robert Sanchez" path="https://www.svgrepo.com/show/374762/people.svg"/>
-    <ImgSubTitle customClass__Img={styles.ImgSubTitle} Text="Jesus Soto" path="https://www.svgrepo.com/show/374762/people.svg"/>
-    <ImgSubTitle customClass__Img={styles.ImgSubTitle} Text="Leonardo Peña"  path="https://www.svgrepo.com/show/374762/people.svg"/>
-    <ImgSubTitle customClass__Img={styles.ImgSubTitle} Text="Alejandron Hernandez" path="https://www.svgrepo.com/show/374762/people.svg"/>
+    <ImgSubTitle customClassImg={styles.ImgSubTitle} Text="Luis Silva" path="https://www.svgrepo.com/show/374762/people.svg" />
+    <ImgSubTitle customClassImg={styles.ImgSubTitle} Text="Yusibeth Soto" path="https://www.svgrepo.com/show/374762/people.svg"/>
+    <ImgSubTitle customClassImg={styles.ImgSubTitle} Text="Robert Sanchez" path="https://www.svgrepo.com/show/374762/people.svg"/>
+    <ImgSubTitle customClassImg={styles.ImgSubTitle} Text="Jesus Soto" path="https://www.svgrepo.com/show/374762/people.svg"/>
+    <ImgSubTitle customClassImg={styles.ImgSubTitle} Text="Leonardo Peña"  path="https://www.svgrepo.com/show/374762/people.svg"/>
+    <ImgSubTitle customClassImg={styles.ImgSubTitle} Text="Alejandron Hernandez" path="https://www.svgrepo.com/show/374762/people.svg"/>
 </>
 )
 }

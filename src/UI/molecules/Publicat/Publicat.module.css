@@ -10,13 +10,13 @@
     width: 5em;
     height: 5em;
     }
-.Publicat2{
+.Publicat__Text{
 display: flex;
 justify-content: center;
 flex-direction: column;
 }
 
-.Publicat2__SubTitle{
+.Publicat__Text__SubTitle{
     font-weight: bold;
     font-size: 1.1em;
     margin-block-start: 0;
@@ -26,7 +26,7 @@ flex-direction: column;
 }
 
 
-.Publicat2__Paragraph{
+.Publicat__Text__Paragraph{
 margin-block-start: 0;
 margin-block-end: 0;
 font-size: .8em;

@@ -1,4 +1,4 @@
 const Line =()=>{
-  return <hr/>
+  return (<hr className="line"/>)
 }
 export default Line;
