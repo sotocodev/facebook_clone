@@ -1,3 +1,4 @@
+import SlidePricipal from "../SlidePrincipal/SlidePrincipal";
 import ImgPublicate from "../../molecules/ImgPublicate/ImgPublicate";
 import PublicateNicknameBar from "../../molecules/PublicateNicknameBar/PublicateNicknameBar";
 import PublicateOptionsBar from "../../molecules/PublicateOptionsBar/PublicateOptionsBar";
@@ -7,6 +8,7 @@ import styles from "./PublicateZone.module.css";
 function PublicateZone({ customClass }) {
   return (
     <section className={`${styles.PublicateZone} ${customClass}`}>
+      <SlidePricipal />
       <div className={styles.PublicateZone__Div_PublicBar}>
         <PublicationBar />
       </div>
