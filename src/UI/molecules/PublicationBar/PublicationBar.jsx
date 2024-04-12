@@ -8,13 +8,12 @@ function PublicationBar({customClass}) {
   return (
     <div className={`${styles.PublicationBar} ${customClass}`}>
         <div className={styles.PublicationBar__Publicate}>
-            <Img customClass={styles.Publicationbar__PublicateImgIcon} path="/Gokupelon.jpeg"/>
+            <Img customClass={styles.Publicationbar__PublicateImgIcon} pathImg="/Gokupelon.jpeg"/>
             <Input customClass={styles.Publicationbar__PublicateInputDisable} placeholder="¿Que estas Pensando, Nickname?" disabled={true}/>
         </div>
-
         <div className={styles.PublicationBar__DivButtons}>
         <ButtonTo text="Video en Vivo" path="/Camare.png"/>
-        <ButtonTo text="Foto" path="/photo.png"/>
+        <ButtonTo text="Foto/Video" path="/photo.png"/>
         <ButtonTo text="Sentimientos/actividad" path="/Smile.png"/>
         </div>
       

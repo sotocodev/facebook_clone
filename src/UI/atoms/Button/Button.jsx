@@ -6,7 +6,7 @@ const Button = ({ text, path, toImageClass, customClass, type, click }) => {
     return (
         <button onClick={click} type={type} className={`${styles.Button} ${customClass}`}>
             {
-                path && <Img path={path} customClass={toImageClass} />
+                path && <Img pathImg={path} customClass={toImageClass} />
             }
             {
                 text && text
