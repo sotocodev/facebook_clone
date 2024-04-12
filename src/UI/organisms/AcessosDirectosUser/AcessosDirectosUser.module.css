@@ -19,16 +19,18 @@
 }
 
 .AcessosDirectosUser__titulo__ButtonText {
+  font-weight: 600;
   display: none;
   color: blue;
   border: none;
   border-radius: 5px;
   text-align: center;
+  font-family: Segoe UI Historic, Segoe UI, Helvetica, Arial, sans-serif;
   height: 30px;
   width: 45px;
 }
 .AcessosDirectosUser__titulo__ButtonText:hover {
-  background-color: rgb(216, 215, 215);
+  background-color: rgb(240, 237, 237);
   cursor: pointer;
 }
 
@@ -49,5 +51,5 @@
   cursor: pointer;
 }
 .AcessosDirectosUser__ImgSubTitle:hover {
-  background-color: #a09a9a;
+  background-color: #dfdfdf;
 }

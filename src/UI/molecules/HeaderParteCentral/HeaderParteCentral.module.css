@@ -1,7 +1,7 @@
 .HeaderParteCentral {
   display: flex;
   gap: 3px;
-
+ margin-right: 60px;
 }
 
 .HeaderParteCentral__ButtomColumnRight {

@@ -1,13 +1,13 @@
 .SubTitleOpcion1{
     display: flex;
-    gap:7em;
+    gap:5em;
 }
 
 .SubTitleOpcion1__SubTitle{
     color: #444343;
     font-weight: 600;
     font-size: .9em;
-    font-family:Segoe UI Historic, Segoe UI, Helvetica, Arial, sans-serif ;
+    font-family:  Helvetica, Arial, sans-serif;
     margin-top: .5em;
 }
 
@@ -23,7 +23,7 @@
     position: relative;
 }
 .SubTitleOpcion1__Button:hover{
-    background-color: rgb(148, 148, 148);
+    background-color: #dfdfdf;
 }
 
 .SubTitleOpcion1__Img{

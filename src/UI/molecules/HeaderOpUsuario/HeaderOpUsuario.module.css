@@ -1,6 +1,7 @@
 .HeaderOpUsuario {
   display: flex;
   gap: 20px;
+  margin-right: 22px;
 }
 .HeaderOpUsuario__ButtonColumnRight {
   height: 2.7em;
