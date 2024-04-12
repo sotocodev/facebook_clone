@@ -1,7 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
-<svg width="800px" height="800px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M19.5617 7C19.7904 5.69523 18.7863 4.5 17.4617 4.5H6.53788C5.21323 4.5 4.20922 5.69523 4.43784 7" stroke="#000000" stroke-width="1.5"/>
-<path d="M17.4999 4.5C17.5283 4.24092 17.5425 4.11135 17.5427 4.00435C17.545 2.98072 16.7739 2.12064 15.7561 2.01142C15.6497 2 15.5194 2 15.2588 2H8.74099C8.48035 2 8.35002 2 8.24362 2.01142C7.22584 2.12064 6.45481 2.98072 6.45704 4.00434C6.45727 4.11135 6.47146 4.2409 6.49983 4.5" stroke="#000000" stroke-width="1.5"/>
-<path d="M21.1935 16.793C20.8437 19.2739 20.6689 20.5143 19.7717 21.2572C18.8745 22 17.5512 22 14.9046 22H9.09536C6.44881 22 5.12553 22 4.22834 21.2572C3.33115 20.5143 3.15626 19.2739 2.80648 16.793L2.38351 13.793C1.93748 10.6294 1.71447 9.04765 2.66232 8.02383C3.61017 7 5.29758 7 8.67239 7H15.3276C18.7024 7 20.3898 7 21.3377 8.02383C22.0865 8.83268 22.1045 9.98979 21.8592 12" stroke="#000000" stroke-width="1.5" stroke-linecap="round"/>
-<path d="M14.5812 13.6159C15.1396 13.9621 15.1396 14.8582 14.5812 15.2044L11.2096 17.2945C10.6669 17.6309 10 17.1931 10 16.5003L10 12.32C10 11.6273 10.6669 11.1894 11.2096 11.5258L14.5812 13.6159Z" stroke="#000000" stroke-width="1.5"/>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="256" height="256" viewBox="0 0 256 256" xml:space="preserve">
+
+<defs>
+</defs>
+<g style="stroke: none; stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: none; fill-rule: nonzero; opacity: 1;" transform="translate(1.4065934065934016 1.4065934065934016) scale(2.81 2.81)" >
+	<path d="M 57.906 37.111 L 39.99 47.454 c -0.921 0.532 -2.072 -0.133 -2.072 -1.196 V 25.57 c 0 -1.063 1.151 -1.728 2.072 -1.196 l 17.916 10.344 C 58.827 35.249 58.827 36.579 57.906 37.111 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
+	<path d="M 88.14 9.691 H 1.86 c -1.023 0 -1.86 0.837 -1.86 1.86 v 53.721 c 0 1.023 0.837 1.86 1.86 1.86 h 36.057 v 8.528 h -3.541 c -1.278 0 -2.324 1.046 -2.324 2.324 c 0 1.278 1.046 2.324 2.324 2.324 h 21.246 c 1.278 0 2.324 -1.046 2.324 -2.324 c 0 -1.278 -1.046 -2.324 -2.324 -2.324 h -3.541 v -8.528 H 88.14 c 1.023 0 1.86 -0.837 1.86 -1.86 V 11.552 C 90 10.529 89.163 9.691 88.14 9.691 z M 84.821 55.023 c 0 0.815 -0.667 1.482 -1.482 1.482 H 6.661 c -0.815 0 -1.482 -0.667 -1.482 -1.482 V 16.805 c 0 -0.815 0.667 -1.482 1.482 -1.482 h 76.678 c 0.815 0 1.482 0.667 1.482 1.482 V 55.023 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
+</g>
 </svg>
