@@ -8,7 +8,9 @@ import styles from "./VideoPageTemplate.module.css"
 function VideoPageTemplate() {
   return (
     <div className={`${styles.VideoPageTemplate}`}>
+      <div className={`${styles.VideoPageTemplate__Header}`}>
       <HomeHeader/>
+      </div>
       <div className={`${styles.VideoPageTemplate__Menu}`}>
     <LeftMenu/>
      </div>
