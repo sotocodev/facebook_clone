@@ -5,7 +5,7 @@ import styles from "./PerfilesPaginas.module.css"
 
 const PerfilesPaginas=()=>{
 return(
-<div>
+<div className={styles.PerfilesPaginas}>
     <SubTitleOpcion1 Text='Tus paginas y perfiles' path="https://www.svgrepo.com/show/395488/options.svg"/>
     <ImgSubTitle  customClassImg={styles.ImgSubTitle}  Text="Hello" path="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRw1zChbzGcnQyOv1HUF--EnwDmbT0rbjfuzw&usqp=CAU"/>
     <div className={styles.PerfilesPaginas}>

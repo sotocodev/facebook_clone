@@ -1,7 +1,7 @@
+import { useRef, useEffect, useState } from "react";
 import Button from "../../atoms/Button/Button";
 import CardHistory from "../../molecules/CardHistory/CardHistory";
 import styles from "./SlidePrincipal.module.css";
-import { useRef, useEffect, useState } from "react";
 
 const SlidePrincipal = () => {
   const RefSlide = useRef(null);

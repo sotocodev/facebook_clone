@@ -9,7 +9,7 @@ const AcessosDirectosUser = () => {
       <div className={styles.AcessosDirectosUser__titulo}>
         <SubTitle
           Text="Tus accesos directos"
-          customClassSubTitle={styles.AcessosDirectosUser__titulo__SubTitle}
+          customClassSubTitle={styles.AcessosDirectosUser__ContainerText}
         />
         <ButtonText
           Text="Editar"
