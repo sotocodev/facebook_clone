@@ -1,6 +1,7 @@
 import { Route, Routes } from "react-router-dom"
 import Home from "../pages/Home";
-import Marketplaces from "../pages/Marketplaces";
+import MarketplacesPage from "../pages/MarketPlacesPage";
+import MarketPlacePage from "../pages/MarketPlacePage";
 
 const RoutesProvider = () => {
   Routes
@@ -8,7 +9,8 @@ const RoutesProvider = () => {
     <Routes>
       <Route path="/">
         <Route index element={<Home />} />
-        <Route path="marketpalce" element={<Marketplaces />} />
+        <Route path="mainplace" element={<MarketplacesPage />} />
+        <Route path="marketplace" element={<MarketPlacePage />}/>
       </Route>
     </Routes>
   )

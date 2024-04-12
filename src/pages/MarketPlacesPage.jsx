@@ -1,6 +1,6 @@
 import MarketplacesTemplate from "../UI/templates/MarketplacesTemplate/MarketplacesTemplate"
 
-const Marketplaces = () => {
+const MarketplacesPage = () => {
   return (
     <>
       <MarketplacesTemplate />
@@ -8,4 +8,4 @@ const Marketplaces = () => {
   )
 }
 
-export default Marketplaces;
+export default MarketplacesPage;

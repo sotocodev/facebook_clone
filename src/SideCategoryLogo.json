@@ -1,0 +1,97 @@
+[
+	{
+	  "id": 1,
+	  "prompt": "Vehículos",
+	  "img": "/Vehicle.svg"
+	},
+	{
+		"id": 2,
+		"prompt":"Alquiler de propiedades",
+		"img": "/HouseRent.svg"
+	},
+	{
+		"id": 3,
+		"prompt": "Artículos deportivos",
+		"img": "/Running.svg"
+	},
+	{
+		"id": 4,
+		"prompt": "Artículos gratuitos",
+		"img": "/FreeTicket.svg"
+	},
+	{
+		"id": 5,
+		"prompt": "Artículos para el hogar",
+		"img": "/House.svg"
+	},
+	{
+		"id": 6,
+		"prompt": "Clasificados",
+		"img": "/Sale.svg"
+	},
+	{
+		"id": 7,
+		"prompt": "Electrónica",
+		"img": "/Phone.svg"
+	},
+	{
+		"id": 8,
+		"prompt": "Entretenimento",
+		"img": "/Entertainment.svg"
+	},
+	{
+		"id": 9,
+		"prompt": "Familia",
+		"img": "/Heart.svg"
+	},
+	{
+		"id": 10,
+		"prompt": "Indumentaria",
+		"img": "/Shirt.svg"
+	},
+	{
+		"id": 11,
+		"prompt": "Instrumentos musicales",
+		"img": "/MusicGuitar.svg"
+	},
+	{
+		"id": 12,
+		"prompt": "Jardín y aire libre",
+		"img": "/Shovel.svg"
+	},
+	{
+		"id": 13,
+		"prompt": "Juguetes y juegos",
+		"img": "/GameControl.svg"
+	},
+	{
+		"id": 14,
+		"prompt": "Materiales para reformas en el hogar",
+		"img": "/Wrench.svg"
+	},
+	{
+		"id": 15,
+		"prompt": "Pasatiempos",
+		"img": "/Pencil.svg"
+	},
+	{
+		"id": 16,
+		"prompt": "Productos para mascotas",
+		"img": "/DogPaw.svg"
+	},
+	{
+		"id": 17,
+		"prompt": "Suministros de oficina",
+		"img": "/Sale.svg"
+	},
+	{
+		"id": "18",
+		"prompt": "Viviendas en venta",
+		"img": "./HouseRent.svg"
+	},
+	{
+		"id": 19,
+		"prompt": "Grupos de compraventa",
+		"img": "/PeopleGroup.svg"
+	}
+]

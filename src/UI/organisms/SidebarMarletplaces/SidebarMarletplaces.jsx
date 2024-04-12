@@ -36,17 +36,6 @@ const SidebarMarletplaces = () => {
           customClass={styles.SidebarMarletplaces__Paragraph}
         />
       </div>
-
-
-
-
-
-
-
-
-
-
-
       {/* Acomoda lo demas */}
       <div className="search-box">
         <i class="fa-solid fa-magnifying-glass"></i>

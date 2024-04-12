@@ -1,0 +1,27 @@
+[
+	{
+	  "id": 1,
+	  "prompt":"Explorar todo",
+	  "img": "/Marketplace.svg"
+	},
+	{
+	  "id": 2,
+	  "prompt":"Notificaciones",
+	  "img": "/Notifications.svg"
+	},
+	{
+	  "id": 3,
+	  "prompt":"Bandeja de entrada",
+	  "img": "/Inbox.svg"
+	},
+	{
+	  "id": 4,
+	  "prompt":"Compra",
+	  "img": "/Bag.svg"
+	},
+	{
+	  "id": 5,
+	  "prompt":"Venta",
+	  "img": "/Sale.svg"
+	}
+]

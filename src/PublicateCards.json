@@ -1,0 +1,72 @@
+[
+	{
+		"id": 1,
+		"title": "Máquina de coser SINGER HD 110 ",
+		"subtitle":"$65",
+		"paragraph":"Juan Germán Roscio, GU",
+		"img": "/Machine.jpg"
+
+	},
+	{
+		"id": "2",
+		"title": "Licuadora y gavetero (con detalles)",
+		"subtitle":"GRATIS",
+		"paragraph":"Juan Germán Roscio, GU",
+		"img": "/Blender.jpg"
+	},
+	{
+		"id": "3",
+		"title": "Cachapas con queso! el delivery es gratis",
+		"subtitle":"$5",
+		"paragraph":"Juan Germán Roscio, GU",
+		"img": "/Cachapas.jpg"
+
+	},
+	{
+		"id": "4",
+		"title": "Un cuatro usado pero totalmente bueno",
+		"subtitle":"$40",
+		"paragraph":"Juan Germán Roscio, GU",
+		"img": "/Cuatro.jpg"
+
+	},
+	{
+		"id": "5",
+		"title": "Residencia para estudiantes femeninas",
+		"subtitle":"$30",
+		"paragraph":"Juan Germán Roscio, GU",
+		"img": "/Residencia.jpg"
+
+	},
+	{
+		"id": "6",
+		"title": "Plancha de ropa 100% usable",
+		"subtitle":"$20",
+		"paragraph":"Juan Germán Roscio, GU",
+		"img": "/Plancha.jpg"
+		
+	},
+	{
+		"id": "7",
+		"title": "Bicicleta de semicarrera",
+		"subtitle":"$120",
+		"paragraph":"Juan Germán Roscio, GU",
+		"img": "/Bicicleta.jpg"
+	},
+	{
+		"id": "8",
+		"title": "Redmi 9a con detalles en el tactil",
+		"subtitle":"$120",
+		"paragraph":"Juan Germán Roscio, GU",
+		"img": "/Telefono.jpg"
+
+	},
+	{
+		"id": "9",
+		"title": "Litera para armar totalmente nueva",
+		"subtitle":"$100",
+		"paragraph":"Juan Germán Roscio, GU",
+		"img": "/Litera.jpg"
+
+	}
+]
