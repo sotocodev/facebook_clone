@@ -1,17 +1,17 @@
-import styles from './SideCategoryBarMarketplace.module.css';
 import Img from '../../atoms/Img/Img';
-import SideCategoryLogo from '../../../SideCategoryLogo.json';
+import MarketplaceApi from '../../../MarketplaceApi.json';
 import Paragraph from '../../atoms/Paragraph/Paragraph';
+import styles from './SideCategoryBarMarketplace.module.css';
 
 const SideCategoryBarMarketplace = () => {
   return (
     <>
-      {SideCategoryLogo &&
-        SideCategoryLogo.map(({ id, img, prompt }) => {
+      {MarketplaceApi &&
+        MarketplaceApi.filter(category => category.id).slice(5, 24).map(({ id, categorylogo, categoryprompt }) => {
           return (
             <div className={styles.Category} key={id}>
-              <Img path={img} customClass={styles.Category__Icon} />
-              <Paragraph customClass={styles.Category__Text} text={prompt} />
+              <Img path={categorylogo} customClass={styles.Category__Icon} />
+              <Paragraph customClass={styles.Category__Text} text={categoryprompt} />
             </div>
           );
         })}

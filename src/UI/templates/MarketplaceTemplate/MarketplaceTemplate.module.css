@@ -1,5 +1,7 @@
+*{
+   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
 body{
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   background: rgb(240, 242, 245, 1.0);
   overflow-y: hidden;
 }
@@ -7,8 +9,5 @@ div{
   overflow-y: auto;
   overflow-x: hidden;
   max-height: 100%;
-}
-.headerfalso{
-  background: red;
-  padding: 30px;
+  max-width: 100%;
 }

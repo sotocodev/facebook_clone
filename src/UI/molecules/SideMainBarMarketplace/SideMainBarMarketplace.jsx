@@ -1,28 +1,27 @@
-import styles from './SideMainBarMarketplace.module.css';
 import Paragraph from '../../atoms/Paragraph/Paragraph';
 import Img from '../../atoms/Img/Img';
 import LinkTo from '../../atoms/LinkTo/LinkTo'
-import SideLogo from '../../../SideLogo.json';
+import MarketplaceApi from '../../../MarketplaceApi.json';
+import styles from './SideMainBarMarketplace.module.css';
 
 const SideMainBarMarketplace = () => {
   return (
     <>
-      {SideLogo &&
-        SideLogo.map((sidelogo) => {
-          const { id, img, prompt } = sidelogo; 
+      {MarketplaceApi &&
+        MarketplaceApi.filter(sidelogo => sidelogo.id).slice(0, 5).map(({ id, logo, prompt }) => {
           return (
             <div className={styles.Box} key={id}>
-              <Img customClass={styles.Box__Logo} path={img} />
+              <Img customClass={styles.Box__Logo} path={logo} />
               <Paragraph customClass={styles.Box__Text} text={prompt} />
             </div>
           );
         })}
-        <div className={styles.Publication}>
+      <div className={styles.Publication}>
         <LinkTo
-         customClass={styles.Publication__Link}
-         text="+ Crear publicación"
-         />
-        </div>
+          customClass={styles.Publication__Link}
+          text="+ Crear publicación"
+        />
+      </div>
     </>
   );
 };
