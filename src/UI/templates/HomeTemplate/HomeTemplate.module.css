@@ -1,6 +1,15 @@
-.HomeTemplate{
-  
+body{
+  background-color: #EEEEEE;
+  margin: 0;
 }
-.HomeTemplate__Red{
-  color: red;
+.HomeTemplate{
+  display: flex;
+  width: auto;
+}
+
+
+.HomeTemplate__ParteCentral{
+  display: flex;
+  margin-top: 80px;
+  gap:  61px;
 }

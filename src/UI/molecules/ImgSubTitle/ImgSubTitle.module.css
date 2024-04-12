@@ -1,0 +1,21 @@
+.ImgSubTitle{
+    width: 90%;
+    height: 30px;
+    margin-top: .3em;
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    margin-left: 10px;
+    border-radius: 9px 0px 0px 9px ;
+    cursor: pointer;
+}
+.ImgSubTitle:hover{
+    background-color: rgb(177, 177, 177);
+}
+.ImgSubTitle__SubTitle{
+    color: #111111;
+    font-size: .8em;
+    font-family:Segoe UI Historic, Segoe UI, Helvetica, Arial, sans-serif ;
+    margin-top: .5em;
+}
+
