@@ -1,5 +1,6 @@
 import LeafMenuBar from "../../molecules/LeafMenuBar/LeafMenuBar"
 import RecomendateCard from "../../molecules/RecomendateCard/RecomendateCard"
+import HomeHeader from "../../organisms/HomeHeader/HomeHeader"
 import LeftMenu from "../../organisms/LeftMenu/LeftMenu"
 import PublicateBox from "../../organisms/PublicateBox/PublicateBox"
 import styles from "./VideoPageTemplate.module.css"
@@ -7,6 +8,7 @@ import styles from "./VideoPageTemplate.module.css"
 function VideoPageTemplate() {
   return (
     <div className={`${styles.VideoPageTemplate}`}>
+      <HomeHeader/>
       <div className={`${styles.VideoPageTemplate__Menu}`}>
     <LeftMenu/>
      </div>

@@ -1,0 +1,10 @@
+.HomeHeader {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 55px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 0 2px black;
+  gap: 63px;
+  z-index: 89;
+}
