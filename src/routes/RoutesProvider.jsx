@@ -1,6 +1,7 @@
 import { Route, Routes } from "react-router-dom"
 import Home from "../pages/Home";
 import Marketplaces from "../pages/Marketplaces";
+import VideoPage from "../pages/VideoPage";
 
 const RoutesProvider = () => {
   Routes
@@ -9,6 +10,7 @@ const RoutesProvider = () => {
       <Route path="/">
         <Route index element={<Home />} />
         <Route path="marketpalce" element={<Marketplaces />} />
+        <Route path="VideoPage" element={<VideoPage/>}/>
       </Route>
     </Routes>
   )

@@ -1,0 +1,37 @@
+.LeafMenuButtons__Buttons {
+    width: 100%;
+    justify-content:flex-start ;
+}
+
+.LeafMenuButtons__Buttons {
+    width: 350px;
+    height: 60px;
+    justify-content: start;
+}
+
+.LeafMenuButtons__Divs{
+    width: 100%;
+}
+
+.LeafMenuButtons__Buttons:hover:not(:focus) {
+    background-color: #dadada;
+}
+
+.LeafMenuButtons__Buttons:focus{
+    background-color: #dadada;
+}
+
+.LeafMenuButtons {
+    width: 400px;
+    height: 60px;
+}
+.LeafMenuButtons__Icon {
+    max-width: 80%;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.LeafMenuButtons__Pb {
+    background-color: #2875e7;
+}

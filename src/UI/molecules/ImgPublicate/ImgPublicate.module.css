@@ -4,7 +4,7 @@ display: block;
 height: 382.5px;
 overflow-x: clip;
 overflow-y: clip;
-width: 580.02px;
+width: 100%;
 }
 
 .ImgPublicate__Img {
@@ -14,7 +14,7 @@ height: 382.5px;
 max-width: 100%;
 overflow-x: clip;
 overflow-y: clip;
-width: 680px;
+width: 100%;
 border-radius: 0px;
 }
 
