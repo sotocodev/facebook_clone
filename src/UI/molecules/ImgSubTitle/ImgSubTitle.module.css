@@ -10,12 +10,13 @@
     cursor: pointer;
 }
 .ImgSubTitle:hover{
-    background-color: rgb(177, 177, 177);
+    background-color: rgb(223, 221, 221);
 }
 .ImgSubTitle__SubTitle{
     color: #111111;
     font-size: .8em;
-    font-family:Segoe UI Historic, Segoe UI, Helvetica, Arial, sans-serif ;
+    font-family: Segoe UI Historic, Segoe UI, Helvetica, Arial, sans-serif;
+    font-weight: 600;
     margin-top: .5em;
 }
 

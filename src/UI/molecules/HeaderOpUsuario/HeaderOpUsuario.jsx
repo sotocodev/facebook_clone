@@ -7,22 +7,22 @@ const HeaderOpUsuario = () => {
       <ButtonColumnRight
         customClass={styles.HeaderOpUsuario__ButtonColumnRight}
         customClassImg={styles.HeaderOpUsuario__Img}
-        path="/public/MenuHeaderOp.svg"
+        path="/MenuHeaderOp.svg"
       />
       <ButtonColumnRight
         customClass={styles.HeaderOpUsuario__ButtonColumnRight}
         customClassImg={styles.HeaderOpUsuario__Img}
-        path="/public/Messenger.svg"
+        path="/Messenger.svg"
       />
       <ButtonColumnRight
         customClass={styles.HeaderOpUsuario__ButtonColumnRight}
         customClassImg={styles.HeaderOpUsuario__Img}
-        path="/public/bullhorn.svg"
+        path="/bullhorn.svg"
       />
       <ButtonColumnRight
         customClass={styles.HeaderOpUsuario__ButtonColumnRight}
         customClassImg={styles.HeaderOpUsuario__Img}
-        path="/public/User.svg"
+        path="/User.svg"
       />
     </div>
   );

@@ -7,7 +7,7 @@ const HeaderParteCentral = () => {
     <div className={styles.HeaderParteCentral}>
       <div className={styles.HeaderParteCentral__Section}>
         <ButtomColumnRight
-          path="/public/Home.svg"
+          path="/Home.svg"
           customClass={styles.HeaderParteCentral__ButtomColumnRight}
           customClassImg={styles.HeaderParteCentral__Img}
         />
@@ -15,7 +15,7 @@ const HeaderParteCentral = () => {
       </div>
       <div className={styles.HeaderParteCentral__Section}>
         <ButtomColumnRight
-          path="/public/contactos.svg"
+          path="/contactos.svg"
           customClass={styles.HeaderParteCentral__ButtomColumnRight}
           customClassImg={styles.HeaderParteCentral__Img}
         />
@@ -23,7 +23,7 @@ const HeaderParteCentral = () => {
       </div>
       <div className={styles.HeaderParteCentral__Section}>
         <ButtomColumnRight
-          path="/public/Video.svg"
+          path="/Video.svg"
           customClass={styles.HeaderParteCentral__ButtomColumnRight}
           customClassImg={styles.HeaderParteCentral__Img}
         />
@@ -31,7 +31,7 @@ const HeaderParteCentral = () => {
       </div>
       <div className={styles.HeaderParteCentral__Section}>
         <ButtomColumnRight
-          path="/public/people.svg"
+          path="/people.svg"
           customClass={styles.HeaderParteCentral__ButtomColumnRight}
           customClassImg={styles.HeaderParteCentral__Img}
         />
@@ -39,7 +39,7 @@ const HeaderParteCentral = () => {
       </div>
       <div className={styles.HeaderParteCentral__Section}>
         <ButtomColumnRight
-          path="/public/Game.svg"
+          path="/Game.svg"
           customClass={styles.HeaderParteCentral__ButtomColumnRight}
           customClassImg={styles.HeaderParteCentral__Img}
         />

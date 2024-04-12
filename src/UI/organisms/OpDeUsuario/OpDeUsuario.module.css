@@ -5,8 +5,9 @@
 }
 
 .OpDeUsuario__SubTitle {
-  font-weight: 900;
+  font-weight: 600;
   font-size: 0.9em;
+  font-family:  UI Historic, Segoe UI, Helvetica, Arial, sans-serif;
 }
 
 .OpDeUsuario__Img {

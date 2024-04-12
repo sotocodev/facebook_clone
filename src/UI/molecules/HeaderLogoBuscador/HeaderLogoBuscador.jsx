@@ -6,13 +6,13 @@ const LogoBuscador = () => {
   return (
     <div className={styles.LogoBuscador}>
       <Img
-        path="/public/FacebookLogo.svg"
+        path="/FacebookLogo.svg"
         customClass={styles.LogoBuscador__Img}
       />
       <Input
         placeholder="Buscar en facebook"
         customClass={styles.LogoBuscador__Input}
-        iconPath="/public/lupa.svg"
+        iconPath="/lupa.svg"
         iconPathCustomClass={styles.LogoBuscador__IconPath}
         InputContainerCustomClass={
           styles.LogoBuscador__InputContainerCustomClass
