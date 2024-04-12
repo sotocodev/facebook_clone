@@ -18,25 +18,25 @@ const AcessosDirectosUser = () => {
       </div>
       <ImgSubTitle
         Text="Agar.io"
-        path="/public/Agar.io.jpeg"
+        path="/Agar.io.jpeg"
         customClassImg={styles.AcessosDirectosUser__Img}
         customClass={styles.AcessosDirectosUser__ImgSubTitle}
       />
       <ImgSubTitle
         Text="Criminal Case"
-        path="/public/Criminal-Case.jpeg"
+        path="/Criminal-Case.jpeg"
         customClassImg={styles.AcessosDirectosUser__Img}
         customClass={styles.AcessosDirectosUser__ImgSubTitle}
       />
       <ImgSubTitle
         Text="Monster Legends"
-        path="/public/monster-legends.jpeg"
+        path="/monster-legends.jpeg"
         customClassImg={styles.AcessosDirectosUser__Img}
         customClass={styles.AcessosDirectosUser__ImgSubTitle}
       />
       <ImgSubTitle
         Text="Mustants: Genetic Gladiators"
-        path="/public/Mutans-Genetic-Gradiator.jpeg"
+        path="/Mutans-Genetic-Gradiator.jpeg"
         customClassImg={styles.AcessosDirectosUser__Img}
         customClass={styles.AcessosDirectosUser__ImgSubTitle}
       />

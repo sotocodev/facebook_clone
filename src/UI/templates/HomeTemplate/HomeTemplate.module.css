@@ -4,12 +4,14 @@ body{
 }
 .HomeTemplate{
   display: flex;
-  width: auto;
 }
 
 
 .HomeTemplate__ParteCentral{
+  width: 100%;
   display: flex;
+  justify-content: center;
   margin-top: 80px;
   gap:  61px;
+  height: 100%;
 }

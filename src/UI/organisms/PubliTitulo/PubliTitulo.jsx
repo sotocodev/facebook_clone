@@ -7,8 +7,8 @@ const PubliTitulo=({customClass})=>{
 return(
 <div className={`${styles.PubliTitulo} ${customClass}`}>
     <SubTitle Text="Publicidad" customClassSubTitle={styles.PubliTitulo__SubTitle}/>
-    <Publicat Text='Domestika' textP="Domestika.org" path="public/Domestika.png"/>
-    <Publicat Text="Unete a Intch 🔥" textP='get.intch.org' path="public/Intch.png " />
+    <Publicat Text='Domestika' textP="Domestika.org" path="/Domestika.png"/>
+    <Publicat Text="Unete a Intch 🔥" textP='get.intch.org' path="/Intch.png " />
     <Line/>
 </div>
 )

@@ -12,7 +12,7 @@ const LogoBuscador = () => {
       <Input
         placeholder="Buscar en facebook"
         customClass={styles.LogoBuscador__Input}
-        iconPath="/public/lupa.svg"
+        iconPath="/lupa.svg"
         iconPathCustomClass={styles.LogoBuscador__IconPath}
         InputContainerCustomClass={
           styles.LogoBuscador__InputContainerCustomClass
