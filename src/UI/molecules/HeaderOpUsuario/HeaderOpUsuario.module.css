@@ -1,6 +1,5 @@
 .HeaderOpUsuario {
   display: flex;
-  margin-left: 100px;
   gap: 20px;
 }
 .HeaderOpUsuario__ButtonColumnRight {
