@@ -1,0 +1,60 @@
+.ProfileBanner {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+}
+
+.ProfileBanner__Img {
+    width: 100%;
+    height: 500px;
+    margin: auto;
+}
+
+.ProfileBanner__NickNameSection {
+    display: flex;
+    width: 100%;
+    height: auto;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+    align-items: end;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.ProfileBanner__Section1 {
+    height: 40px;
+    width: 70%;
+    margin: 40px;
+}
+.ProfileBanner__PublicateOptionsBar {
+    border: none;
+    width: 100%;
+    gap: 10px;
+}
+
+.ProfileBanner__Button {
+    background-color: #237df3;
+    height: 30px;
+    width: 200px;
+    
+}
+
+.ImgBanner__Span {
+    color: aliceblue;
+    font-size: 16px;
+}
+
+.ProfileBanner__Button:hover {
+    background-color: #005ed8;
+}
+
+.ProfileBanner__ButtonGlass {   
+    height: 30px;
+
+}
+
+.ProfileBanner__ButtonGlass2 {
+    width: 5px;
+    height: 30px;
+}

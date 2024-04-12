@@ -6,7 +6,7 @@ const LogoBuscador = () => {
   return (
     <div className={styles.LogoBuscador}>
       <Img
-        path="/FacebookLogo.svg"
+        pathImg="/FacebookLogo.svg"
         customClass={styles.LogoBuscador__Img}
       />
       <Input
