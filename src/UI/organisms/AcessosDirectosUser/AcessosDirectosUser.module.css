@@ -1,0 +1,55 @@
+.AcessosDirectosUser {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  height: 250px;
+}
+
+.AcessosDirectosUser__titulo {
+  display: flex;
+  gap: 110px;
+}
+
+.AcessosDirectosUser__ContainerText {
+  color: #444343;
+  font-weight: 600;
+  font-size: 0.9em;
+  font-family: Segoe UI Historic, Segoe UI, Helvetica, Arial, sans-serif;
+  margin-top: 0.5em;
+}
+
+.AcessosDirectosUser__titulo__ButtonText {
+  font-weight: 600;
+  display: none;
+  color: blue;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  font-family: Segoe UI Historic, Segoe UI, Helvetica, Arial, sans-serif;
+  height: 30px;
+  width: 45px;
+}
+.AcessosDirectosUser__titulo__ButtonText:hover {
+  background-color: rgb(240, 237, 237);
+  cursor: pointer;
+}
+
+.AcessosDirectosUser:hover .AcessosDirectosUser__titulo__ButtonText {
+  display: block;
+}
+
+.AcessosDirectosUser__Img {
+  margin-left: 10px;
+  width: 2.1em;
+  height: 2.1em;
+  border-radius: 2px;
+}
+
+.AcessosDirectosUser__ImgSubTitle {
+  width: 90%;
+  height: 2.5em;
+  cursor: pointer;
+}
+.AcessosDirectosUser__ImgSubTitle:hover {
+  background-color: #dfdfdf;
+}
