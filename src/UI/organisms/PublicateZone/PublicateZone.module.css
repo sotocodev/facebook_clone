@@ -9,12 +9,12 @@ margin: auto;
 justify-content: center;
 align-items: center;
 flex-direction: column;
-margin-top: 10px;
+margin-top: 20px;
+width: 580px;
 }
 
 .PublicateZone__Div_PublicZone {
-    width: 510px;
-    border-radius: 15px;
+    width: 580px;
     padding: 10px;
     background-color: rgb(255, 255, 255);
     box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 2px 0px;

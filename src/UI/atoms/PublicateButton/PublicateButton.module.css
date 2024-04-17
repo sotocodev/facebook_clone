@@ -21,7 +21,7 @@ width: 32px;
 justify-content: center;
 }
 .PublicateButton__DivImg {
-    max-width: 18px;
+    max-width: 20px;
 }
 .PublicateButton:hover {
     background-color: rgb(229, 231, 235);

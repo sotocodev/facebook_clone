@@ -1,0 +1,15 @@
+.PublicateBox {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    background-color: white;
+    box-shadow: rgb(37, 37, 37) 0px 1px 3px;
+}
+
+.PublicateBox__Nickname {
+    width:100%;
+}
+
+.PublicateBox__Options {
+    width: 100%;
+}

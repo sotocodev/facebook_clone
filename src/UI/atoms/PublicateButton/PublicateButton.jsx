@@ -1,11 +1,10 @@
 import styles from './PublicateButton.module.css';
-import Img from '../Img/Img';
 
-const PublicateButton = ({path, customClass}) => {
+const PublicateButton = ({path, customClass,customClassIcon,refT}) => {
   return (
-    <div className={`${styles.PublicateButton} ${customClass}`}>
+    <div ref={refT} className={`${styles.PublicateButton} ${customClass}`}>
         <div className={styles.PublicateButton__Div}>
-            <Img customClass={styles.PublicateButton__DivImg} path={path}/>
+            <img className={`${styles.PublicateButton__DivImg} ${customClassIcon}`} src={path}/>
         </div>
     </div>
   )

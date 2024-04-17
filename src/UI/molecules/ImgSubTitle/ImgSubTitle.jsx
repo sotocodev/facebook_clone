@@ -5,7 +5,7 @@ import styles from "./ImgSubTitle.module.css"
 const ImgSubTitle=({path,Text,customClass,customClassImg,customClassSubTittle,onclick})=>{
     return(
     <div className={`${styles.ImgSubTitle} ${customClass} `} onClick={onclick}> 
-    <Img  customClass={customClassImg} path={path}/>
+    <Img  customClass={customClassImg} pathImg={path}/>
     <SubTitle customClassSubTitle={`${styles.ImgSubTitle__SubTitle} ${customClassSubTittle}`} Text={Text} />
     </div>
     )
