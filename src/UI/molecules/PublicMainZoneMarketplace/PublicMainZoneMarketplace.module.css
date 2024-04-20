@@ -1,32 +1,32 @@
-.Main{
-	display: flex;
-	margin-left: 400px;
-	position: absolute;
+.Main {
+  display: flex;
+  margin-left: 400px;
+  position: absolute;
 }
-.Main__Title{
-	color: black;
-	font-size: 20px;
-	margin-top: 20.3px;
-	font-weight: bold;
+.Main__Title {
+  color: black;
+  font-size: 20px;
+  margin-top: 20.3px;
+  font-weight: bold;
 }
-.Main__Link{
-	color: rgb(8, 102, 255, 1.0);
-	text-decoration: none;
-	margin-top: 29.3px;
+.Main__Link {
+  color: rgb(8, 102, 255, 1);
+  text-decoration: none;
+  margin-top: 29.3px;
 }
-.Main__Location{
-	width: 17px;
-	margin-top: 7px;
-	margin-left: 180px;
+.Main__Location {
+  width: 17px;
+  margin-top: 7px;
+  margin-left: 180px;
 }
 
 @media screen and (max-width: 700px) {
-    .Main {
-        margin-left: 0; 
-        left: 50%;         
-        transform: translateX(-50%); 
-    }
-    .Main__Location {
-        margin-left: 0;
-    }
+  .Main {
+    margin-left: 0;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .Main__Location {
+    margin-left: 0;
+  }
 }

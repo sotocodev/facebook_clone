@@ -4,11 +4,11 @@
   padding: 5px;
   position: absolute;
   margin-left: -6px;
-  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1); 
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 @media screen and (max-width: 700px) {
   .ContainerUniversal {
-    display: none; 
+    display: none;
   }
 }
