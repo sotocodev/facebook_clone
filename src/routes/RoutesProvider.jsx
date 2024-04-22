@@ -1,6 +1,5 @@
 import { Route, Routes } from "react-router-dom"
 import Home from "../pages/Home";
-import MarketplacesPage from "../pages/MarketPlacesPage";
 import MarketPlacePage from "../pages/MarketPlacePage";
 
 const RoutesProvider = () => {
