@@ -3,7 +3,6 @@ import Img from '../../atoms/Img/Img'
 import Input from '../../atoms/Input/Input'
 import styles from "./PublicationBar.module.css"
 
-
 function PublicationBar({ customClass }) {
   return (
     <div className={`${styles.PublicationBar} ${customClass}`}>
@@ -17,7 +16,6 @@ function PublicationBar({ customClass }) {
         <ButtonTo text="Foto" path="/photo.png" />
         <ButtonTo text="Sentimientos/actividad" path="/Smile.png" />
       </div>
-
     </div>
   )
 }

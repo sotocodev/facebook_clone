@@ -1,0 +1,32 @@
+.DerechosReservados {
+  display: flex;
+  width: 97%;
+  flex-wrap: wrap;
+}
+
+.DerechosReservados__Paragraph {
+  margin-block-start: 0;
+  margin-block-end: 0;
+  color: rgb(153, 147, 147);
+}
+.DerechosReservados__ParagraphOn {
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-right: 2px;
+  color: rgb(153, 147, 147);
+  height: 20px;
+  font-family:  UI Historic, Segoe UI, Helvetica, Arial, sans-serif;
+}
+
+.DerechosReservados__ParagraphOn:hover {
+  text-decoration-line: underline;
+  cursor: pointer;
+}
+
+.DerechosReservados__ParagraphOff {
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-right: 2px;
+  color: rgb(153, 147, 147);
+  font-size: 1.2em;
+}
