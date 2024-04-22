@@ -3,7 +3,6 @@
     flex-direction: column;
     width: fit-content;
     background-color: white;
-    box-shadow: rgb(37, 37, 37) 0px 1px 3px;
 }
 
 .PublicateBox__Nickname {
