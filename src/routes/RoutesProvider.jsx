@@ -8,7 +8,6 @@ const RoutesProvider = () => {
     <Routes>
       <Route path="/">
         <Route index element={<Home />} />
-        <Route path="mainplace" element={<MarketplacesPage />} />
         <Route path="marketplace" element={<MarketPlacePage />}/>
       </Route>
     </Routes>
