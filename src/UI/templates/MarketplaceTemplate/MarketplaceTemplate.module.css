@@ -1,0 +1,13 @@
+* {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+body {
+  background: rgb(240, 242, 245, 1);
+  overflow-y: hidden;
+}
+div {
+  overflow-y: auto;
+  overflow-x: hidden;
+  max-height: 100%;
+  max-width: 100%;
+}
