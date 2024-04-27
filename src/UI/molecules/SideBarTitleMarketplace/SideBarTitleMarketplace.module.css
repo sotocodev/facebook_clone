@@ -1,17 +1,23 @@
+:root{
+  --input-background: #F0F2F5;;
+  --text: #65676B;
+  --gear: #E4E6EB;
+}
+
 .Container {
   display: inline;
   padding: 0px;
 }
 .Container__Title {
-  font-size: 23px;
+  font-size: 25px;
+  font-weight: bold;
   color: black;
   margin-left: 10px;
-  font-weight: bolder;
 }
 
 .Container__Input {
-  background: rgb(240, 242, 245, 1);
-  color: rgb(101, 103, 107, 1);
+  background: var(--input-background);
+  color: var(--text);
   border: none;
   width: 300px;
   height: 35px;
@@ -30,12 +36,12 @@
   margin-left: 10px;
 }
 .Container__Gear {
-  background: rgb(228, 230, 235, 1);
+  background: var(--gear);
   margin-left: 285px;
   border-radius: 30px;
   padding: 9px;
   width: 19.8px;
   height: 19.8px;
   position: absolute;
-  margin-top: -4px;
+  margin-top: 5px;
 }

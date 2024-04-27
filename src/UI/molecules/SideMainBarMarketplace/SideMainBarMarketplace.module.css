@@ -1,13 +1,26 @@
+:root{
+  --logo-background: #E4E6EB;
+  --publication-background: #EBF5FF;
+  --publication-link: #0064D1;
+  --category-hover: #F2F2F2;
+}
+
 .Box {
   display: flex;
+  flex-direction: row;
   margin-bottom: -10px;
 }
+.Box:hover{
+  cursor: pointer;
+  background: var(--category-hover);
+}
 .Box__Logo {
-  background: rgb(228, 230, 235, 1);
+  background: var(--logo-background);
   padding: 5px;
   border-radius: 100px;
   width: 21.6px;
   height: 21.6px;
+  margin-left: 6px;
   margin-top: 10px;
 }
 .Box__Text {
@@ -16,7 +29,7 @@
   font-size: 16px;
 }
 .Publication {
-  background: rgb(235, 245, 255, 1);
+  background: var(--publication-background);
   margin-top: 10px;
   width: 300px;
   text-align: center;
@@ -24,7 +37,7 @@
   border-radius: 5px;
 }
 .Publication__Link {
-  color: rgb(0, 100, 209, 1);
+  color: var(--publication-link);
   font-size: 17px;
   font-weight: bold;
   text-decoration: none;

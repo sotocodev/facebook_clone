@@ -12,7 +12,7 @@ const SideCategoryBarMarketplace = () => {
           .map(({ id, categorylogo, categoryprompt }) => {
             return (
               <div className={styles.Category} key={id}>
-                <Img path={categorylogo} customClass={styles.Category__Icon} />
+                <Img pathImg={categorylogo} customClass={styles.Category__Icon} />
                 <Paragraph
                   customClass={styles.Category__Text}
                   text={categoryprompt}

@@ -13,7 +13,7 @@ const PublicZoneCards = () => {
           .map(({ id, title, subtitle, paragraph, img }) => {
             return (
               <div key={id}>
-                <Img customClass={styles.Card__Img} path={img} />
+                <Img customClass={styles.Card__Img} pathImg={img} />
                 <Heading customClass={styles.Card__Title} text={subtitle} />
                 <Heading
                   customClass={`${styles.Card__Title} ${styles.Subtitle}`}

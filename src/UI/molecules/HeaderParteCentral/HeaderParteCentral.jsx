@@ -23,7 +23,7 @@ const HeaderParteCentral = () => {
       </div>
       <div className={styles.HeaderParteCentral__Section}>
         <ButtomColumnRight
-          path="/Video.svg"
+          path="/video.svg"
           customClass={styles.HeaderParteCentral__ButtomColumnRight}
           customClassImg={styles.HeaderParteCentral__Img}
         />
