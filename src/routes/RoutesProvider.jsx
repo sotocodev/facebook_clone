@@ -10,7 +10,7 @@ const RoutesProvider = () => {
     <Routes>
       <Route path="/">
         <Route index element={<Home />}/>
-        <Route path="marketplaces" element={<Marketplaces />} />
+        <Route path="marketplace" element={<MarketPlacePage />} />
         <Route path="VideoPage" element={<VideoPage />} />
       </Route>
     </Routes>
