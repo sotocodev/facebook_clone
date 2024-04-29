@@ -31,19 +31,19 @@ const HeaderParteCentral = () => {
       </div>
       <div className={styles.HeaderParteCentral__Section}>
         <ButtomColumnRight
+          path="/HomeHeaderMarketplace.svg"
+          customClass={styles.HeaderParteCentral__ButtomColumnRight}
+          customClassImg={styles.HeaderParteCentral__Img}
+        />
+        <Paragraph text="Marketplace" customClass={styles.Section__Name} />
+      </div>
+      <div className={styles.HeaderParteCentral__Section}>
+        <ButtomColumnRight
           path="/people.svg"
           customClass={styles.HeaderParteCentral__ButtomColumnRight}
           customClassImg={styles.HeaderParteCentral__Img}
         />
         <Paragraph text="Grupos" customClass={styles.Section__Name} />
-      </div>
-      <div className={styles.HeaderParteCentral__Section}>
-        <ButtomColumnRight
-          path="/Game.svg"
-          customClass={styles.HeaderParteCentral__ButtomColumnRight}
-          customClassImg={styles.HeaderParteCentral__Img}
-        />
-        <Paragraph text="Videojuego" customClass={styles.Section__Name} />
       </div>
     </div>
   );
