@@ -13,7 +13,7 @@ const SideMainBarMarketplace = () => {
           .map(({ id, logo, prompt }) => {
             return (
               <div className={styles.Box} key={id}>
-                <Img customClass={styles.Box__Logo} path={logo} />
+                <Img customClass={styles.Box__Logo} pathImg={logo} />
                 <Paragraph customClass={styles.Box__Text} text={prompt} />
               </div>
             );

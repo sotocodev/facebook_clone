@@ -1,9 +1,20 @@
+:root{
+  --category-icon-background: #E4E6EB;
+  --category-hover: #F2F2F2;
+}
+
 .Category {
   display: flex;
+  flex-direction: row;
   margin-bottom: -10px;
+  margin-left: 6px;
+}
+.Category:hover{
+  cursor: pointer;
+  background: var(--category-hover);
 }
 .Category__Icon {
-  background: rgb(228, 230, 235, 1);
+  background: var(--category-icon-background);
   padding: 5px;
   border-radius: 100px;
   width: 21.6px;

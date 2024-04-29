@@ -7,7 +7,7 @@ const PublicMainZoneMarketplace = () => {
   return (
     <div className={styles.Main}>
       <Heading customClass={styles.Main__Title} text="Sugerencias de hoy" />
-      <Img customClass={styles.Main__Location} path="/Location.svg" />
+      <Img customClass={styles.Main__Location} pathImg="/Location.svg" />
       <LinkTo
         customClass={styles.Main__Link}
         text="Juan Germán Roscio . 10km"

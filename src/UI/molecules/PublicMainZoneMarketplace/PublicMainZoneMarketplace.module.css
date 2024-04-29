@@ -10,14 +10,17 @@
   font-weight: bold;
 }
 .Main__Link {
-  color: rgb(8, 102, 255, 1);
-  text-decoration: none;
+  color: #0866FF;
   margin-top: 29.3px;
+  text-decoration: none;
 }
 .Main__Location {
   width: 17px;
   margin-top: 7px;
   margin-left: 180px;
+}
+.Main__Link, .Main__Link:hover{
+  cursor: hover;
 }
 
 @media screen and (max-width: 700px) {
