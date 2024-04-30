@@ -4,6 +4,8 @@
     width: 700px;
     padding-top: 20px ;
     overflow:hidden;
+    position: relative;
+    top: 100px;
 }
 
 .VideoPageTemplate {
