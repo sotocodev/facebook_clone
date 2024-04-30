@@ -1,0 +1,185 @@
+[
+	{
+		"id": 1,
+		"prompt": "Explorar todo",
+		"logo": "/Marketplace.svg"
+	},
+	{
+		"id": 2,
+		"prompt": "Notificaciones",
+		"logo": "/Notifications.svg"
+	},
+	{
+		"id": 3,
+		"prompt": "Bandeja de entrada",
+		"logo": "/Inbox.svg"
+	},
+	{
+		"id": 4,
+		"prompt": "Compra",
+		"logo": "/Bag.svg"
+	},
+	{
+		"id": 5,
+		"prompt": "Venta",
+		"logo": "/Sale.svg"
+	},
+	{
+		"id": 6,
+		"categoryprompt": "Vehículos",
+		"categorylogo": "/Vehicle.svg"
+	},
+	{
+		"id": 7,
+		"categoryprompt": "Alquiler de propiedades",
+		"categorylogo": "/HouseRent.svg"
+	},
+	{
+		"id": 8,
+		"categoryprompt": "Artículos deportivos",
+		"categorylogo": "/Running.svg"
+	},
+	{
+		"id": 9,
+		"categoryprompt": "Artículos gratuitos",
+		"categorylogo": "/FreeTicket.svg"
+	},
+	{
+		"id": 10,
+		"categoryprompt": "Artículos para el hogar",
+		"categorylogo": "/House.svg"
+	},
+	{
+		"id": 11,
+		"categoryprompt": "Clasificados",
+		"categorylogo": "/Sale.svg"
+	},
+	{
+		"id": 12,
+		"categoryprompt": "Electrónica",
+		"categorylogo": "/Phone.svg"
+	},
+	{
+		"id": 13,
+		"categoryprompt": "Entretenimento",
+		"categorylogo": "/Entertainment.svg"
+	},
+	{
+		"id": 14,
+		"categoryprompt": "Familia",
+		"categorylogo": "/Heart.svg"
+	},
+	{
+		"id": 15,
+		"categoryprompt": "Indumentaria",
+		"categorylogo": "/Shirt.svg"
+	},
+	{
+		"id": 16,
+		"categoryprompt": "Instrumentos musicales",
+		"categorylogo": "/MusicGuitar.svg"
+	},
+	{
+		"id": 17,
+		"categoryprompt": "Jardín y aire libre",
+		"categorylogo": "/Shovel.svg"
+	},
+	{
+		"id": 18,
+		"categoryprompt": "Juguetes y juegos",
+		"categorylogo": "/GameControl.svg"
+	},
+	{
+		"id": 19,
+		"categoryprompt": "Materiales para reformas en el hogar",
+		"categorylogo": "/Wrench.svg"
+	},
+	{
+		"id": 20,
+		"categoryprompt": "Pasatiempos",
+		"categorylogo": "/Pencil.svg"
+	},
+	{
+		"id": 21,
+		"categoryprompt": "Productos para mascotas",
+		"categorylogo": "/DogPaw.svg"
+	},
+	{
+		"id": 22,
+		"categoryprompt": "Suministros de oficina",
+		"categorylogo": "/Sale.svg"
+	},
+	{
+		"id": "23",
+		"categoryprompt": "Viviendas en venta",
+		"categorylogo": "./HouseRent.svg"
+	},
+	{
+		"id": 24,
+		"categoryprompt": "Grupos de compraventa",
+		"categorylogo": "/PeopleGroup.svg"
+	},
+	{
+		"id": 25,
+		"title": "Máquina de coser SINGER HD 110 ",
+		"subtitle": "$65",
+		"paragraph": "Juan Germán Roscio, GU",
+		"img": "/Machine.jpg"
+	},
+	{
+		"id": "26",
+		"title": "Licuadora y gavetero (con detalles)",
+		"subtitle": "GRATIS",
+		"paragraph": "Juan Germán Roscio, GU",
+		"img": "/Blender.jpg"
+	},
+	{
+		"id": "27",
+		"title": "Cachapas con queso! el delivery es gratis",
+		"subtitle": "$5",
+		"paragraph": "Juan Germán Roscio, GU",
+		"img": "/Cachapas.jpg"
+	},
+	{
+		"id": "28",
+		"title": "Un cuatro usado pero totalmente bueno",
+		"subtitle": "$40",
+		"paragraph": "Juan Germán Roscio, GU",
+		"img": "/Cuatro.jpg"
+	},
+	{
+		"id": "29",
+		"title": "Residencia para estudiantes femeninas",
+		"subtitle": "$30",
+		"paragraph": "Juan Germán Roscio, GU",
+		"img": "/Residencia.jpg"
+	},
+	{
+		"id": "30",
+		"title": "Plancha de ropa 100% usable",
+		"subtitle": "$20",
+		"paragraph": "Juan Germán Roscio, GU",
+		"img": "/Plancha.jpg"
+	},
+	{
+		"id": "31",
+		"title": "Bicicleta de semicarrera",
+		"subtitle": "$120",
+		"paragraph": "Juan Germán Roscio, GU",
+		"img": "/Bicicleta.jpg"
+	},
+	{
+		"id": "32",
+		"title": "Redmi 9a con detalles en el tactil",
+		"subtitle": "$120",
+		"paragraph": "Juan Germán Roscio, GU",
+		"img": "/Telefono.jpg"
+	},
+	{
+		"id": "33",
+		"title": "Litera para armar totalmente nueva",
+		"subtitle": "$100",
+		"paragraph": "Juan Germán Roscio, GU",
+		"img": "/Litera.jpg"
+	}
+]
