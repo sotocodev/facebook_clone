@@ -10,18 +10,22 @@
   background-color: white;
   cursor: pointer;
   border: none;
+  border-radius: 5px 5px 0px 0px;
 }
 .HeaderParteCentral__ButtomColumnRight:hover {
-  background-color: rgb(202, 202, 202);
+  background-color: rgb(235, 235, 235);
 }
-
-.HeaderParteCentral__ButtomColumnRight:focus {
-  border-bottom: solid 2px #0866ff;
+.HeaderParteCentral__ButtomColumnRight:focus{
+  border-bottom: 2px solid rgb(22, 71, 230);
 }
 
 .HeaderParteCentral__Img {
-  width: 2.6em;
+  width: 1.8em;
 }
+.HeaderParteCentral__ButtomColumnRight:focus> .HeaderParteCentral__Img{
+  filter: invert(23%) sepia(95%) saturate(4013%) hue-rotate(214deg) brightness(92%) contrast(95%);
+}
+
 
 .HeaderParteCentral__Section {
   display: flex;
@@ -48,3 +52,5 @@
 .HeaderParteCentral__Section:hover > .Section__Name {
   display: block;
 }
+
+
