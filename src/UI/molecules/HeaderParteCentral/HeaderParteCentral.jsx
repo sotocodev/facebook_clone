@@ -3,11 +3,12 @@ import Paragraph from "../../atoms/Paragraph/Paragraph";
 import ButtomColumnRight from "../../atoms/ButtonColumnRight/ButtonColumnRight";
 import styles from "./HeaderParteCentral.module.css";
 
+
 const HeaderParteCentral = () => {
   return (
     <div className={styles.HeaderParteCentral}>
       <div className={styles.HeaderParteCentral__Section}>
-        <NavLink to="/">
+        <NavLink  to="/" className={({isActive}) =>(isActive ? styles.active:styles.inactive )}>
           <ButtomColumnRight
           path="/Home.svg"
           customClass={styles.HeaderParteCentral__ButtomColumnRight}
@@ -17,7 +18,7 @@ const HeaderParteCentral = () => {
         <Paragraph text="Inicio" customClass={styles.Section__Name} />
       </div>
       <div className={styles.HeaderParteCentral__Section}>
-        <NavLink to="/videopage">
+        <NavLink to="/videopage" className={({isActive}) =>(isActive ? styles.active:styles.inactive )}>
           <ButtomColumnRight
           path="/video.svg"
           customClass={styles.HeaderParteCentral__ButtomColumnRight}
@@ -27,7 +28,7 @@ const HeaderParteCentral = () => {
         <Paragraph text="Video" customClass={styles.Section__Name} />
       </div>
       <div className={styles.HeaderParteCentral__Section}>
-        <NavLink to="/marketplace">
+        <NavLink to="/marketplace" className={({isActive}) =>(isActive ? styles.active:styles.inactive )}>
           <ButtomColumnRight
           path="/HomeHeaderMarketplace.svg"
           customClass={styles.HeaderParteCentral__ButtomColumnRight}
