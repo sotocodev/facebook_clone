@@ -4,10 +4,11 @@
 }
 
 .LogoBuscador__Img {
-  width: 2.7em;
+  width: 2.5em;
   margin-left: 0.8em;
   cursor: pointer;
 }
+
 .LogoBuscador__Input {
   padding-left: 10px;
   width: 16em;
