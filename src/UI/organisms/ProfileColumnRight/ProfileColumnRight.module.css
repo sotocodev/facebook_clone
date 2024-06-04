@@ -1,0 +1,29 @@
+.fullwidth{
+    max-width: 600px;
+    min-width: 280;
+    width: 100%;
+    /* background-color: red; */
+}
+.fullwidth_bar{
+    width: 95%;
+    margin-bottom: 10px;
+}
+
+.fullwidth_bar input{
+    min-width: 200px;
+    max-width: 450px;
+    width: 100%;
+}
+
+.fullwidth_bar .PublicationBar__DivButtons{
+    max-width: 200px;
+    min-width: 200px;
+    width: 100%;
+}
+
+.responsiveBox{
+    min-width: 200px;
+    max-width: 600px;
+    border-radius: 10px;
+    width: 100%;
+}

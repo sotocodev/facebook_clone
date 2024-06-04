@@ -1,4 +1,5 @@
 .PublicateBox {
+
     display: flex;
     flex-direction: column;
     width: fit-content;
@@ -10,5 +11,10 @@
 }
 
 .PublicateBox__Options {
+    width: 100%;
+}
+.ImgPublicate__Img{
+    max-width: 500px;
+    min-width: 20px;
     width: 100%;
 }

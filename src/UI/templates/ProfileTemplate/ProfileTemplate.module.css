@@ -1,3 +1,33 @@
-.ProfileTemplate {
-    background-color: #f0f2f5;
+.ProfileTemplate{
+    font-family: " UI Historic", "Segoe UI", Helvetica, Arial, sans-serif;
+
 }
+.ProfieSection{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.ProfieContentainer{
+    max-width: 1115px;
+    width: 100%;
+    /* background-color: red; */
+    /* gap:10px; */
+    font-family: " UI Historic", "Segoe UI", Helvetica, Arial, sans-serif;
+
+    display: flex;
+    justify-content: space-around;
+
+}
+
+
+
+@media (max-width: 1200px) {
+
+    .ProfieContentainer{
+display: flex;
+flex-direction: column;
+align-items: center;
+    }
+}
+
+

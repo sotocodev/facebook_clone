@@ -1,5 +1,137 @@
+:root {
+    --web-wash: #f0f1f2;
+}
+
+.ImgBanner__imgContainer{
+  max-width: 1250px;
+  width: 100%;
+
+}
 
 
+.ImgBanner_element{
+  max-width: 100%;
+
+  max-height: 30px ;
+  position: relative;
+
+}
+
+.ImgBanner__imgElement {
+  position: relative;
+    width: 100%;
+
+    max-height: 520px;
+    border-radius: 10px !important;
+
+
+}
+
+
+
+.ImgBanner__buttonContainer {
+  max-width: 1250px;
+  min-width: 320px;
+  
+  width: 100%;
+  max-height:100% ;
+  height: 100%;
+
+  top: -80px;
+  position: absolute;
+
+
+}
+
+.ImgBanner__button_camera{
+    width: 30px;
+}
+
+.ImgBanner__user_icon img {
+    width: 20px;
+
+}
+
+
+.ImgBanner__button {
+    position: inherit;
+    
+    top: 80%;
+    right: 30px;
+    width: 200px;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+
+    border-radius: 10px;
+    background-color: rgb(181, 181, 181);
+}
+
+.basicUserData {
+    color: rgb(178, 179, 179);
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 700px) {
+    .ImgBanner__userSection {
+        display: block;
+        justify-content: center;
+
+    }
+}
+
+/* 
+@media (max-width: 1200px) {
+    .ImgBanner__buttonContainer {
+      height: 90%;
+    }
+  }
+  
+  @media (max-width: 1000px) {
+    .ImgBanner__buttonContainer {
+      height: 70%;
+    }
+  }
+  
+  @media (max-width: 900px) {
+    .ImgBanner__buttonContainer {
+      height: 60%;
+    }
+  }
+  
+  @media (max-width: 800px) {
+    .ImgBanner__buttonContainer {
+      height: 50%;
+    }
+  }
+  
+  @media (max-width: 700px) {
+    .ImgBanner__buttonContainer {
+      height: 40%;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .ImgBanner__buttonContainer {
+      height: 30%;
+    }
+  }
+  
+  @media (max-width: 500px) {
+    .ImgBanner__buttonContainer {
+      height: 20%;
+    }
+  } */
+
+/* 
 .ImgBanner__SecctionBanner {
     width: fit-content;
     display: flex;
@@ -62,4 +194,4 @@
     width: 100px;
     height: 40px;
 
-}
+} */
