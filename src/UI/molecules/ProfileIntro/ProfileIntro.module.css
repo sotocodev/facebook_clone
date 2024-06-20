@@ -14,14 +14,15 @@
     justify-content: space-around;
     margin-bottom: 10px;
 }
-.intro__title{
+
+.intro__title {
 
     padding: 0px;
     margin: 0px;
 }
 
 .intro__button {
-    
+
     background-color: #F0F2F5;
     border-radius: 5px;
     border: none;
@@ -32,9 +33,9 @@
 }
 
 .intro__contact {
-   
+
     display: flex;
-margin-left: 10px;
+    margin-left: 10px;
     flex-direction: column;
 
 
