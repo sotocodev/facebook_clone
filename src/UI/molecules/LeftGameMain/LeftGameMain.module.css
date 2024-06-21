@@ -1,0 +1,155 @@
+.LeftGameMain{
+    background-color: white;
+    width: 100%;
+   
+    height: 100%;
+    scroll-behavior: smooth;
+    overflow-y: auto;
+    overflow-x: hidden;
+    scrollbar-width: 10px;
+    display: flex;
+    flex-direction: column;
+
+    font-family: Segoe UI Historic, Segoe UI, Helvetica, Arial, sans-serif;
+}
+.LeftGameMain__Div_PrimeraFila{
+    
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.PrimeraFila__Titulo{
+    margin-left: 5px;
+    font-family: Helvetica, Arial, sans-serif;;
+    font-weight: bolder;
+}
+.PimeraFila__Container_Img{
+    background-color: rgb(231, 233, 232);
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    height: 40px;
+    width: 40px;
+}
+.PimeraFila__Container_Img:hover{
+    background-color: rgb(224, 222, 222);
+}
+.LeftGameMain__PrimeraFila_Img{
+    margin-top: 6px;
+    margin-left: 15px;
+   height: 50px;
+   width: 50px;
+}
+
+.LeftGameMain__Div_SegundaFila{
+    height: 50px;
+    width: 100%;
+    margin-top: 10px;
+   
+}
+.SegundaFila__Input_Container{
+    background-color: rgb(241, 246, 243);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 50px;
+    height: 40px;
+    width: 97%;
+    margin-bottom: 12px;
+    margin-left: 8px;
+}
+.SegundaFila__Img_Lupa{
+    background-color: rgb(241, 246, 243);
+    border-radius: 50px;
+    margin-left: 5px;
+    height: 20px;
+    width: 20px;
+}
+.SegundaFila__Input{
+    height: 30px;
+    width: 94%;
+    background-color: rgb(241, 246, 243);
+    border: none;
+    border-radius: 50px;
+    outline: none;
+}
+.SegundaFila__Div{
+    margin-left: 5px;
+    background-color: white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 5px;
+    cursor: pointer;
+    height:50px;
+    width: 96%;
+}
+.SegundaFila__Div:hover{
+    background-color: rgb(242, 239, 239);
+}
+.SegundaFila__Img{
+    /*transform: rotate(45deg);*/
+    width: 22px;
+    height: 22px;
+    
+  
+}
+
+.SegundaFila__Text{
+    margin-top: 20px;
+    margin-left: 8px;
+    font-weight: 500;
+}
+
+.SegundaFila__Div_Img{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(225, 227, 226);
+    margin-left: 5px;
+    height: 40px;
+    width: 40px;
+    border-radius: 100px;
+}
+.Separador{
+    margin-left: 8px;
+    width: 92%;
+    margin-top: 15px;
+    
+}
+
+.LeftGameMain__Div_TerceraFila{
+    margin-top: 8px;
+    height: 40px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.TerceraFila__Titulo{
+    font-size: 18px;
+    margin-left: 8px;
+}
+.TerceraFila__Enlace{
+    font-size: 13px;
+    margin-right: 18px;
+}
+.TerceraFila__Text{
+   font-size: 14px;
+    margin-left: 8px;
+    
+}
+
+.TerceraFila__Enlace:hover{
+    background-color: rgb(199, 197, 197);
+    
+}
+.CuartaFila__Div{
+    width: 100%;
+}
