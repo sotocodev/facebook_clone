@@ -1,0 +1,31 @@
+.postContainer{
+    background-color: white;
+    border-radius: 10px;
+    max-width: 620px;
+    height: 90px;
+    margin-bottom: 10px;
+    padding-left:10px ;
+    padding-right: 10px;
+}
+.postContainer h2{
+    margin: 0px;
+}
+.postContainer p{
+    margin: 0px;
+}
+.profileOptions_button{
+    background-color: #D8DADF;
+    font-weight:700;
+    font-size: medium;
+    border-radius: 5px;
+    border: 0px;
+    margin: 5px;
+    width: 126px;
+    height: 36px;
+
+}
+.optionsContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

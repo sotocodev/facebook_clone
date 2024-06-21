@@ -178,7 +178,10 @@
     width: 50%;
 }
 
-
+.section__name{
+    font-weight: bold;
+    color: gray;
+}
   @media (max-width: 1100px) {
 
     .ImgBanner__user_icon {

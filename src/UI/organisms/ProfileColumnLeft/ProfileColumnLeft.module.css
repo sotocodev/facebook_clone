@@ -1,5 +1,12 @@
 .ProfileContent_rightSide{
-    max-width: 520px;
+    max-width: 450px;
     min-width: 280px;
     width: 100%;
+}
+
+@media (max-width: 11520px) {
+    .ProfileContent_rightSide{
+        max-width: 600px;
+    width: 100%;
+    }
 }

@@ -28,7 +28,6 @@
 }
 
 
-
 .ImgBanner__buttonContainer {
   max-width: 1250px;
   min-width: 320px;
@@ -85,6 +84,14 @@
         display: block;
         justify-content: center;
 
+    }
+
+    .ImgBanner__button{
+      width: 50px;
+      
+    }
+    .ImgBanner__button p{
+      display: none;
     }
 }
 
