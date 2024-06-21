@@ -13,9 +13,9 @@ const Paragraph = ({text,iconPath, customClass, ParagraphContainerCustomClass, i
           <p className={customClass}>{text}</p>
         </div>
       ):
-    
+  ) : (
     <p className={`${styles.Paragraph} ${customClass}`}>{text}</p>
-  )
+)
 }
 
 export default Paragraph;

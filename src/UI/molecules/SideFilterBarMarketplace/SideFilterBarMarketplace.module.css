@@ -1,0 +1,25 @@
+:root{
+  --border-color: #CED0D4;
+  --filters-link: #0064D1;
+}
+
+.Filters {
+  display: flex;
+  flex-direction: column;
+  border-top: 1px solid var(--border-color);
+  border-bottom: 1px solid var(--border-color);
+  margin-top: 8px;
+  padding-bottom: 10px;
+  width: 300px;
+}
+.Filters__Heading {
+  margin-left: 0.3rem;
+  color: black;
+  font-size: 18px;
+}
+.Filters__Link {
+  margin-left: 0.3rem;
+  color: var(--filters-link);
+  text-decoration: none;
+  font-weight: bold;
+}

@@ -1,0 +1,10 @@
+.LeftMenu {
+    display: flex;
+    position: absolute;
+    z-index: 2;
+    flex-direction: column;
+    width: fit-content;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgb(37, 37, 37) 0px 1px 3px;
+}

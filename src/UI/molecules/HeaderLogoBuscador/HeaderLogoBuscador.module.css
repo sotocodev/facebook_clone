@@ -1,0 +1,31 @@
+.LogoBuscador {
+  display: flex;
+  gap: 10px;
+}
+
+.LogoBuscador__Img {
+  width: 2.5em;
+  margin-left: 0.8em;
+  cursor: pointer;
+}
+
+.LogoBuscador__Input {
+  padding-left: 10px;
+  width: 16em;
+  height: 2.6em;
+  border: none;
+  border-radius: 0 2em 2em 0;
+  background-color: rgb(218, 225, 226);
+}
+
+.LogoBuscador__InputContainerCustomClass {
+  display: flex;
+  align-items: center;
+}
+.LogoBuscador__IconPath {
+  padding-left: 10px ;
+  width: 1em;
+  height: 2.3em;
+  border-radius: 2em 0 0 2em;
+  background-color: rgb(218, 225, 226);
+}

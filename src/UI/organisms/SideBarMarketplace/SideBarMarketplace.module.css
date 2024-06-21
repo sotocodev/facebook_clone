@@ -1,0 +1,20 @@
+.ContainerUniversal {
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  transition: 0.5s ease;
+  position: fixed;
+  overflow: hidden auto;
+  height: 100%;
+  width: 355px;
+  margin-top: 55px;
+  margin-left: 0.2rem;
+  border-radius: 10px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+@media screen and (max-width: 700px) {
+  .ContainerUniversal {
+    display: none;
+  }
+}
