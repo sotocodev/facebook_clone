@@ -86,17 +86,17 @@
 .ImgBanner__user_icon {
     position: absolute;
     background-color: var(--web-wash);
-    width: 40px;
+    width: 50px;
     display: flex;
     justify-content: center;
-    height: 40px;
+    height: 50px;
     border-radius: 50%;
-    transform: translate(185px,20px);
+    transform: translate(165px,70px);
 
 }
 
 .ImgBanner__user_icon img {
-    width: 20px;
+    width: 28px;
 
 }
 

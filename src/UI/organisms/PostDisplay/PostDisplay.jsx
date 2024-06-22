@@ -24,11 +24,11 @@ function PostDisplay({ customClass }) {
 
       <div className={`${styles.optionsContainer}`}>
 
-        <div>
+        <div  className={`${styles.listView}`}>
           <p>List view</p>
         </div>
 
-        <div>
+        <div  className={`${styles.gridView}`}>
           <p>Grid view</p>
         </div>
         

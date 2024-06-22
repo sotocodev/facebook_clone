@@ -43,7 +43,12 @@
 }
 
 .ImgBanner__button_camera{
-    width: 30px;
+    width: 21px;
+}
+.ImgBanner__button p{
+  margin-right: 20px;
+  font-weight: bold;
+  padding: 0px;
 }
 
 .ImgBanner__user_icon img {
@@ -51,21 +56,20 @@
 
 }
 
-
 .ImgBanner__button {
     position: inherit;
     
     top: 80%;
     right: 30px;
     width: 200px;
-    height: 50px;
+    height: 45px;
     display: flex;
     justify-content: space-around;
     align-items: center;
 
 
     border-radius: 10px;
-    background-color: rgb(181, 181, 181);
+    background-color: var(--web-wash);
 }
 
 .basicUserData {
@@ -87,7 +91,7 @@
     }
 
     .ImgBanner__button{
-      width: 50px;
+      width: 40px;
       
     }
     .ImgBanner__button p{
