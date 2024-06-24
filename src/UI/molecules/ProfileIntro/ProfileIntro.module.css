@@ -24,6 +24,8 @@
 .intro__button {
 
     background-color: #F0F2F5;
+    font-size: 1.3em;
+    font-weight:500;
     border-radius: 5px;
     border: none;
     min-width: 80px;
@@ -33,7 +35,9 @@
 }
 
 .intro__contact {
-
+    color: gray;
+    font-size: 1.3em;
+    gap: 10px;
     display: flex;
     margin-left: 10px;
     flex-direction: column;

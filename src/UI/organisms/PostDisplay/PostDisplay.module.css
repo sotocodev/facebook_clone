@@ -2,7 +2,6 @@
     background-color: white;
     border-radius: 10px;
     max-width: 620px;
-    height: 90px;
     margin-bottom: 10px;
     padding-left:10px ;
     padding-right: 10px;
@@ -33,6 +32,12 @@
     width: 50%;
     display: flex;
     justify-content: center;
+    border-bottom: 3px solid rgb(45, 80, 236);
+}
+
+.listView img, .gridView img{
+    width: 15px;
+    margin-right:5px ;
 }
 .gridView{
     width: 50%;

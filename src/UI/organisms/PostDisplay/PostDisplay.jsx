@@ -25,11 +25,11 @@ function PostDisplay({ customClass }) {
       <div className={`${styles.optionsContainer}`}>
 
         <div  className={`${styles.listView}`}>
-          <p>List view</p>
+         <Img pathImg='https://www.svgrepo.com/show/522555/hamburger-menu.svg'/> <p>List view</p>
         </div>
 
         <div  className={`${styles.gridView}`}>
-          <p>Grid view</p>
+        <Img pathImg='https://www.svgrepo.com/show/491242/grid-view.svg'/>  <p>Grid view</p>
         </div>
         
       </div>
