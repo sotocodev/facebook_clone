@@ -1,0 +1,22 @@
+name: Clone organization respos to personal accout
+on:
+  push:
+    branches:
+      - main
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    container: pandoc/latex
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+      - name: Pushes to another repository
+        uses: cpina/github-action-push-to-another-repository@main
+        env:
+          API_TOKEN_GITHUB: ${{ secrets.access }}
+        with:
+          source-directory: './'
+          destination-github-username: 'sotocodev'
+          destination-repository-name: 'facebook__clone'
+          user-email: sotocodev@gmail.com
+          target-branch: main
