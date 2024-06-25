@@ -1,7 +1,8 @@
-import Title from "../../atoms/Title/Title";
-import Paragraph from "../../atoms/Paragraph/Paragraph";
-import styles from "./TarjetaJuego.module.css";
-const TarjetaJuego = ({ text, CardsCustomClass, CardsContainerCustomClass }) => {
+import Title from '../../atoms/Title/Title';
+import Paragraph from '../../atoms/Paragraph/Paragraph';
+import styles from './TarjetaJuego.module.css';
+
+const TarjetaJuego = ({ text, CardsCustomClass }) => {
   return (
     <>
       <div className={`${CardsCustomClass} ${styles.Cards__Div_Img}`}>
@@ -15,7 +16,7 @@ const TarjetaJuego = ({ text, CardsCustomClass, CardsContainerCustomClass }) => 
           </div>
         </div>
       </div>
-      </>
+    </>
   );
 };
 

@@ -1,14 +1,11 @@
-import Img from "../../atoms/Img/Img";
-import Input from "../../atoms/Input/Input";
-import styles from "./HeaderLogoBuscador.module.css";
+import Img from '../../atoms/Img/Img';
+import Input from '../../atoms/Input/Input';
+import styles from './HeaderLogoBuscador.module.css';
 
 const LogoBuscador = () => {
   return (
     <div className={styles.LogoBuscador}>
-      <Img
-        pathImg="/FacebookLogo.svg"
-        customClass={styles.LogoBuscador__Img}
-      />
+      <Img pathImg="/FacebookLogo.svg" customClass={styles.LogoBuscador__Img} />
       <Input
         placeholder="Buscar en facebook"
         customClass={styles.LogoBuscador__Input}

@@ -1,1 +1,1 @@
-export let a = a ? `isActiveOn` : `isActiveOn`;
+export let a = a ? 'isActiveOn' : 'isActiveOn';

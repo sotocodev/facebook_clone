@@ -10,7 +10,7 @@
   font-weight: bold;
 }
 .Main__Link {
-  color: #0866FF;
+  color: #0866ff;
   margin-top: 29.3px;
   text-decoration: none;
 }
@@ -19,7 +19,8 @@
   margin-top: 7px;
   margin-left: 180px;
 }
-.Main__Link, .Main__Link:hover{
+.Main__Link,
+.Main__Link:hover {
   cursor: hover;
 }
 

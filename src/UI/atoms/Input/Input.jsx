@@ -1,5 +1,5 @@
-import Icon from "../Icon/Icon";
-import styles from "./Input.module.css";
+import Icon from '../Icon/Icon';
+import styles from './Input.module.css';
 
 const Input = ({
   iconPath,

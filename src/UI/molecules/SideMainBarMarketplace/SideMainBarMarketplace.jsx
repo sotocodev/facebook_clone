@@ -1,8 +1,8 @@
-import Paragraph from "../../atoms/Paragraph/Paragraph";
-import Img from "../../atoms/Img/Img";
-import LinkTo from "../../atoms/LinkTo/LinkTo";
-import MarketplaceApi from "../../../MarketplaceApi.json";
-import styles from "./SideMainBarMarketplace.module.css";
+import Paragraph from '../../atoms/Paragraph/Paragraph';
+import Img from '../../atoms/Img/Img';
+import LinkTo from '../../atoms/LinkTo/LinkTo';
+import MarketplaceApi from '../../../MarketplaceApi.json';
+import styles from './SideMainBarMarketplace.module.css';
 
 const SideMainBarMarketplace = () => {
   return (

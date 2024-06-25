@@ -26,9 +26,9 @@
   color: #fff;
   border-radius: 50px;
 }
-.SlidePrincipal_Btn:hover{
-background-color: rgb(245, 245, 245);
-cursor: pointer;
+.SlidePrincipal_Btn:hover {
+  background-color: rgb(245, 245, 245);
+  cursor: pointer;
 }
 .SlidePrincipal__Slide {
   z-index: 40;
@@ -48,4 +48,3 @@ cursor: pointer;
   transition: background 0.3s ease;
   padding: 0.5em;
 }
-

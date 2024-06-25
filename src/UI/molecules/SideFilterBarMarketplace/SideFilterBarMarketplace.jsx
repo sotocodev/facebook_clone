@@ -1,6 +1,6 @@
-import Heading from "../../atoms/Heading/Heading";
-import LinkTo from "../../atoms/LinkTo/LinkTo";
-import styles from "./SideFilterBarMarketplace.module.css";
+import Heading from '../../atoms/Heading/Heading';
+import LinkTo from '../../atoms/LinkTo/LinkTo';
+import styles from './SideFilterBarMarketplace.module.css';
 
 const SideFilterBarMarketplace = () => {
   return (

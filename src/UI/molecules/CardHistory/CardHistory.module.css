@@ -1,43 +1,47 @@
 .CardHistory {
-    height: 90%;
-    min-width: 150px;
-    display: inline-block;
-    flex: 5;
-    position: relative
+  height: 90%;
+  min-width: 150px;
+  display: inline-block;
+  flex: 5;
+  position: relative;
 }
-.CardHistory:hover{
-    cursor: pointer;
+.CardHistory:hover {
+  cursor: pointer;
 }
 
 .CardHistory__Image {
-    width: 90%;
-    height: 90%;
-    object-fit: cover;
-    border-radius: 9px;
+  width: 90%;
+  height: 90%;
+  object-fit: cover;
+  border-radius: 9px;
 }
-
 
 .CardHistory__Content {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: flex-start;
-    position: absolute;
-    top: 0;
-    height: 220px;
-    padding: .75em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  position: absolute;
+  top: 0;
+  height: 220px;
+  padding: 0.75em;
 }
 .CardHistory_Name {
-    margin-bottom: 7px;
-    font-size: 14px;
-    font-weight: bold;
-    color: #ffffff;
-    text-shadow: 0 0 .25em #575757;
-    font-family:Segoe UI Historic, Segoe UI, Helvetica, Arial, sans-serif ;
+  margin-bottom: 7px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #ffffff;
+  text-shadow: 0 0 0.25em #575757;
+  font-family:
+    Segoe UI Historic,
+    Segoe UI,
+    Helvetica,
+    Arial,
+    sans-serif;
 }
 .CardHistory_Profile {
-    border-radius: 50%;
-    border: 4px solid #1745db;
-    width: 40px;
-    height: 40px;
+  border-radius: 50%;
+  border: 4px solid #1745db;
+  width: 40px;
+  height: 40px;
 }

@@ -1,17 +1,19 @@
-import { useRef, useEffect, useState } from "react";
-import Button from "../../atoms/Button/Button";
-import CardHistory from "../../molecules/CardHistory/CardHistory";
-import styles from "./SlidePrincipal.module.css";
+import { useRef, useEffect, useState } from 'react';
+import Button from '../../atoms/Button/Button';
+import CardHistory from '../../molecules/CardHistory/CardHistory';
+import styles from './SlidePrincipal.module.css';
 
 const SlidePrincipal = () => {
   const RefSlide = useRef(null);
   const [push, setPush] = useState(0);
 
-  const perfil = "/profile.jpg";
-  const wallpaper = "/history.jpg";
+  const perfil = '/profile.jpg';
+  const wallpaper = '/history.jpg';
 
   useEffect(() => {
-    if (RefSlide) RefSlide.current.scrollLeft = push;
+    if (RefSlide) {
+      RefSlide.current.scrollLeft = push;
+    }
   }, [push]);
 
   return (
@@ -22,7 +24,7 @@ const SlidePrincipal = () => {
             type="button"
             customClass={`${styles.SlidePrincipal_Btn}`}
             click={() => setPush(push - 350)}
-            path={"/ArrowToLeft.svg"}
+            path={'/ArrowToLeft.svg'}
             toImageClass={`${styles.SlidePrincipal_Arrow}`}
           />
         ) : (
@@ -32,7 +34,7 @@ const SlidePrincipal = () => {
           type="button"
           customClass={`${styles.SlidePrincipal_Btn}`}
           click={() => setPush(push + 350)}
-          path={"/ArrowToRight.svg"}
+          path={'/ArrowToRight.svg'}
           toImageClass={`${styles.SlidePrincipal_Arrow}`}
         />
       </div>
@@ -41,62 +43,62 @@ const SlidePrincipal = () => {
         <CardHistory
           pathHistory={wallpaper}
           pathProfile={perfil}
-          name={"Nombre1 Apellido"}
+          name={'Nombre1 Apellido'}
         />
         <CardHistory
           pathHistory={wallpaper}
           pathProfile={perfil}
-          name={"Nombre2 Apellido"}
+          name={'Nombre2 Apellido'}
         />
         <CardHistory
           pathHistory={wallpaper}
           pathProfile={perfil}
-          name={"Nombre3 Apellido"}
+          name={'Nombre3 Apellido'}
         />
         <CardHistory
           pathHistory={wallpaper}
           pathProfile={perfil}
-          name={"Nombre4 Apellido"}
+          name={'Nombre4 Apellido'}
         />
         <CardHistory
           pathHistory={wallpaper}
           pathProfile={perfil}
-          name={"Nombre5 Apellido"}
+          name={'Nombre5 Apellido'}
         />
         <CardHistory
           pathHistory={wallpaper}
           pathProfile={perfil}
-          name={"Nombre6 Apellido"}
+          name={'Nombre6 Apellido'}
         />
         <CardHistory
           pathHistory={wallpaper}
           pathProfile={perfil}
-          name={"Nombre7 Apellido"}
+          name={'Nombre7 Apellido'}
         />
         <CardHistory
           pathHistory={wallpaper}
           pathProfile={perfil}
-          name={"Nombre8 Apellido"}
+          name={'Nombre8 Apellido'}
         />
         <CardHistory
           pathHistory={wallpaper}
           pathProfile={perfil}
-          name={"Nombre9 Apellido"}
+          name={'Nombre9 Apellido'}
         />
         <CardHistory
           pathHistory={wallpaper}
           pathProfile={perfil}
-          name={"Nombre10 Apellido"}
+          name={'Nombre10 Apellido'}
         />
         <CardHistory
           pathHistory={wallpaper}
           pathProfile={perfil}
-          name={"Nombre11 Apellido"}
+          name={'Nombre11 Apellido'}
         />
         <CardHistory
           pathHistory={wallpaper}
           pathProfile={perfil}
-          name={"Nombre12 Apellido"}
+          name={'Nombre12 Apellido'}
         />
       </div>
     </div>

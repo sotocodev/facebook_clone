@@ -1,28 +1,27 @@
-
 .PublicateButton__Div {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .PublicateButton {
-appearance: button;
-background-color: rgba(0, 0, 0, 0);
-background-image: none;
-box-sizing: border-box;
-color: #9ca3af;
-border-radius: 50px;
-cursor: pointer;
-display: flex;
-height: 32px;
-line-height: 24px;
-margin: 0;
-padding: 0;
-width: 32px;
-justify-content: center;
+  appearance: button;
+  background-color: rgba(0, 0, 0, 0);
+  background-image: none;
+  box-sizing: border-box;
+  color: #9ca3af;
+  border-radius: 50px;
+  cursor: pointer;
+  display: flex;
+  height: 32px;
+  line-height: 24px;
+  margin: 0;
+  padding: 0;
+  width: 32px;
+  justify-content: center;
 }
 .PublicateButton__DivImg {
-    max-width: 20px;
+  max-width: 20px;
 }
 .PublicateButton:hover {
-    background-color: rgb(229, 231, 235);
+  background-color: rgb(229, 231, 235);
 }

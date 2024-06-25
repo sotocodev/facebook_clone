@@ -1,42 +1,43 @@
 .ImgPublicate {
-box-sizing: border-box;
-display: block;
-height: 382.5px;
-overflow-x: clip;
-overflow-y: clip;
-width: 100%;
+  box-sizing: border-box;
+  display: block;
+  height: 382.5px;
+  overflow-x: clip;
+  overflow-y: clip;
+  width: 100%;
 }
 
 .ImgPublicate__Img {
-box-sizing: border-box;
-display: block;
-height: 382.5px;
-max-width: 100%;
-overflow-x: clip;
-overflow-y: clip;
-width: 100%;
-border-radius: 0px;
+  box-sizing: border-box;
+  display: block;
+  height: 382.5px;
+  max-width: 100%;
+  overflow-x: clip;
+  overflow-y: clip;
+  width: 100%;
+  border-radius: 0px;
 }
 
 .ImgPublicate__Paragraph {
-box-sizing: border-box;
-display: block;
-height: 20px;
-margin: 0;
-max-height: 40px;
-overflow-x: hidden;
-overflow-y: hidden;
-padding-left: 12px;
-padding-right: 12px;
-font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-font-feature-settings: normal;
-font-size: 14px;
-font-variation-settings: normal;
-line-height: 20px;
-tab-size: 4;
-text-overflow: ellipsis;
-text-size-adjust: 100%;
-text-wrap: nowrap;
-white-space-collapse: collapse;
-margin-bottom: 5px;
+  box-sizing: border-box;
+  display: block;
+  height: 20px;
+  margin: 0;
+  max-height: 40px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  padding-left: 12px;
+  padding-right: 12px;
+  font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-feature-settings: normal;
+  font-size: 14px;
+  font-variation-settings: normal;
+  line-height: 20px;
+  tab-size: 4;
+  text-overflow: ellipsis;
+  text-size-adjust: 100%;
+  text-wrap: nowrap;
+  white-space-collapse: collapse;
+  margin-bottom: 5px;
 }

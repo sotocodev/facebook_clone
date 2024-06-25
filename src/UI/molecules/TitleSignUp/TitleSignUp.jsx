@@ -1,11 +1,7 @@
-import styles from './TitleSignUp.module.css'
+// import styles from './TitleSignUp.module.css';
 
 export const TitleSignUp = () => {
-	return (
-		<div>
-			
-		</div>
-	)
-}
+  return <div></div>;
+};
 
-export default TitleSignUp
+export default TitleSignUp;

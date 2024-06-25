@@ -20,28 +20,28 @@
   height: 2.7em;
 }
 
-.HeaderOpUsuario__section{
+.HeaderOpUsuario__section {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   gap: 3px;
 }
-.section__name{
-    margin-top: 100px;
-    padding: 5px;
-    background-color: #000000;
-    color: white;
-    font-size: 15px;
-    text-align: center;
-    height: 20px;
-    width: auto;
-    border-radius: 10px;
-    opacity: 0.7;
-    display: none;
-    position: absolute;
-  }
+.section__name {
+  margin-top: 100px;
+  padding: 5px;
+  background-color: #000000;
+  color: white;
+  font-size: 15px;
+  text-align: center;
+  height: 20px;
+  width: auto;
+  border-radius: 10px;
+  opacity: 0.7;
+  display: none;
+  position: absolute;
+}
 
-  .HeaderOpUsuario__section:hover > .section__name {
-    display: block;
-  }
+.HeaderOpUsuario__section:hover > .section__name {
+  display: block;
+}

@@ -1,15 +1,14 @@
-import React from 'react'
-import styles from "./LeftMenu.module.css"
-import LeafMenuBar from '../../molecules/LeafMenuBar/LeafMenuBar'
-import LeafMenuButtons from '../../molecules/LeafMenuButtons/LeafMenuButtons'
+import LeafMenuBar from '../../molecules/LeafMenuBar/LeafMenuBar';
+import LeafMenuButtons from '../../molecules/LeafMenuButtons/LeafMenuButtons';
+import styles from './LeftMenu.module.css';
 
-function LeftMenu({customClassBox}) {
+function LeftMenu({ customClassBox }) {
   return (
     <div className={`${styles.LeftMenu} ${customClassBox}`}>
-        <LeafMenuBar/>
-        <LeafMenuButtons/>
+      <LeafMenuBar />
+      <LeafMenuButtons />
     </div>
-  )
+  );
 }
 
-export default LeftMenu
+export default LeftMenu;

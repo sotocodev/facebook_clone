@@ -28,11 +28,13 @@
 }
 
 .Card__Text {
-  color: #65676B;
+  color: #65676b;
   font-size: 14px;
   margin-top: -10px;
 }
-.Card__Title, .Card__Img, .Card__Text:hover{
+.Card__Title,
+.Card__Img,
+.Card__Text:hover {
   cursor: pointer;
 }
 

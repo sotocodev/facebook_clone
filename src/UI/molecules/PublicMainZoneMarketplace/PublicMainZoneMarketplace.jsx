@@ -1,7 +1,7 @@
-import Heading from "../../atoms/Heading/Heading";
-import LinkTo from "../../atoms/LinkTo/LinkTo";
-import Img from "../../atoms/Img/Img";
-import styles from "./PublicMainZoneMarketplace.module.css";
+import Heading from '../../atoms/Heading/Heading';
+import LinkTo from '../../atoms/LinkTo/LinkTo';
+import Img from '../../atoms/Img/Img';
+import styles from './PublicMainZoneMarketplace.module.css';
 
 const PublicMainZoneMarketplace = () => {
   return (

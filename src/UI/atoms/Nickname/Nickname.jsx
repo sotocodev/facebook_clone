@@ -1,22 +1,33 @@
-import styles from "./Nickname.module.css"
+import styles from './Nickname.module.css';
 
-function Nickname({nickname,time, customClass, seguir,customClassP, customClassSp}) {
+function Nickname({
+  nickname,
+  time,
+  customClass,
+  seguir,
+  customClassP,
+  customClassSp,
+}) {
   return seguir ? (
     <div className={`${styles.Nickname} ${customClass}`}>
-        <p className={`${styles.NickName__Paragraph} ${customClassP}`}>
-          {nickname}
-          <span className={`${styles.NickName__SeguirButton}`}>Seguir</span> 
-        </p>
-        <span className={`${styles.NickName__Span} ${customClassSp}`}>{time}</span>
+      <p className={`${styles.NickName__Paragraph} ${customClassP}`}>
+        {nickname}
+        <span className={`${styles.NickName__SeguirButton}`}>Seguir</span>
+      </p>
+      <span className={`${styles.NickName__Span} ${customClassSp}`}>
+        {time}
+      </span>
     </div>
-  ):(
+  ) : (
     <div className={`${styles.NickName} ${customClass}`}>
-    <p className={`${styles.NickName__Paragraph} ${customClassP}`}>
-    {nickname}
-    </p>
-    <span className={`${styles.NickName__Span} ${customClassSp}`}>{time}</span>
-   </div>
-  )
+      <p className={`${styles.NickName__Paragraph} ${customClassP}`}>
+        {nickname}
+      </p>
+      <span className={`${styles.NickName__Span} ${customClassSp}`}>
+        {time}
+      </span>
+    </div>
+  );
 }
 
-export default Nickname
+export default Nickname;

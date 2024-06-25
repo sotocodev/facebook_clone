@@ -1,7 +1,7 @@
-import Heading from "../../atoms/Heading/Heading";
-import Input from "../../atoms/Input/Input";
-import Img from "../../atoms/Img/Img";
-import styles from "./SideBarTitleMarketplace.module.css";
+import Heading from '../../atoms/Heading/Heading';
+import Input from '../../atoms/Input/Input';
+import Img from '../../atoms/Img/Img';
+import styles from './SideBarTitleMarketplace.module.css';
 
 const SideBarTitleMarketplace = () => {
   return (

@@ -1,14 +1,22 @@
-import PublicateButton from "../PublicateButton/PublicateButton"
-import { useState } from "react";
-import { useRef } from "react";
-import { useEffect } from "react";
-import styles from "./ButtonTo.module.css"
+import PublicateButton from '../PublicateButton/PublicateButton';
+import { useState, useRef, useEffect } from 'react';
+import styles from './ButtonTo.module.css';
 
-function ButtonTo({text, path, customClass, customClassDiv, iconPath, customClassIcon, customClassPb}) {
+function ButtonTo({
+  text,
+  path,
+  customClass,
+  customClassDiv,
+  iconPath,
+  customClassIcon,
+}) {
   const [isActive, setIsActive] = useState(false);
   const targetRef = useRef(null);
 
   const handleDocumentClick = (event) => {
+    /*
+     * warning: The ref value 'targetRef.current' will likely have changed by the time this effect cleanup function runs. If this ref points to a node rendered by React, copy 'targetRef.current' to a variable inside the effect, and use that variable in the cleanup function
+     */
     if (targetRef.current && !targetRef.current.contains(event.target)) {
       setIsActive(false);
     }
@@ -45,11 +53,17 @@ function ButtonTo({text, path, customClass, customClassDiv, iconPath, customClas
   }, []);
 
   return iconPath ? (
-    <button ref={targetRef} onClick={handleClick} className={`${styles.ButtonTo} ${customClass}`}>
+    <button
+      ref={targetRef}
+      onClick={handleClick}
+      className={`${styles.ButtonTo} ${customClass}`}
+    >
       <div className={`${styles.ButtonTo__Div} ${customClassDiv}`}>
         <span className={styles.ButtonTo__Div_span}>
           <PublicateButton
-            customClass={isActive ? styles.ButtonTo__IconColor : styles.ButtonTo__IconMax}
+            customClass={
+              isActive ? styles.ButtonTo__IconColor : styles.ButtonTo__IconMax
+            }
             customClassIcon={customClassIcon}
             path={iconPath}
           />
@@ -67,6 +81,6 @@ function ButtonTo({text, path, customClass, customClassDiv, iconPath, customClas
       </div>
     </button>
   );
-};
+}
 
 export default ButtonTo;

@@ -1,5 +1,5 @@
-import Img from "../Img/Img";
-import styles from "./ButtonColumnRight.module.css";
+import Img from '../Img/Img';
+import styles from './ButtonColumnRight.module.css';
 
 const ButtonColumnRight = ({ customClass, path, customClassImg }) => {
   return (

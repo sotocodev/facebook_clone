@@ -1,8 +1,8 @@
-:root{
-  --logo-background: #E4E6EB;
-  --publication-background: #EBF5FF;
-  --publication-link: #0064D1;
-  --category-hover: #F2F2F2;
+:root {
+  --logo-background: #e4e6eb;
+  --publication-background: #ebf5ff;
+  --publication-link: #0064d1;
+  --category-hover: #f2f2f2;
 }
 
 .Box {
@@ -10,7 +10,7 @@
   flex-direction: row;
   margin-bottom: -10px;
 }
-.Box:hover{
+.Box:hover {
   cursor: pointer;
   background: var(--category-hover);
 }

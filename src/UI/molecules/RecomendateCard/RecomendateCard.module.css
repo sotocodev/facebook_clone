@@ -1,47 +1,45 @@
 .RecomendateCard__Img {
-    max-width: 40px;
-    max-height: 40px;
-    border-radius: 40px;
-    margin-right: 10px;
+  max-width: 40px;
+  max-height: 40px;
+  border-radius: 40px;
+  margin-right: 10px;
 }
 
 .RecomendateCard__Heading {
-    color: black;
-    font-size: 18px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin-left: 16px ;
-    margin-top: 10px;
+  color: black;
+  font-size: 18px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-left: 16px;
+  margin-top: 10px;
 }
 
-.RecomendateCard{
-    background-color: white;
-    margin-bottom: 20px;
-    padding-left: 10px;
-    display: flex;
-    flex-direction: column;
-    box-shadow: #000000 0px 1px 2px;
+.RecomendateCard {
+  background-color: white;
+  margin-bottom: 20px;
+  padding-left: 10px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: #000000 0px 1px 2px;
 }
 
 .RecomendateCard__SugerenteBox {
-    display: flex;
+  display: flex;
 }
 
 .RecomendateCard__RecomendateOne {
-    display: flex;
-    width: 48%;
-    height: fit-content;
-    align-items: center;
-    margin: 5px;
+  display: flex;
+  width: 48%;
+  height: fit-content;
+  align-items: center;
+  margin: 5px;
 }
 
 .RecomendateCard__Information {
-    margin-top: 10px;
-    margin-bottom: 15px;
-    
-
+  margin-top: 10px;
+  margin-bottom: 15px;
 }
 
 .RecomendateCard__Span {
-    color: #30b3ff;
-    font-weight: 600;
+  color: #30b3ff;
+  font-weight: 600;
 }

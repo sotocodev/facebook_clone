@@ -1,7 +1,7 @@
-import Img from "../../atoms/Img/Img";
-import MarketplaceApi from "../../../MarketplaceApi.json";
-import Paragraph from "../../atoms/Paragraph/Paragraph";
-import styles from "./SideCategoryBarMarketplace.module.css";
+import Img from '../../atoms/Img/Img';
+import MarketplaceApi from '../../../MarketplaceApi.json';
+import Paragraph from '../../atoms/Paragraph/Paragraph';
+import styles from './SideCategoryBarMarketplace.module.css';
 
 const SideCategoryBarMarketplace = () => {
   return (
@@ -12,7 +12,10 @@ const SideCategoryBarMarketplace = () => {
           .map(({ id, categorylogo, categoryprompt }) => {
             return (
               <div className={styles.Category} key={id}>
-                <Img pathImg={categorylogo} customClass={styles.Category__Icon} />
+                <Img
+                  pathImg={categorylogo}
+                  customClass={styles.Category__Icon}
+                />
                 <Paragraph
                   customClass={styles.Category__Text}
                   text={categoryprompt}

@@ -1,65 +1,60 @@
-
-
 .ImgBanner__SecctionBanner {
-    width: fit-content;
-    display: flex;
-    align-items: end;
+  width: fit-content;
+  display: flex;
+  align-items: end;
 }
 
-
 .ImgBanner__ButtonTo {
-   height: 30px;
-   width: 200px;
-    background-color: #e9e8e8;
-    margin: 10px;
-    border-radius: 5px;
+  height: 30px;
+  width: 200px;
+  background-color: #e9e8e8;
+  margin: 10px;
+  border-radius: 5px;
 }
 
 .ImgBanner__SecctionProfile {
-    display: flex;
-    width: 30%;
-    background-color: #ffffff;
-    height: 150px;
-    justify-content: start;
-    align-items: center;
-
+  display: flex;
+  width: 30%;
+  background-color: #ffffff;
+  height: 150px;
+  justify-content: start;
+  align-items: center;
 }
 
 .ImgBanner__Icon {
-    border-radius: 168px;
-    max-width: 168px;
-    max-height: 168px;
-    border: solid #ffffff;
-    margin: 20px;
+  border-radius: 168px;
+  max-width: 168px;
+  max-height: 168px;
+  border: solid #ffffff;
+  margin: 20px;
 }
 
 .ImgBanner__SecctionName {
-    display: flex;
-    width: fit-content;
-    height: 150px;
-    align-items: start;
+  display: flex;
+  width: fit-content;
+  height: 150px;
+  align-items: start;
 }
 
 .ImgBanner__Nickname {
-    font-size: 40px;
-    font-weight: 900;
-    margin-top: 40px;
-    margin-bottom: 20px;
+  font-size: 40px;
+  font-weight: 900;
+  margin-top: 40px;
+  margin-bottom: 20px;
 }
 
 .ImgBanner__Span {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 .ImgBanner__ChangeImg {
-    position: relative;
-    z-index: 2;
-    right: 60px;
-    bottom: -40%;
+  position: relative;
+  z-index: 2;
+  right: 60px;
+  bottom: -40%;
 }
 
 .ImgBanner__ChangeDiv {
-    width: 100px;
-    height: 40px;
-
+  width: 100px;
+  height: 40px;
 }

@@ -1,11 +1,11 @@
-import VideoPageTemplate from "../UI/templates/VideoPageTemplate/VideoPageTemplate";
+import VideoPageTemplate from '../UI/templates/VideoPageTemplate/VideoPageTemplate';
 
 const VideoPage = () => {
   return (
     <>
-    <VideoPageTemplate/>
+      <VideoPageTemplate />
     </>
-  )
-}
+  );
+};
 
 export default VideoPage;

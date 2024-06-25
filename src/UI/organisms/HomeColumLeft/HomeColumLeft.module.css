@@ -1,19 +1,19 @@
-.HomeColumLeft{
+.HomeColumLeft {
   width: 300px;
   height: 500px;
   margin-left: 20px;
   margin-top: 90px;
 }
 
-.HomeColumLef__Aside{
+.HomeColumLef__Aside {
   width: 18.8em;
   height: 33.4em;
   position: fixed;
   overflow: hidden;
-  transition:  .5s ease;
+  transition: 0.5s ease;
 }
 
-.HomeColumLef__Aside:hover{
+.HomeColumLef__Aside:hover {
   overflow-y: scroll;
-  transition:  .5s ease;
+  transition: 0.5s ease;
 }

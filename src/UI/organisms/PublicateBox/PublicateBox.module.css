@@ -1,14 +1,14 @@
 .PublicateBox {
-    display: flex;
-    flex-direction: column;
-    width: fit-content;
-    background-color: white;
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  background-color: white;
 }
 
 .PublicateBox__Nickname {
-    width:100%;
+  width: 100%;
 }
 
 .PublicateBox__Options {
-    width: 100%;
+  width: 100%;
 }

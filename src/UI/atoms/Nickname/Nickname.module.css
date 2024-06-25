@@ -1,67 +1,66 @@
 .Nickname {
-box-sizing: border-box;
-display: block;
-align-items: center;
-flex-direction: column;
-font-family:  "Segoe UI Historic", "Segoe UI", Helvetica, Arial, sans-serif;
-line-height: 24px;
-text-size-adjust: 100%;
-width: 90%;
-padding-top: 0px;
-margin-top: 0px;
-margin-left: 10px;
-margin-right: 10px;
+  box-sizing: border-box;
+  display: block;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Segoe UI Historic", "Segoe UI", Helvetica, Arial, sans-serif;
+  line-height: 24px;
+  text-size-adjust: 100%;
+  width: 90%;
+  padding-top: 0px;
+  margin-top: 0px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
-.NickName__SeguirButton{
-    color: #156afc;
-    font-size: 12px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: 600;
-    display: flex;
-    margin: 0px;
-    align-items: center;
-    margin-left: 3px;
-    margin-top: 1px;
-    cursor: pointer;
+.NickName__SeguirButton {
+  color: #156afc;
+  font-size: 12px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 600;
+  display: flex;
+  margin: 0px;
+  align-items: center;
+  margin-left: 3px;
+  margin-top: 1px;
+  cursor: pointer;
 }
 
-.NickName__SeguirButton:hover{
-    text-decoration:underline;
-
+.NickName__SeguirButton:hover {
+  text-decoration: underline;
 }
 
 .NickName__Paragraph {
-box-sizing: border-box;
-display: flex;
-align-items: center;
-margin-right:380px;
-font-family:  "Segoe UI Historic", "Segoe UI", Helvetica, Arial, sans-serif;
-font-size: 14px;
-font-weight: 600;
-line-height: 20px;
-tab-size: 4;
-margin-bottom: 0px;
-text-size-adjust: 100%;
-color: rgb(55, 65, 81);
-border-bottom: none;
-border-left: none;
-border-right: none;
-border-top: none;
-width: 90%;
-margin-top: 0px;
-cursor: pointer;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  margin-right: 380px;
+  font-family: "Segoe UI Historic", "Segoe UI", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  tab-size: 4;
+  margin-bottom: 0px;
+  text-size-adjust: 100%;
+  color: rgb(55, 65, 81);
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  width: 90%;
+  margin-top: 0px;
+  cursor: pointer;
 }
 
 .NickName__Span {
-    box-sizing: border-box;
-display: flex;
-font-family:  "Segoe UI Historic", "Segoe UI", Helvetica, Arial, sans-serif;
-font-size: 12px;
-font-weight: 100;
-line-height: 16px;
-tab-size: 4;
-text-size-adjust: 100%;
-color: #9ca3af;
-border: none;
+  box-sizing: border-box;
+  display: flex;
+  font-family: "Segoe UI Historic", "Segoe UI", Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  font-weight: 100;
+  line-height: 16px;
+  tab-size: 4;
+  text-size-adjust: 100%;
+  color: #9ca3af;
+  border: none;
 }

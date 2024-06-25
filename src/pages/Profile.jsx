@@ -1,11 +1,11 @@
-import ProfileTemplate from "../UI/templates/ProfileTemplate/ProfileTemplate";
+import ProfileTemplate from '../UI/templates/ProfileTemplate/ProfileTemplate';
 
 const Profile = () => {
   return (
     <>
-    <ProfileTemplate/>
-   </>
-  )
-}
+      <ProfileTemplate />
+    </>
+  );
+};
 
 export default Profile;

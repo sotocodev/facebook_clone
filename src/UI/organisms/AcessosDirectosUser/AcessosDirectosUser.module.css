@@ -14,7 +14,12 @@
   color: #444343;
   font-weight: 600;
   font-size: 0.9em;
-  font-family: Segoe UI Historic, Segoe UI, Helvetica, Arial, sans-serif;
+  font-family:
+    Segoe UI Historic,
+    Segoe UI,
+    Helvetica,
+    Arial,
+    sans-serif;
   margin-top: 0.5em;
 }
 
@@ -25,7 +30,12 @@
   border: none;
   border-radius: 5px;
   text-align: center;
-  font-family: Segoe UI Historic, Segoe UI, Helvetica, Arial, sans-serif;
+  font-family:
+    Segoe UI Historic,
+    Segoe UI,
+    Helvetica,
+    Arial,
+    sans-serif;
   height: 30px;
   width: 45px;
 }

@@ -1,6 +1,6 @@
-:root{
-  --category-icon-background: #E4E6EB;
-  --category-hover: #F2F2F2;
+:root {
+  --category-icon-background: #e4e6eb;
+  --category-hover: #f2f2f2;
 }
 
 .Category {
@@ -9,7 +9,7 @@
   margin-bottom: -10px;
   margin-left: 6px;
 }
-.Category:hover{
+.Category:hover {
   cursor: pointer;
   background: var(--category-hover);
 }

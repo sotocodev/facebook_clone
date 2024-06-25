@@ -1,33 +1,37 @@
-.SubTitleOpcion2{
-    display: flex;
-    gap:8.5em;
+.SubTitleOpcion2 {
+  display: flex;
+  gap: 8.5em;
 }
 
-.SubTitleOpcion2__SubTitle{
-    color: #444343;
-    font-weight: 600;
-    font-size: .9em;
-    font-family:Segoe UI Historic, Segoe UI, Helvetica, Arial, sans-serif ;
-    margin-top: .5em;
+.SubTitleOpcion2__SubTitle {
+  color: #444343;
+  font-weight: 600;
+  font-size: 0.9em;
+  font-family:
+    Segoe UI Historic,
+    Segoe UI,
+    Helvetica,
+    Arial,
+    sans-serif;
+  margin-top: 0.5em;
 }
 
-.SubTitleOpcion2__Button{
-    width: 2em;
-    height: 2em;
-    border: none;
-    color: #000;
-    font-weight:900;
-    margin-right: .9em;
-    text-align: center;
-    border-radius: 50%;
-    position: relative;
+.SubTitleOpcion2__Button {
+  width: 2em;
+  height: 2em;
+  border: none;
+  color: #000;
+  font-weight: 900;
+  margin-right: 0.9em;
+  text-align: center;
+  border-radius: 50%;
+  position: relative;
 }
-.SubTitleOpcion2__Button:hover{
-    background-color: rgb(148, 148, 148);
-}
-
-.SubTitleOpcion2__Img{
-    width: 1em;
-    height: 1em;
+.SubTitleOpcion2__Button:hover {
+  background-color: rgb(148, 148, 148);
 }
 
+.SubTitleOpcion2__Img {
+  width: 1em;
+  height: 1em;
+}

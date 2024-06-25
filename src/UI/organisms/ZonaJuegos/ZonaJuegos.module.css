@@ -1,43 +1,45 @@
-.ZonaJuegos{
-    height: 100%;
-     background-color: rgb(230, 227, 227);
-    display: flex;
-    position: fixed;
-    gap: 25px;
-    font-family: Segoe UI Historic, Segoe UI, Helvetica, Arial, sans-serif;
+.ZonaJuegos {
+  height: 100%;
+  background-color: rgb(230, 227, 227);
+  display: flex;
+  position: fixed;
+  gap: 25px;
+  font-family:
+    Segoe UI Historic,
+    Segoe UI,
+    Helvetica,
+    Arial,
+    sans-serif;
 }
-.ZonaJuegos__LeftMenu{
-
-width: 35%;
-height: 100%;
+.ZonaJuegos__LeftMenu {
+  width: 35%;
+  height: 100%;
 }
-.ZonaJuegos__TituloSeccion{
-    align-self: flex-start;
-}
-
-.ZonaJuegos__Centro{
-display: flex;
-flex-direction: column;
-
-height: 100%;
-width: 100%;
-}
-.Centro__TituloSeccion{
- margin-bottom: 7px;
+.ZonaJuegos__TituloSeccion {
+  align-self: flex-start;
 }
 
-.Centro__FilaJuegos{
-    display: flex;
-   flex-wrap: wrap;
-   gap: 7px;
-    height: 100px;
-    width: 100%;
+.ZonaJuegos__Centro {
+  display: flex;
+  flex-direction: column;
+
+  height: 100%;
+  width: 100%;
 }
-.FilaJuego__Card1_Container{
-    display: flex;
-    flex-direction: column;
-    
+.Centro__TituloSeccion {
+  margin-bottom: 7px;
 }
-.FilaJuegos__Card1{
-    
+
+.Centro__FilaJuegos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+  height: 100px;
+  width: 100%;
+}
+.FilaJuego__Card1_Container {
+  display: flex;
+  flex-direction: column;
+}
+.FilaJuegos__Card1 {
 }

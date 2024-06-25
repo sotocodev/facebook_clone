@@ -1,4 +1,4 @@
-import MarketplaceTemplate from "../UI/templates/MarketplaceTemplate/MarketplaceTemplate";
+import MarketplaceTemplate from '../UI/templates/MarketplaceTemplate/MarketplaceTemplate';
 
 export const MarketPlacePage = () => {
   return (

@@ -1,44 +1,43 @@
 .LeafMenuBar__Input {
-    outline: none;
-    border: none;
-    font-size: 16px;
-    background-color: #e2e2e2;
-    width: 95%;
-    height: 20px;
-    padding: 5px;
-    border-top-right-radius: 50px ;
-    border-bottom-right-radius: 50px;
+  outline: none;
+  border: none;
+  font-size: 16px;
+  background-color: #e2e2e2;
+  width: 95%;
+  height: 20px;
+  padding: 5px;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
 }
 .LeafMenuBar {
-    width: 400px;
-    height: fit-content;
-    padding: 10px;
-    box-sizing: border-box;
+  width: 400px;
+  height: fit-content;
+  padding: 10px;
+  box-sizing: border-box;
 }
 
 .LeafMenuBar__InputIcon {
-    padding: 4px;
-    max-width: 25px;
+  padding: 4px;
+  max-width: 25px;
 }
 
 .LeafMenuBar__Content {
-    width: 95%;
-    height: auto;
-    padding: 7px;
-    background-color: #e2e2e2;
-    display: flex;
-    align-items: center;
-    border-top-right-radius: 50px ;
-    border-bottom-right-radius: 50px;
-    border-top-left-radius: 50px;
-    border-bottom-left-radius: 50px;
-
+  width: 95%;
+  height: auto;
+  padding: 7px;
+  background-color: #e2e2e2;
+  display: flex;
+  align-items: center;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
 }
 
 .LeafMenuBar__Title {
-    display: flex;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    width: 100%;
-    align-items: center;
-    justify-content: space-between;
+  display: flex;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
 }

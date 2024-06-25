@@ -1,5 +1,5 @@
-import Paragraph from "../../atoms/Paragraph/Paragraph";
-import styles from "./DerechosReservados.module.css";
+import Paragraph from '../../atoms/Paragraph/Paragraph';
+import styles from './DerechosReservados.module.css';
 const DerechosReservados = () => {
   return (
     <div className={styles.DerechosReservados}>

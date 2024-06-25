@@ -1,0 +1,10 @@
+echo
+echo -e "\033[1;34mInfo: \033[0m\033[1mVerificando el código antes de confirmar los cambios\033[0m"
+
+npm run format
+npm run lint:fix
+
+git add .
+
+echo -e "\033[1;34mInfo: \033[0m\033[1mVerificación completada ✔️  el código está formateado correctamente. \033[0m"
+echo

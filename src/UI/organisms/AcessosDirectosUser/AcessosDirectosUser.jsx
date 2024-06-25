@@ -1,7 +1,7 @@
-import SubTitle from "../../atoms/SubTitle/SubTitle";
-import ImgSubTitle from "../../molecules/ImgSubTitle/ImgSubTitle";
-import ButtonText from "../../atoms/ButtonText/ButtonText";
-import styles from "./AcessosDirectosUser.module.css";
+import SubTitle from '../../atoms/SubTitle/SubTitle';
+import ImgSubTitle from '../../molecules/ImgSubTitle/ImgSubTitle';
+import ButtonText from '../../atoms/ButtonText/ButtonText';
+import styles from './AcessosDirectosUser.module.css';
 
 const AcessosDirectosUser = () => {
   return (

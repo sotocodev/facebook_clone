@@ -1,8 +1,8 @@
-import PubliTitulo from "../PubliTitulo/PubliTitulo";
-import PerfilesPaginas from "../PerfilesPaginas/PerfilesPaginas";
-import Cumple from "../Cumple/Cumple";
-import Contactos from "../Contactos/Contactos";
-import styles from "./HomeColumRight.module.css";
+import PubliTitulo from '../PubliTitulo/PubliTitulo';
+import PerfilesPaginas from '../PerfilesPaginas/PerfilesPaginas';
+import Cumple from '../Cumple/Cumple';
+import Contactos from '../Contactos/Contactos';
+import styles from './HomeColumRight.module.css';
 
 const HomeColumRight = () => {
   return (

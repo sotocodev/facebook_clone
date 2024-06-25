@@ -1,8 +1,8 @@
-import Img from "../../atoms/Img/Img";
-import Paragraph from "../../atoms/Paragraph/Paragraph";
-import Heading from "../../atoms/Heading/Heading";
-import MarketplaceApi from "../../../MarketplaceApi.json";
-import styles from "./PublicZoneCards.module.css";
+import Img from '../../atoms/Img/Img';
+import Paragraph from '../../atoms/Paragraph/Paragraph';
+import Heading from '../../atoms/Heading/Heading';
+import MarketplaceApi from '../../../MarketplaceApi.json';
+import styles from './PublicZoneCards.module.css';
 
 const PublicZoneCards = () => {
   return (

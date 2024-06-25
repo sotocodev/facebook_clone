@@ -3,9 +3,9 @@ import RoutesProvider from './routes/RoutesProvider';
 const App = () => {
   return (
     <>
-      <RoutesProvider/>
+      <RoutesProvider />
     </>
-  )
-}
+  );
+};
 
 export default App;

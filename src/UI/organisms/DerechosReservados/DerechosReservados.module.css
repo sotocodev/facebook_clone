@@ -15,7 +15,12 @@
   margin-right: 2px;
   color: rgb(153, 147, 147);
   height: 20px;
-  font-family:  UI Historic, Segoe UI, Helvetica, Arial, sans-serif;
+  font-family:
+    UI Historic,
+    Segoe UI,
+    Helvetica,
+    Arial,
+    sans-serif;
 }
 
 .DerechosReservados__ParagraphOn:hover {

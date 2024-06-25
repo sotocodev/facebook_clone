@@ -1,73 +1,73 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.Navbar{
-    display: flex;
-    justify-content: space-between;
-    margin: auto;
-    padding: 15px 20px;
+.Navbar {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  padding: 15px 20px;
 }
-.list{
-    display: flex;
-    list-style: none;
+.list {
+  display: flex;
+  list-style: none;
 }
-.list .link{
-    text-align: none;
-    margin: 0 5px;
-    font-size: 17px;
-    background-color: #efefef;
-    border-radius: 20px;
-    padding: 8px;
-    transition: .5s;
-    text-decoration: none;
+.list .link {
+  text-align: none;
+  margin: 0 5px;
+  font-size: 17px;
+  background-color: #efefef;
+  border-radius: 20px;
+  padding: 8px;
+  transition: 0.5s;
+  text-decoration: none;
 }
-.center{
-    display: flex;
+.center {
+  display: flex;
 }
-.center .link{
-    text-align: none;
-    color: #646262;
-    margin: 0 45px;
-    font-size: 20px;
-    padding: 10px;
-    transition: .5s;
-    text-decoration: none;
+.center .link {
+  text-align: none;
+  color: #646262;
+  margin: 0 45px;
+  font-size: 20px;
+  padding: 10px;
+  transition: 0.5s;
+  text-decoration: none;
 }
-.center .fa-store{
-    color: #3636f8;
-    position: relative;
+.center .fa-store {
+  color: #3636f8;
+  position: relative;
 }
-.center .fa-store::after{
-    content: '';
-    background: #3636f8;
-    width: 100%;
-    height: 2px;
-    bottom: -6px;
-    left: 1px;
-    position: absolute;
+.center .fa-store::after {
+  content: "";
+  background: #3636f8;
+  width: 100%;
+  height: 2px;
+  bottom: -6px;
+  left: 1px;
+  position: absolute;
 }
-.center .link:hover{
-    background: #efefef;
-    color: #252525;
+.center .link:hover {
+  background: #efefef;
+  color: #252525;
 }
-.logo .link{
-    text-align: none;
-    margin: 0 6px;
-    font-size: 30px;
-    padding: 3px;
-    transition: .5s;
-    text-decoration: none;
+.logo .link {
+  text-align: none;
+  margin: 0 6px;
+  font-size: 30px;
+  padding: 3px;
+  transition: 0.5s;
+  text-decoration: none;
 }
-.logo .linkj{
-    text-align: none;
-    margin: 0 3px;
-    font-size: 22px;
-    background-color: #efefef;
-    border-radius: 20px;
-    padding: 7px;
-    transition: .5s;
-    text-decoration: none;
+.logo .linkj {
+  text-align: none;
+  margin: 0 3px;
+  font-size: 22px;
+  background-color: #efefef;
+  border-radius: 20px;
+  padding: 7px;
+  transition: 0.5s;
+  text-decoration: none;
 }

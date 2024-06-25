@@ -1,7 +1,6 @@
-import { useState } from "react";
-import ImgSubTitle from "../../molecules/ImgSubTitle/ImgSubTitle";
-import styles from "./OpDeUsuario.module.css";
-
+import { useState } from 'react';
+import ImgSubTitle from '../../molecules/ImgSubTitle/ImgSubTitle';
+import styles from './OpDeUsuario.module.css';
 
 const OpDeUsuario = () => {
   const [VerMas, setVerMas] = useState(false);
